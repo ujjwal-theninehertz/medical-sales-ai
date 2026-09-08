@@ -1,0 +1,33 @@
+# Secrets -- never committed
+.env
+backend/.env
+frontend/.env
+*.env
+!*.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv-forecast/
+.venv/
+venv/
+*.egg-info/
+
+# Node / frontend build output (frontend/ has its own .gitignore too; this covers the root view)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Claude Code session-local state -- not project source
+.claude/

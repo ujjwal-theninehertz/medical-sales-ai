@@ -1,0 +1,178 @@
+{
+  "champions": {
+    "net_sales": {
+      "week": "chronos",
+      "month": "chronos",
+      "year": "chronos"
+    },
+    "profit": {
+      "week": "chronos",
+      "month": "chronos",
+      "year": "chronos"
+    }
+  },
+  "results": {
+    "net_sales": {
+      "week": {
+        "naive_last_value": {
+          "mape": 21.8,
+          "mae": 146912.9
+        },
+        "moving_avg": {
+          "mape": 15.2,
+          "mae": 102470.6
+        },
+        "linear_trend": {
+          "mape": 8.5,
+          "mae": 60302.6
+        },
+        "seasonal_naive": {
+          "mape": 7.0,
+          "mae": 50751.6
+        },
+        "chronos": {
+          "mape": 4.7,
+          "mae": 34649.1
+        },
+        "claude-haiku-4-5": {
+          "mape": 17.2,
+          "mae": 115786.7
+        }
+      },
+      "month": {
+        "naive_last_value": {
+          "mape": 24.6,
+          "mae": 720865.6
+        },
+        "moving_avg": {
+          "mape": 12.8,
+          "mae": 374453.4
+        },
+        "linear_trend": {
+          "mape": 8.4,
+          "mae": 253522.1
+        },
+        "seasonal_naive": {
+          "mape": 4.0,
+          "mae": 128352.2
+        },
+        "chronos": {
+          "mape": 2.9,
+          "mae": 91332.1
+        },
+        "claude-haiku-4-5": {
+          "mape": 3.9,
+          "mae": 125833.8
+        }
+      },
+      "year": {
+        "naive_last_value": {
+          "diff_pct": -22.4,
+          "predicted": 45532390.1
+        },
+        "moving_avg": {
+          "diff_pct": -8.9,
+          "predicted": 40486571.6
+        },
+        "linear_trend": {
+          "diff_pct": -2.2,
+          "predicted": 38013774.6
+        },
+        "seasonal_naive": {
+          "diff_pct": 3.2,
+          "predicted": 36013719.2
+        },
+        "chronos": {
+          "diff_pct": 1.2,
+          "predicted": 36746052.0
+        },
+        "claude-haiku-4-5": {
+          "diff_pct": 2.8,
+          "predicted": 36150000.0
+        },
+        "actual": 37192816.7
+      }
+    },
+    "profit": {
+      "week": {
+        "naive_last_value": {
+          "mape": 22.2,
+          "mae": 51322.8
+        },
+        "moving_avg": {
+          "mape": 15.1,
+          "mae": 34964.4
+        },
+        "linear_trend": {
+          "mape": 8.7,
+          "mae": 21144.5
+        },
+        "seasonal_naive": {
+          "mape": 7.3,
+          "mae": 18220.3
+        },
+        "chronos": {
+          "mape": 5.1,
+          "mae": 12938.3
+        },
+        "claude-haiku-4-5": {
+          "mape": 21.5,
+          "mae": 54871.6
+        }
+      },
+      "month": {
+        "naive_last_value": {
+          "mape": 24.3,
+          "mae": 244396.8
+        },
+        "moving_avg": {
+          "mape": 12.7,
+          "mae": 127157.3
+        },
+        "linear_trend": {
+          "mape": 8.5,
+          "mae": 87758.9
+        },
+        "seasonal_naive": {
+          "mape": 4.1,
+          "mae": 45359.6
+        },
+        "chronos": {
+          "mape": 2.9,
+          "mae": 31452.8
+        },
+        "claude-haiku-4-5": {
+          "mape": 3.3,
+          "mae": 36554.4
+        }
+      },
+      "year": {
+        "naive_last_value": {
+          "diff_pct": -22.1,
+          "predicted": 15645021.6
+        },
+        "moving_avg": {
+          "diff_pct": -8.6,
+          "predicted": 13914187.2
+        },
+        "linear_trend": {
+          "diff_pct": -2.0,
+          "predicted": 13064915.5
+        },
+        "seasonal_naive": {
+          "diff_pct": 3.4,
+          "predicted": 12376349.1
+        },
+        "chronos": {
+          "diff_pct": 1.6,
+          "predicted": 12605469.0
+        },
+        "claude-haiku-4-5": {
+          "diff_pct": 1.9,
+          "predicted": 12560000.0
+        },
+        "actual": 12808106.3
+      }
+    }
+  }
+}

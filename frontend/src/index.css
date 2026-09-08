@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* Manual toggle instead of Tailwind v4's default prefers-color-scheme-only dark: variant --
+   controlled by a `.dark` class on <html>, applied pre-paint by the inline script in
+   index.html and toggled at runtime by hooks/useTheme.ts. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  /* Primary: a deliberate deep indigo, not Tailwind's default blue-600 -- distinct brand
+     identity for a "premium enterprise SaaS" read rather than generic-framework blue. */
+  --color-primary-50: #eef1fd;
+  --color-primary-100: #dde2fb;
+  --color-primary-200: #b8c2f6;
+  --color-primary-300: #8d99ee;
+  --color-primary-400: #6b72e3;
+  --color-primary-500: #564fd6;
+  --color-primary-600: #4a3fc2;
+  --color-primary-700: #3d329e;
+  --color-primary-800: #302a78;
+  --color-primary-900: #241f56;
+  --color-primary-950: #16143a;
+
+  /* Accent: teal, used sparingly for "AI/insight" moments (distinct from primary navigation/
+     action color) -- fits the analytics/data domain without repeating the primary hue. */
+  --color-accent-50: #eefcfa;
+  --color-accent-100: #d1f7f1;
+  --color-accent-200: #a3f0e5;
+  --color-accent-300: #5eead4;
+  --color-accent-400: #2dd4bf;
+  --color-accent-500: #14b8a6;
+  --color-accent-600: #0d9488;
+  --color-accent-700: #0f766e;
+  --color-accent-800: #115e56;
+  --color-accent-900: #134e48;
+  --color-accent-950: #0a2e2a;
+
+  --shadow-card: 0 1px 2px 0 rgb(15 23 42 / 0.04), 0 4px 20px -4px rgb(15 23 42 / 0.08);
+  --shadow-card-hover: 0 2px 4px 0 rgb(15 23 42 / 0.06), 0 8px 28px -6px rgb(15 23 42 / 0.14);
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Numeric figures (KPI values, table cells) always get tabular alignment -- applied via the
+   .tabular-figure utility class rather than globally, so prose text keeps normal proportional
+   spacing. */
+.tabular-figure {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

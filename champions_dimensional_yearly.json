@@ -1,0 +1,6056 @@
+{
+  "branch": {
+    "Medical Branch 01": {
+      "champion": "linear_trend",
+      "actual": 2550223.5,
+      "predicted": {
+        "naive_last_value": 3041916.5,
+        "moving_avg": 2679207.8,
+        "linear_trend": 2542557.8,
+        "seasonal_naive": 2396215.7,
+        "chronos": 2468838.2,
+        "claude-haiku-4-5": 2460000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -19.3,
+        "moving_avg": -5.1,
+        "linear_trend": 0.3,
+        "seasonal_naive": 6.0,
+        "chronos": 3.2,
+        "claude-haiku-4-5": 3.5
+      }
+    },
+    "Medical Branch 02": {
+      "champion": "seasonal_naive",
+      "actual": 2428474.7,
+      "predicted": {
+        "naive_last_value": 3180465.5,
+        "moving_avg": 2804344.2,
+        "linear_trend": 2589089.1,
+        "seasonal_naive": 2439668.6,
+        "chronos": 2404552.5,
+        "claude-haiku-4-5": 2490000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -31.0,
+        "moving_avg": -15.5,
+        "linear_trend": -6.6,
+        "seasonal_naive": -0.5,
+        "chronos": 1.0,
+        "claude-haiku-4-5": -2.5
+      }
+    },
+    "Medical Branch 03": {
+      "champion": "linear_trend",
+      "actual": 2571565.8,
+      "predicted": {
+        "naive_last_value": 3030259.7,
+        "moving_avg": 2757138.2,
+        "linear_trend": 2503041.9,
+        "seasonal_naive": 2442667.4,
+        "chronos": 2325242.2,
+        "claude-haiku-4-5": 2470000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -17.8,
+        "moving_avg": -7.2,
+        "linear_trend": 2.7,
+        "seasonal_naive": 5.0,
+        "chronos": 9.6,
+        "claude-haiku-4-5": 3.9
+      }
+    },
+    "Medical Branch 04": {
+      "champion": "chronos",
+      "actual": 2523293.3,
+      "predicted": {
+        "naive_last_value": 3530760.0,
+        "moving_avg": 2941887.3,
+        "linear_trend": 2599748.4,
+        "seasonal_naive": 2457429.6,
+        "chronos": 2480333.5,
+        "claude-haiku-4-5": 2470000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -39.9,
+        "moving_avg": -16.6,
+        "linear_trend": -3.0,
+        "seasonal_naive": 2.6,
+        "chronos": 1.7,
+        "claude-haiku-4-5": 2.1
+      }
+    },
+    "Medical Branch 05": {
+      "champion": "claude-haiku-4-5",
+      "actual": 2368558.1,
+      "predicted": {
+        "naive_last_value": 2661293.9,
+        "moving_avg": 2622152.5,
+        "linear_trend": 2532128.0,
+        "seasonal_naive": 2473453.8,
+        "chronos": 2528704.0,
+        "claude-haiku-4-5": 2410000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -12.4,
+        "moving_avg": -10.7,
+        "linear_trend": -6.9,
+        "seasonal_naive": -4.4,
+        "chronos": -6.8,
+        "claude-haiku-4-5": -1.7
+      }
+    },
+    "Medical Branch 06": {
+      "champion": "linear_trend",
+      "actual": 2560562.6,
+      "predicted": {
+        "naive_last_value": 3536010.7,
+        "moving_avg": 2749680.4,
+        "linear_trend": 2494415.0,
+        "seasonal_naive": 2409592.2,
+        "chronos": 2371539.2,
+        "claude-haiku-4-5": 2337275.0
+      },
+      "diff_pct": {
+        "naive_last_value": -38.1,
+        "moving_avg": -7.4,
+        "linear_trend": 2.6,
+        "seasonal_naive": 5.9,
+        "chronos": 7.4,
+        "claude-haiku-4-5": 8.7
+      }
+    },
+    "Medical Branch 07": {
+      "champion": "moving_avg",
+      "actual": 2474223.9,
+      "predicted": {
+        "naive_last_value": 2759733.4,
+        "moving_avg": 2480806.8,
+        "linear_trend": 2535925.4,
+        "seasonal_naive": 2320369.9,
+        "chronos": 2401362.0,
+        "claude-haiku-4-5": 2422500.0
+      },
+      "diff_pct": {
+        "naive_last_value": -11.5,
+        "moving_avg": -0.3,
+        "linear_trend": -2.5,
+        "seasonal_naive": 6.2,
+        "chronos": 2.9,
+        "claude-haiku-4-5": 2.1
+      }
+    },
+    "Medical Branch 08": {
+      "champion": "seasonal_naive",
+      "actual": 2357597.3,
+      "predicted": {
+        "naive_last_value": 3027616.7,
+        "moving_avg": 2861740.6,
+        "linear_trend": 2610812.0,
+        "seasonal_naive": 2443713.1,
+        "chronos": 2465061.2,
+        "claude-haiku-4-5": 2512825.9
+      },
+      "diff_pct": {
+        "naive_last_value": -28.4,
+        "moving_avg": -21.4,
+        "linear_trend": -10.7,
+        "seasonal_naive": -3.7,
+        "chronos": -4.6,
+        "claude-haiku-4-5": -6.6
+      }
+    },
+    "Medical Branch 09": {
+      "champion": "linear_trend",
+      "actual": 2486183.0,
+      "predicted": {
+        "naive_last_value": 2869288.8,
+        "moving_avg": 2681431.0,
+        "linear_trend": 2516770.3,
+        "seasonal_naive": 2331432.1,
+        "chronos": 2417472.0,
+        "claude-haiku-4-5": 2435000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -15.4,
+        "moving_avg": -7.9,
+        "linear_trend": -1.2,
+        "seasonal_naive": 6.2,
+        "chronos": 2.8,
+        "claude-haiku-4-5": 2.1
+      }
+    },
+    "Medical Branch 10": {
+      "champion": "linear_trend",
+      "actual": 2424727.2,
+      "predicted": {
+        "naive_last_value": 2700641.6,
+        "moving_avg": 2636772.6,
+        "linear_trend": 2424683.1,
+        "seasonal_naive": 2315646.4,
+        "chronos": 2362931.8,
+        "claude-haiku-4-5": 2395000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -11.4,
+        "moving_avg": -8.7,
+        "linear_trend": 0.0,
+        "seasonal_naive": 4.5,
+        "chronos": 2.5,
+        "claude-haiku-4-5": 1.2
+      }
+    },
+    "Medical Branch 11": {
+      "champion": "claude-haiku-4-5",
+      "actual": 2578611.1,
+      "predicted": {
+        "naive_last_value": 3216565.3,
+        "moving_avg": 2715065.7,
+        "linear_trend": 2660078.9,
+        "seasonal_naive": 2501029.3,
+        "chronos": 2529431.8,
+        "claude-haiku-4-5": 2540000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -24.7,
+        "moving_avg": -5.3,
+        "linear_trend": -3.2,
+        "seasonal_naive": 3.0,
+        "chronos": 1.9,
+        "claude-haiku-4-5": 1.5
+      }
+    },
+    "Medical Branch 12": {
+      "champion": "naive_last_value",
+      "actual": 2589929.0,
+      "predicted": {
+        "naive_last_value": 2494994.6,
+        "moving_avg": 2474999.7,
+        "linear_trend": 2430246.5,
+        "seasonal_naive": 2280567.1,
+        "chronos": 2367484.5,
+        "claude-haiku-4-5": 2380000.0
+      },
+      "diff_pct": {
+        "naive_last_value": 3.7,
+        "moving_avg": 4.4,
+        "linear_trend": 6.2,
+        "seasonal_naive": 11.9,
+        "chronos": 8.6,
+        "claude-haiku-4-5": 8.1
+      }
+    },
+    "Medical Branch 13": {
+      "champion": "claude-haiku-4-5",
+      "actual": 2467934.1,
+      "predicted": {
+        "naive_last_value": 3076705.4,
+        "moving_avg": 2766886.0,
+        "linear_trend": 2542103.1,
+        "seasonal_naive": 2416700.2,
+        "chronos": 2501651.2,
+        "claude-haiku-4-5": 2465000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -24.7,
+        "moving_avg": -12.1,
+        "linear_trend": -3.0,
+        "seasonal_naive": 2.1,
+        "chronos": -1.4,
+        "claude-haiku-4-5": 0.1
+      }
+    },
+    "Medical Branch 14": {
+      "champion": "seasonal_naive",
+      "actual": 2465812.2,
+      "predicted": {
+        "naive_last_value": 3262670.3,
+        "moving_avg": 2658505.1,
+        "linear_trend": 2561714.3,
+        "seasonal_naive": 2462385.5,
+        "chronos": 2472127.0,
+        "claude-haiku-4-5": 2550000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -32.3,
+        "moving_avg": -7.8,
+        "linear_trend": -3.9,
+        "seasonal_naive": 0.1,
+        "chronos": -0.3,
+        "claude-haiku-4-5": -3.4
+      }
+    },
+    "Medical Branch 15": {
+      "champion": "seasonal_naive",
+      "actual": 2345120.9,
+      "predicted": {
+        "naive_last_value": 3143467.7,
+        "moving_avg": 2655953.6,
+        "linear_trend": 2470460.6,
+        "seasonal_naive": 2322848.3,
+        "chronos": 2367628.2,
+        "claude-haiku-4-5": 2406700.0
+      },
+      "diff_pct": {
+        "naive_last_value": -34.0,
+        "moving_avg": -13.3,
+        "linear_trend": -5.3,
+        "seasonal_naive": 0.9,
+        "chronos": -1.0,
+        "claude-haiku-4-5": -2.6
+      }
+    }
+  },
+  "route": {
+    "Route 01": {
+      "champion": "linear_trend",
+      "actual": 1304913.9,
+      "predicted": {
+        "naive_last_value": 1554687.1,
+        "moving_avg": 1350765.8,
+        "linear_trend": 1276603.8,
+        "seasonal_naive": 1217196.2,
+        "chronos": 1237593.0,
+        "claude-haiku-4-5": 1240000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -19.1,
+        "moving_avg": -3.5,
+        "linear_trend": 2.2,
+        "seasonal_naive": 6.7,
+        "chronos": 5.2,
+        "claude-haiku-4-5": 5.0
+      }
+    },
+    "Route 02": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1237338.0,
+      "predicted": {
+        "naive_last_value": 1491589.3,
+        "moving_avg": 1322808.5,
+        "linear_trend": 1274728.2,
+        "seasonal_naive": 1160232.2,
+        "chronos": 1199409.4,
+        "claude-haiku-4-5": 1222250.0
+      },
+      "diff_pct": {
+        "naive_last_value": -20.5,
+        "moving_avg": -6.9,
+        "linear_trend": -3.0,
+        "seasonal_naive": 6.2,
+        "chronos": 3.1,
+        "claude-haiku-4-5": 1.2
+      }
+    },
+    "Route 03": {
+      "champion": "linear_trend",
+      "actual": 1298347.5,
+      "predicted": {
+        "naive_last_value": 1591668.7,
+        "moving_avg": 1346843.3,
+        "linear_trend": 1291386.2,
+        "seasonal_naive": 1211905.3,
+        "chronos": 1239249.9,
+        "claude-haiku-4-5": 1234620.0
+      },
+      "diff_pct": {
+        "naive_last_value": -22.6,
+        "moving_avg": -3.7,
+        "linear_trend": 0.5,
+        "seasonal_naive": 6.7,
+        "chronos": 4.6,
+        "claude-haiku-4-5": 4.9
+      }
+    },
+    "Route 04": {
+      "champion": "seasonal_naive",
+      "actual": 1130673.9,
+      "predicted": {
+        "naive_last_value": 1517534.3,
+        "moving_avg": 1501011.6,
+        "linear_trend": 1293113.8,
+        "seasonal_naive": 1219193.9,
+        "chronos": 1238248.2,
+        "claude-haiku-4-5": 1267597.6
+      },
+      "diff_pct": {
+        "naive_last_value": -34.2,
+        "moving_avg": -32.8,
+        "linear_trend": -14.4,
+        "seasonal_naive": -7.8,
+        "chronos": -9.5,
+        "claude-haiku-4-5": -12.1
+      }
+    },
+    "Route 05": {
+      "champion": "seasonal_naive",
+      "actual": 1197587.0,
+      "predicted": {
+        "naive_last_value": 1506188.6,
+        "moving_avg": 1408706.1,
+        "linear_trend": 1251525.3,
+        "seasonal_naive": 1193471.9,
+        "chronos": 1175933.8,
+        "claude-haiku-4-5": 1211090.0
+      },
+      "diff_pct": {
+        "naive_last_value": -25.8,
+        "moving_avg": -17.6,
+        "linear_trend": -4.5,
+        "seasonal_naive": 0.3,
+        "chronos": 1.8,
+        "claude-haiku-4-5": -1.1
+      }
+    },
+    "Route 06": {
+      "champion": "moving_avg",
+      "actual": 1252313.4,
+      "predicted": {
+        "naive_last_value": 1475102.0,
+        "moving_avg": 1278360.5,
+        "linear_trend": 1223830.4,
+        "seasonal_naive": 1158979.3,
+        "chronos": 1165254.6,
+        "claude-haiku-4-5": 1220500.0
+      },
+      "diff_pct": {
+        "naive_last_value": -17.8,
+        "moving_avg": -2.1,
+        "linear_trend": 2.3,
+        "seasonal_naive": 7.5,
+        "chronos": 7.0,
+        "claude-haiku-4-5": 2.5
+      }
+    },
+    "Route 07": {
+      "champion": "seasonal_naive",
+      "actual": 1140281.7,
+      "predicted": {
+        "naive_last_value": 1466693.0,
+        "moving_avg": 1405625.0,
+        "linear_trend": 1293990.8,
+        "seasonal_naive": 1176811.0,
+        "chronos": 1230837.6,
+        "claude-haiku-4-5": 1310600.0
+      },
+      "diff_pct": {
+        "naive_last_value": -28.6,
+        "moving_avg": -23.3,
+        "linear_trend": -13.5,
+        "seasonal_naive": -3.2,
+        "chronos": -7.9,
+        "claude-haiku-4-5": -14.9
+      }
+    },
+    "Route 08": {
+      "champion": "linear_trend",
+      "actual": 1293964.4,
+      "predicted": {
+        "naive_last_value": 1494947.2,
+        "moving_avg": 1449196.3,
+        "linear_trend": 1280274.7,
+        "seasonal_naive": 1236518.8,
+        "chronos": 1235817.0,
+        "claude-haiku-4-5": 1264100.0
+      },
+      "diff_pct": {
+        "naive_last_value": -15.5,
+        "moving_avg": -12.0,
+        "linear_trend": 1.1,
+        "seasonal_naive": 4.4,
+        "chronos": 4.5,
+        "claude-haiku-4-5": 2.3
+      }
+    },
+    "Route 09": {
+      "champion": "moving_avg",
+      "actual": 1278054.6,
+      "predicted": {
+        "naive_last_value": 1555889.8,
+        "moving_avg": 1306885.0,
+        "linear_trend": 1248453.1,
+        "seasonal_naive": 1153751.3,
+        "chronos": 1163723.4,
+        "claude-haiku-4-5": 1213000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -21.7,
+        "moving_avg": -2.3,
+        "linear_trend": 2.3,
+        "seasonal_naive": 9.7,
+        "chronos": 8.9,
+        "claude-haiku-4-5": 5.1
+      }
+    },
+    "Route 10": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1277962.5,
+      "predicted": {
+        "naive_last_value": 1725006.2,
+        "moving_avg": 1518940.1,
+        "linear_trend": 1400828.2,
+        "seasonal_naive": 1263873.1,
+        "chronos": 1326254.2,
+        "claude-haiku-4-5": 1290000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -35.0,
+        "moving_avg": -18.9,
+        "linear_trend": -9.6,
+        "seasonal_naive": 1.1,
+        "chronos": -3.8,
+        "claude-haiku-4-5": -0.9
+      }
+    },
+    "Route 11": {
+      "champion": "chronos",
+      "actual": 1210742.4,
+      "predicted": {
+        "naive_last_value": 1410235.4,
+        "moving_avg": 1295586.5,
+        "linear_trend": 1274984.9,
+        "seasonal_naive": 1198461.2,
+        "chronos": 1200908.2,
+        "claude-haiku-4-5": 1260500.0
+      },
+      "diff_pct": {
+        "naive_last_value": -16.5,
+        "moving_avg": -7.0,
+        "linear_trend": -5.3,
+        "seasonal_naive": 1.0,
+        "chronos": 0.8,
+        "claude-haiku-4-5": -4.1
+      }
+    },
+    "Route 12": {
+      "champion": "naive_last_value",
+      "actual": 1287704.9,
+      "predicted": {
+        "naive_last_value": 1294514.8,
+        "moving_avg": 1259206.2,
+        "linear_trend": 1311054.5,
+        "seasonal_naive": 1258076.1,
+        "chronos": 1242459.8,
+        "claude-haiku-4-5": 1241500.0
+      },
+      "diff_pct": {
+        "naive_last_value": -0.5,
+        "moving_avg": 2.2,
+        "linear_trend": -1.8,
+        "seasonal_naive": 2.3,
+        "chronos": 3.5,
+        "claude-haiku-4-5": 3.6
+      }
+    },
+    "Route 13": {
+      "champion": "chronos",
+      "actual": 1165795.4,
+      "predicted": {
+        "naive_last_value": 1618307.4,
+        "moving_avg": 1377696.8,
+        "linear_trend": 1313980.8,
+        "seasonal_naive": 1246112.7,
+        "chronos": 1218558.5,
+        "claude-haiku-4-5": 1263700.0
+      },
+      "diff_pct": {
+        "naive_last_value": -38.8,
+        "moving_avg": -18.2,
+        "linear_trend": -12.7,
+        "seasonal_naive": -6.9,
+        "chronos": -4.5,
+        "claude-haiku-4-5": -8.4
+      }
+    },
+    "Route 14": {
+      "champion": "naive_last_value",
+      "actual": 1276980.2,
+      "predicted": {
+        "naive_last_value": 1224355.8,
+        "moving_avg": 1154779.8,
+        "linear_trend": 1156635.1,
+        "seasonal_naive": 1176477.1,
+        "chronos": 1142528.9,
+        "claude-haiku-4-5": 1148000.0
+      },
+      "diff_pct": {
+        "naive_last_value": 4.1,
+        "moving_avg": 9.6,
+        "linear_trend": 9.4,
+        "seasonal_naive": 7.9,
+        "chronos": 10.5,
+        "claude-haiku-4-5": 10.1
+      }
+    },
+    "Route 15": {
+      "champion": "seasonal_naive",
+      "actual": 1179587.5,
+      "predicted": {
+        "naive_last_value": 1401024.6,
+        "moving_avg": 1412830.6,
+        "linear_trend": 1328447.8,
+        "seasonal_naive": 1208788.3,
+        "chronos": 1227864.1,
+        "claude-haiku-4-5": 1259007.5
+      },
+      "diff_pct": {
+        "naive_last_value": -18.8,
+        "moving_avg": -19.8,
+        "linear_trend": -12.6,
+        "seasonal_naive": -2.5,
+        "chronos": -4.1,
+        "claude-haiku-4-5": -6.7
+      }
+    },
+    "Route 16": {
+      "champion": "linear_trend",
+      "actual": 1324105.0,
+      "predicted": {
+        "naive_last_value": 1572922.2,
+        "moving_avg": 1333869.1,
+        "linear_trend": 1315670.7,
+        "seasonal_naive": 1226631.4,
+        "chronos": 1256619.9,
+        "claude-haiku-4-5": 1227200.0
+      },
+      "diff_pct": {
+        "naive_last_value": -18.8,
+        "moving_avg": -0.7,
+        "linear_trend": 0.6,
+        "seasonal_naive": 7.4,
+        "chronos": 5.1,
+        "claude-haiku-4-5": 7.3
+      }
+    },
+    "Route 17": {
+      "champion": "linear_trend",
+      "actual": 1266303.5,
+      "predicted": {
+        "naive_last_value": 1693352.8,
+        "moving_avg": 1421088.1,
+        "linear_trend": 1266139.7,
+        "seasonal_naive": 1158108.8,
+        "chronos": 1192911.5,
+        "claude-haiku-4-5": 1210000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -33.7,
+        "moving_avg": -12.2,
+        "linear_trend": 0.0,
+        "seasonal_naive": 8.5,
+        "chronos": 5.8,
+        "claude-haiku-4-5": 4.4
+      }
+    },
+    "Route 18": {
+      "champion": "seasonal_naive",
+      "actual": 1146105.4,
+      "predicted": {
+        "naive_last_value": 1564584.5,
+        "moving_avg": 1371456.3,
+        "linear_trend": 1226954.8,
+        "seasonal_naive": 1184181.2,
+        "chronos": 1183647.5,
+        "claude-haiku-4-5": 1232000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -36.5,
+        "moving_avg": -19.7,
+        "linear_trend": -7.1,
+        "seasonal_naive": -3.3,
+        "chronos": -3.3,
+        "claude-haiku-4-5": -7.5
+      }
+    },
+    "Route 19": {
+      "champion": "linear_trend",
+      "actual": 1307401.0,
+      "predicted": {
+        "naive_last_value": 1385394.2,
+        "moving_avg": 1330958.0,
+        "linear_trend": 1289102.2,
+        "seasonal_naive": 1261141.5,
+        "chronos": 1264249.9,
+        "claude-haiku-4-5": 1190000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -6.0,
+        "moving_avg": -1.8,
+        "linear_trend": 1.4,
+        "seasonal_naive": 3.5,
+        "chronos": 3.3,
+        "claude-haiku-4-5": 9.0
+      }
+    },
+    "Route 20": {
+      "champion": "chronos",
+      "actual": 1229757.3,
+      "predicted": {
+        "naive_last_value": 1435937.0,
+        "moving_avg": 1279553.3,
+        "linear_trend": 1315032.5,
+        "seasonal_naive": 1215170.6,
+        "chronos": 1237348.9,
+        "claude-haiku-4-5": 1247500.0
+      },
+      "diff_pct": {
+        "naive_last_value": -16.8,
+        "moving_avg": -4.0,
+        "linear_trend": -6.9,
+        "seasonal_naive": 1.2,
+        "chronos": -0.6,
+        "claude-haiku-4-5": -1.4
+      }
+    },
+    "Route 21": {
+      "champion": "linear_trend",
+      "actual": 1227116.9,
+      "predicted": {
+        "naive_last_value": 1551036.2,
+        "moving_avg": 1329360.8,
+        "linear_trend": 1223197.4,
+        "seasonal_naive": 1153674.4,
+        "chronos": 1165409.0,
+        "claude-haiku-4-5": 1213300.0
+      },
+      "diff_pct": {
+        "naive_last_value": -26.4,
+        "moving_avg": -8.3,
+        "linear_trend": 0.3,
+        "seasonal_naive": 6.0,
+        "chronos": 5.0,
+        "claude-haiku-4-5": 1.1
+      }
+    },
+    "Route 22": {
+      "champion": "moving_avg",
+      "actual": 1273220.5,
+      "predicted": {
+        "naive_last_value": 1413595.2,
+        "moving_avg": 1234387.9,
+        "linear_trend": 1229607.2,
+        "seasonal_naive": 1208218.7,
+        "chronos": 1183379.0,
+        "claude-haiku-4-5": 1163000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -11.0,
+        "moving_avg": 3.0,
+        "linear_trend": 3.4,
+        "seasonal_naive": 5.1,
+        "chronos": 7.1,
+        "claude-haiku-4-5": 8.7
+      }
+    },
+    "Route 23": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1162144.1,
+      "predicted": {
+        "naive_last_value": 1681970.6,
+        "moving_avg": 1443463.2,
+        "linear_trend": 1265711.4,
+        "seasonal_naive": 1216558.2,
+        "chronos": 1228341.2,
+        "claude-haiku-4-5": 1211724.0
+      },
+      "diff_pct": {
+        "naive_last_value": -44.7,
+        "moving_avg": -24.2,
+        "linear_trend": -8.9,
+        "seasonal_naive": -4.7,
+        "chronos": -5.7,
+        "claude-haiku-4-5": -4.3
+      }
+    },
+    "Route 24": {
+      "champion": "seasonal_naive",
+      "actual": 1222143.3,
+      "predicted": {
+        "naive_last_value": 1443531.4,
+        "moving_avg": 1381790.0,
+        "linear_trend": 1258190.7,
+        "seasonal_naive": 1225751.9,
+        "chronos": 1225834.1,
+        "claude-haiku-4-5": 1251000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -18.1,
+        "moving_avg": -13.1,
+        "linear_trend": -2.9,
+        "seasonal_naive": -0.3,
+        "chronos": -0.3,
+        "claude-haiku-4-5": -2.4
+      }
+    },
+    "Route 25": {
+      "champion": "chronos",
+      "actual": 1164413.0,
+      "predicted": {
+        "naive_last_value": 1468104.4,
+        "moving_avg": 1316295.7,
+        "linear_trend": 1203748.0,
+        "seasonal_naive": 1136362.4,
+        "chronos": 1175073.5,
+        "claude-haiku-4-5": 1200687.1
+      },
+      "diff_pct": {
+        "naive_last_value": -26.1,
+        "moving_avg": -13.0,
+        "linear_trend": -3.4,
+        "seasonal_naive": 2.4,
+        "chronos": -0.9,
+        "claude-haiku-4-5": -3.1
+      }
+    },
+    "Route 26": {
+      "champion": "linear_trend",
+      "actual": 1237235.4,
+      "predicted": {
+        "naive_last_value": 1567184.0,
+        "moving_avg": 1391292.3,
+        "linear_trend": 1244553.3,
+        "seasonal_naive": 1197835.2,
+        "chronos": 1272125.8,
+        "claude-haiku-4-5": 1295000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -26.7,
+        "moving_avg": -12.5,
+        "linear_trend": -0.6,
+        "seasonal_naive": 3.2,
+        "chronos": -2.8,
+        "claude-haiku-4-5": -4.7
+      }
+    },
+    "Route 27": {
+      "champion": "moving_avg",
+      "actual": 1342401.6,
+      "predicted": {
+        "naive_last_value": 1790050.4,
+        "moving_avg": 1383670.1,
+        "linear_trend": 1261061.4,
+        "seasonal_naive": 1164493.3,
+        "chronos": 1195364.4,
+        "claude-haiku-4-5": 1198000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -33.3,
+        "moving_avg": -3.1,
+        "linear_trend": 6.1,
+        "seasonal_naive": 13.3,
+        "chronos": 11.0,
+        "claude-haiku-4-5": 10.8
+      }
+    },
+    "Route 28": {
+      "champion": "linear_trend",
+      "actual": 1258404.0,
+      "predicted": {
+        "naive_last_value": 1784935.2,
+        "moving_avg": 1373259.7,
+        "linear_trend": 1214050.6,
+        "seasonal_naive": 1210973.0,
+        "chronos": 1200821.4,
+        "claude-haiku-4-5": 1213700.0
+      },
+      "diff_pct": {
+        "naive_last_value": -41.8,
+        "moving_avg": -9.1,
+        "linear_trend": 3.5,
+        "seasonal_naive": 3.8,
+        "chronos": 4.6,
+        "claude-haiku-4-5": 3.6
+      }
+    },
+    "Route 29": {
+      "champion": "linear_trend",
+      "actual": 1273027.5,
+      "predicted": {
+        "naive_last_value": 1169717.8,
+        "moving_avg": 1101796.2,
+        "linear_trend": 1180485.8,
+        "seasonal_naive": 1131764.8,
+        "chronos": 1139064.0,
+        "claude-haiku-4-5": 1175500.0
+      },
+      "diff_pct": {
+        "naive_last_value": 8.1,
+        "moving_avg": 13.5,
+        "linear_trend": 7.3,
+        "seasonal_naive": 11.1,
+        "chronos": 10.5,
+        "claude-haiku-4-5": 7.7
+      }
+    },
+    "Route 30": {
+      "champion": "seasonal_naive",
+      "actual": 1226790.7,
+      "predicted": {
+        "naive_last_value": 1682329.8,
+        "moving_avg": 1405088.6,
+        "linear_trend": 1300431.2,
+        "seasonal_naive": 1243005.4,
+        "chronos": 1253618.0,
+        "claude-haiku-4-5": 1243567.7
+      },
+      "diff_pct": {
+        "naive_last_value": -37.1,
+        "moving_avg": -14.5,
+        "linear_trend": -6.0,
+        "seasonal_naive": -1.3,
+        "chronos": -2.2,
+        "claude-haiku-4-5": -1.4
+      }
+    }
+  },
+  "category": {
+    "Analgesics": {
+      "champion": "moving_avg",
+      "actual": 1785914.9,
+      "predicted": {
+        "naive_last_value": 2156734.1,
+        "moving_avg": 1690452.8,
+        "linear_trend": 1689076.9,
+        "seasonal_naive": 1553391.4,
+        "chronos": 1623176.8,
+        "claude-haiku-4-5": 1591000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -20.8,
+        "moving_avg": 5.3,
+        "linear_trend": 5.4,
+        "seasonal_naive": 13.0,
+        "chronos": 9.1,
+        "claude-haiku-4-5": 10.9
+      }
+    },
+    "Antibiotics": {
+      "champion": "chronos",
+      "actual": 2599785.8,
+      "predicted": {
+        "naive_last_value": 3381837.5,
+        "moving_avg": 3108177.8,
+        "linear_trend": 2685656.1,
+        "seasonal_naive": 2537522.5,
+        "chronos": 2615745.2,
+        "claude-haiku-4-5": 2560000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -30.1,
+        "moving_avg": -19.6,
+        "linear_trend": -3.3,
+        "seasonal_naive": 2.4,
+        "chronos": -0.6,
+        "claude-haiku-4-5": 1.5
+      }
+    },
+    "Cardiovascular": {
+      "champion": "seasonal_naive",
+      "actual": 933002.0,
+      "predicted": {
+        "naive_last_value": 1099876.1,
+        "moving_avg": 1016373.1,
+        "linear_trend": 968263.0,
+        "seasonal_naive": 928517.1,
+        "chronos": 914065.0,
+        "claude-haiku-4-5": 903300.0
+      },
+      "diff_pct": {
+        "naive_last_value": -17.9,
+        "moving_avg": -8.9,
+        "linear_trend": -3.8,
+        "seasonal_naive": 0.5,
+        "chronos": 2.0,
+        "claude-haiku-4-5": 3.2
+      }
+    },
+    "Dermatology": {
+      "champion": "claude-haiku-4-5",
+      "actual": 3366089.5,
+      "predicted": {
+        "naive_last_value": 4129470.6,
+        "moving_avg": 3632822.6,
+        "linear_trend": 3439806.1,
+        "seasonal_naive": 3196499.8,
+        "chronos": 3277313.8,
+        "claude-haiku-4-5": 3326600.0
+      },
+      "diff_pct": {
+        "naive_last_value": -22.7,
+        "moving_avg": -7.9,
+        "linear_trend": -2.2,
+        "seasonal_naive": 5.0,
+        "chronos": 2.6,
+        "claude-haiku-4-5": 1.2
+      }
+    },
+    "Diabetes": {
+      "champion": "linear_trend",
+      "actual": 2940097.1,
+      "predicted": {
+        "naive_last_value": 3340678.9,
+        "moving_avg": 3198951.4,
+        "linear_trend": 2949074.2,
+        "seasonal_naive": 2798155.3,
+        "chronos": 2817941.8,
+        "claude-haiku-4-5": 2794200.0
+      },
+      "diff_pct": {
+        "naive_last_value": -13.6,
+        "moving_avg": -8.8,
+        "linear_trend": -0.3,
+        "seasonal_naive": 4.8,
+        "chronos": 4.2,
+        "claude-haiku-4-5": 5.0
+      }
+    },
+    "Diagnostics": {
+      "champion": "claude-haiku-4-5",
+      "actual": 3577056.9,
+      "predicted": {
+        "naive_last_value": 4365050.9,
+        "moving_avg": 3905104.4,
+        "linear_trend": 3725768.9,
+        "seasonal_naive": 3436935.6,
+        "chronos": 3496438.0,
+        "claude-haiku-4-5": 3585000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -22.0,
+        "moving_avg": -9.2,
+        "linear_trend": -4.2,
+        "seasonal_naive": 3.9,
+        "chronos": 2.3,
+        "claude-haiku-4-5": -0.2
+      }
+    },
+    "Gastrointestinal": {
+      "champion": "chronos",
+      "actual": 2677369.1,
+      "predicted": {
+        "naive_last_value": 3928732.0,
+        "moving_avg": 2889591.8,
+        "linear_trend": 2772395.6,
+        "seasonal_naive": 2706485.5,
+        "chronos": 2658329.2,
+        "claude-haiku-4-5": 2718000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -46.7,
+        "moving_avg": -7.9,
+        "linear_trend": -3.5,
+        "seasonal_naive": -1.1,
+        "chronos": 0.7,
+        "claude-haiku-4-5": -1.5
+      }
+    },
+    "Medical Devices": {
+      "champion": "chronos",
+      "actual": 2715604.5,
+      "predicted": {
+        "naive_last_value": 3376776.7,
+        "moving_avg": 3178389.4,
+        "linear_trend": 2835683.9,
+        "seasonal_naive": 2730638.2,
+        "chronos": 2728926.8,
+        "claude-haiku-4-5": 2730000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -24.3,
+        "moving_avg": -17.0,
+        "linear_trend": -4.4,
+        "seasonal_naive": -0.6,
+        "chronos": -0.5,
+        "claude-haiku-4-5": -0.5
+      }
+    },
+    "Neurology": {
+      "champion": "chronos",
+      "actual": 2557764.8,
+      "predicted": {
+        "naive_last_value": 3218915.8,
+        "moving_avg": 3019334.1,
+        "linear_trend": 2729784.9,
+        "seasonal_naive": 2588534.1,
+        "chronos": 2583511.5,
+        "claude-haiku-4-5": 2594100.0
+      },
+      "diff_pct": {
+        "naive_last_value": -25.8,
+        "moving_avg": -18.0,
+        "linear_trend": -6.7,
+        "seasonal_naive": -1.2,
+        "chronos": -1.0,
+        "claude-haiku-4-5": -1.4
+      }
+    },
+    "OTC": {
+      "champion": "claude-haiku-4-5",
+      "actual": 2497719.0,
+      "predicted": {
+        "naive_last_value": 3458996.8,
+        "moving_avg": 2917074.0,
+        "linear_trend": 2605693.5,
+        "seasonal_naive": 2456945.2,
+        "chronos": 2465653.8,
+        "claude-haiku-4-5": 2485000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -38.5,
+        "moving_avg": -16.8,
+        "linear_trend": -4.3,
+        "seasonal_naive": 1.6,
+        "chronos": 1.3,
+        "claude-haiku-4-5": 0.5
+      }
+    },
+    "Orthopedic": {
+      "champion": "linear_trend",
+      "actual": 1974615.0,
+      "predicted": {
+        "naive_last_value": 1899608.4,
+        "moving_avg": 1915743.4,
+        "linear_trend": 2011682.0,
+        "seasonal_naive": 1859125.5,
+        "chronos": 2028588.4,
+        "claude-haiku-4-5": 1856000.0
+      },
+      "diff_pct": {
+        "naive_last_value": 3.8,
+        "moving_avg": 3.0,
+        "linear_trend": -1.9,
+        "seasonal_naive": 5.8,
+        "chronos": -2.7,
+        "claude-haiku-4-5": 6.0
+      }
+    },
+    "Pediatric": {
+      "champion": "linear_trend",
+      "actual": 1848801.9,
+      "predicted": {
+        "naive_last_value": 2482594.9,
+        "moving_avg": 1936686.3,
+        "linear_trend": 1796944.0,
+        "seasonal_naive": 1727736.8,
+        "chronos": 1710054.8,
+        "claude-haiku-4-5": 1727300.0
+      },
+      "diff_pct": {
+        "naive_last_value": -34.3,
+        "moving_avg": -4.8,
+        "linear_trend": 2.8,
+        "seasonal_naive": 6.5,
+        "chronos": 7.5,
+        "claude-haiku-4-5": 6.6
+      }
+    },
+    "Respiratory": {
+      "champion": "seasonal_naive",
+      "actual": 2439793.1,
+      "predicted": {
+        "naive_last_value": 2485144.1,
+        "moving_avg": 2491138.2,
+        "linear_trend": 2502879.0,
+        "seasonal_naive": 2445114.0,
+        "chronos": 2350902.5,
+        "claude-haiku-4-5": 2423057.6
+      },
+      "diff_pct": {
+        "naive_last_value": -1.9,
+        "moving_avg": -2.1,
+        "linear_trend": -2.6,
+        "seasonal_naive": -0.2,
+        "chronos": 3.6,
+        "claude-haiku-4-5": 0.7
+      }
+    },
+    "Surgical Supplies": {
+      "champion": "linear_trend",
+      "actual": 2649229.8,
+      "predicted": {
+        "naive_last_value": 3355725.7,
+        "moving_avg": 2848332.0,
+        "linear_trend": 2660225.3,
+        "seasonal_naive": 2528151.1,
+        "chronos": 2546289.8,
+        "claude-haiku-4-5": 2555000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -26.7,
+        "moving_avg": -7.5,
+        "linear_trend": -0.4,
+        "seasonal_naive": 4.6,
+        "chronos": 3.9,
+        "claude-haiku-4-5": 3.6
+      }
+    },
+    "Vitamins": {
+      "champion": "linear_trend",
+      "actual": 2629973.2,
+      "predicted": {
+        "naive_last_value": 2852247.7,
+        "moving_avg": 2738400.2,
+        "linear_trend": 2640841.2,
+        "seasonal_naive": 2519967.1,
+        "chronos": 2540986.8,
+        "claude-haiku-4-5": 2514200.0
+      },
+      "diff_pct": {
+        "naive_last_value": -8.5,
+        "moving_avg": -4.1,
+        "linear_trend": -0.4,
+        "seasonal_naive": 4.2,
+        "chronos": 3.4,
+        "claude-haiku-4-5": 4.4
+      }
+    }
+  },
+  "product_type": {
+    "Capsule": {
+      "champion": "linear_trend",
+      "actual": 5094883.0,
+      "predicted": {
+        "naive_last_value": 5597983.2,
+        "moving_avg": 5273334.6,
+        "linear_trend": 5180032.0,
+        "seasonal_naive": 4902000.9,
+        "chronos": 4914971.0,
+        "claude-haiku-4-5": 5005000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -9.9,
+        "moving_avg": -3.5,
+        "linear_trend": -1.7,
+        "seasonal_naive": 3.8,
+        "chronos": 3.5,
+        "claude-haiku-4-5": 1.8
+      }
+    },
+    "Injection": {
+      "champion": "chronos",
+      "actual": 6111473.0,
+      "predicted": {
+        "naive_last_value": 7501457.0,
+        "moving_avg": 6781397.0,
+        "linear_trend": 6305202.1,
+        "seasonal_naive": 5997431.0,
+        "chronos": 6089801.0,
+        "claude-haiku-4-5": 6295000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -22.7,
+        "moving_avg": -11.0,
+        "linear_trend": -3.2,
+        "seasonal_naive": 1.9,
+        "chronos": 0.4,
+        "claude-haiku-4-5": -3.0
+      }
+    },
+    "Medical Device": {
+      "champion": "linear_trend",
+      "actual": 5915716.8,
+      "predicted": {
+        "naive_last_value": 7243567.1,
+        "moving_avg": 6369708.5,
+        "linear_trend": 6035584.7,
+        "seasonal_naive": 5644010.3,
+        "chronos": 5789099.5,
+        "claude-haiku-4-5": 5670000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -22.4,
+        "moving_avg": -7.7,
+        "linear_trend": -2.0,
+        "seasonal_naive": 4.6,
+        "chronos": 2.1,
+        "claude-haiku-4-5": 4.2
+      }
+    },
+    "OTC": {
+      "champion": "chronos",
+      "actual": 4356604.5,
+      "predicted": {
+        "naive_last_value": 5425335.4,
+        "moving_avg": 4778597.1,
+        "linear_trend": 4438982.6,
+        "seasonal_naive": 4172376.8,
+        "chronos": 4310517.5,
+        "claude-haiku-4-5": 4295000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -24.5,
+        "moving_avg": -9.7,
+        "linear_trend": -1.9,
+        "seasonal_naive": 4.2,
+        "chronos": 1.1,
+        "claude-haiku-4-5": 1.4
+      }
+    },
+    "Surgical Supply": {
+      "champion": "seasonal_naive",
+      "actual": 5993656.6,
+      "predicted": {
+        "naive_last_value": 7736761.1,
+        "moving_avg": 6998334.0,
+        "linear_trend": 6252658.5,
+        "seasonal_naive": 5931984.8,
+        "chronos": 6053509.5,
+        "claude-haiku-4-5": 6131913.0
+      },
+      "diff_pct": {
+        "naive_last_value": -29.1,
+        "moving_avg": -16.8,
+        "linear_trend": -4.3,
+        "seasonal_naive": 1.0,
+        "chronos": -1.0,
+        "claude-haiku-4-5": -2.3
+      }
+    },
+    "Syrup": {
+      "champion": "moving_avg",
+      "actual": 4763303.6,
+      "predicted": {
+        "naive_last_value": 5482683.0,
+        "moving_avg": 4839452.0,
+        "linear_trend": 4664878.7,
+        "seasonal_naive": 4392677.0,
+        "chronos": 4389090.0,
+        "claude-haiku-4-5": 4491573.0
+      },
+      "diff_pct": {
+        "naive_last_value": -15.1,
+        "moving_avg": -1.6,
+        "linear_trend": 2.1,
+        "seasonal_naive": 7.8,
+        "chronos": 7.9,
+        "claude-haiku-4-5": 5.7
+      }
+    },
+    "Tablet": {
+      "champion": "seasonal_naive",
+      "actual": 4957179.1,
+      "predicted": {
+        "naive_last_value": 6544603.3,
+        "moving_avg": 5445748.4,
+        "linear_trend": 5136436.0,
+        "seasonal_naive": 4973238.5,
+        "chronos": 4990044.0,
+        "claude-haiku-4-5": 4980000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -32.0,
+        "moving_avg": -9.9,
+        "linear_trend": -3.6,
+        "seasonal_naive": -0.3,
+        "chronos": -0.7,
+        "claude-haiku-4-5": -0.5
+      }
+    }
+  },
+  "customer_type": {
+    "Clinic": {
+      "champion": "seasonal_naive",
+      "actual": 5523126.2,
+      "predicted": {
+        "naive_last_value": 7539038.6,
+        "moving_avg": 6322411.0,
+        "linear_trend": 5822572.7,
+        "seasonal_naive": 5560054.5,
+        "chronos": 5581716.0,
+        "claude-haiku-4-5": 5425000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -36.5,
+        "moving_avg": -14.5,
+        "linear_trend": -5.4,
+        "seasonal_naive": -0.7,
+        "chronos": -1.1,
+        "claude-haiku-4-5": 1.8
+      }
+    },
+    "Distributor": {
+      "champion": "seasonal_naive",
+      "actual": 5161272.6,
+      "predicted": {
+        "naive_last_value": 6226871.3,
+        "moving_avg": 5703728.6,
+        "linear_trend": 5431782.6,
+        "seasonal_naive": 5139266.7,
+        "chronos": 5181154.0,
+        "claude-haiku-4-5": 5139266.7
+      },
+      "diff_pct": {
+        "naive_last_value": -20.6,
+        "moving_avg": -10.5,
+        "linear_trend": -5.2,
+        "seasonal_naive": 0.4,
+        "chronos": -0.4,
+        "claude-haiku-4-5": 0.4
+      }
+    },
+    "Government": {
+      "champion": "seasonal_naive",
+      "actual": 1867268.8,
+      "predicted": {
+        "naive_last_value": 2250158.9,
+        "moving_avg": 2053747.4,
+        "linear_trend": 1976493.0,
+        "seasonal_naive": 1875498.3,
+        "chronos": 2006834.1,
+        "claude-haiku-4-5": 1788000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -20.5,
+        "moving_avg": -10.0,
+        "linear_trend": -5.8,
+        "seasonal_naive": -0.4,
+        "chronos": -7.5,
+        "claude-haiku-4-5": 4.2
+      }
+    },
+    "Hospital": {
+      "champion": "linear_trend",
+      "actual": 10465882.7,
+      "predicted": {
+        "naive_last_value": 12992365.3,
+        "moving_avg": 11346446.5,
+        "linear_trend": 10588475.4,
+        "seasonal_naive": 10062546.3,
+        "chronos": 10144369.0,
+        "claude-haiku-4-5": 10180000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -24.1,
+        "moving_avg": -8.4,
+        "linear_trend": -1.2,
+        "seasonal_naive": 3.9,
+        "chronos": 3.1,
+        "claude-haiku-4-5": 2.7
+      }
+    },
+    "Pharmacy": {
+      "champion": "linear_trend",
+      "actual": 14175266.3,
+      "predicted": {
+        "naive_last_value": 16523956.0,
+        "moving_avg": 15060238.2,
+        "linear_trend": 14194450.9,
+        "seasonal_naive": 13376353.5,
+        "chronos": 13486662.0,
+        "claude-haiku-4-5": 13544000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -16.6,
+        "moving_avg": -6.2,
+        "linear_trend": -0.1,
+        "seasonal_naive": 5.6,
+        "chronos": 4.9,
+        "claude-haiku-4-5": 4.5
+      }
+    }
+  },
+  "supplier": {
+    "Medical Supplier 001": {
+      "champion": "chronos",
+      "actual": 1197073.1,
+      "predicted": {
+        "naive_last_value": 1516555.2,
+        "moving_avg": 1400563.1,
+        "linear_trend": 1238991.1,
+        "seasonal_naive": 1215919.5,
+        "chronos": 1203854.4,
+        "claude-haiku-4-5": 1182256.3
+      },
+      "diff_pct": {
+        "naive_last_value": -26.7,
+        "moving_avg": -17.0,
+        "linear_trend": -3.5,
+        "seasonal_naive": -1.6,
+        "chronos": -0.6,
+        "claude-haiku-4-5": 1.2
+      }
+    },
+    "Medical Supplier 002": {
+      "champion": "linear_trend",
+      "actual": 1245046.3,
+      "predicted": {
+        "naive_last_value": 1772534.2,
+        "moving_avg": 1393113.9,
+        "linear_trend": 1250419.1,
+        "seasonal_naive": 1226090.4,
+        "chronos": 1173962.9,
+        "claude-haiku-4-5": 1186400.0
+      },
+      "diff_pct": {
+        "naive_last_value": -42.4,
+        "moving_avg": -11.9,
+        "linear_trend": -0.4,
+        "seasonal_naive": 1.5,
+        "chronos": 5.7,
+        "claude-haiku-4-5": 4.7
+      }
+    },
+    "Medical Supplier 003": {
+      "champion": "linear_trend",
+      "actual": 1256062.6,
+      "predicted": {
+        "naive_last_value": 1294078.7,
+        "moving_avg": 1212607.5,
+        "linear_trend": 1248283.1,
+        "seasonal_naive": 1162211.7,
+        "chronos": 1218442.8,
+        "claude-haiku-4-5": 1200000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -3.0,
+        "moving_avg": 3.5,
+        "linear_trend": 0.6,
+        "seasonal_naive": 7.5,
+        "chronos": 3.0,
+        "claude-haiku-4-5": 4.5
+      }
+    },
+    "Medical Supplier 004": {
+      "champion": "moving_avg",
+      "actual": 1279568.8,
+      "predicted": {
+        "naive_last_value": 1402044.2,
+        "moving_avg": 1273249.3,
+        "linear_trend": 1175957.4,
+        "seasonal_naive": 1162280.4,
+        "chronos": 1176921.9,
+        "claude-haiku-4-5": 1196100.0
+      },
+      "diff_pct": {
+        "naive_last_value": -9.6,
+        "moving_avg": 0.5,
+        "linear_trend": 8.1,
+        "seasonal_naive": 9.2,
+        "chronos": 8.0,
+        "claude-haiku-4-5": 6.5
+      }
+    },
+    "Medical Supplier 005": {
+      "champion": "seasonal_naive",
+      "actual": 1260584.8,
+      "predicted": {
+        "naive_last_value": 1440639.0,
+        "moving_avg": 1352570.8,
+        "linear_trend": 1364167.0,
+        "seasonal_naive": 1242895.7,
+        "chronos": 1279925.1,
+        "claude-haiku-4-5": 1234500.0
+      },
+      "diff_pct": {
+        "naive_last_value": -14.3,
+        "moving_avg": -7.3,
+        "linear_trend": -8.2,
+        "seasonal_naive": 1.4,
+        "chronos": -1.5,
+        "claude-haiku-4-5": 2.1
+      }
+    },
+    "Medical Supplier 006": {
+      "champion": "linear_trend",
+      "actual": 1244901.6,
+      "predicted": {
+        "naive_last_value": 1552068.4,
+        "moving_avg": 1307279.0,
+        "linear_trend": 1203665.3,
+        "seasonal_naive": 1122603.4,
+        "chronos": 1173922.4,
+        "claude-haiku-4-5": 1164821.9
+      },
+      "diff_pct": {
+        "naive_last_value": -24.7,
+        "moving_avg": -5.0,
+        "linear_trend": 3.3,
+        "seasonal_naive": 9.8,
+        "chronos": 5.7,
+        "claude-haiku-4-5": 6.4
+      }
+    },
+    "Medical Supplier 007": {
+      "champion": "linear_trend",
+      "actual": 1279349.6,
+      "predicted": {
+        "naive_last_value": 1547444.6,
+        "moving_avg": 1379166.4,
+        "linear_trend": 1309215.9,
+        "seasonal_naive": 1236877.4,
+        "chronos": 1240092.8,
+        "claude-haiku-4-5": 1221153.6
+      },
+      "diff_pct": {
+        "naive_last_value": -21.0,
+        "moving_avg": -7.8,
+        "linear_trend": -2.3,
+        "seasonal_naive": 3.3,
+        "chronos": 3.1,
+        "claude-haiku-4-5": 4.5
+      }
+    },
+    "Medical Supplier 008": {
+      "champion": "moving_avg",
+      "actual": 1328729.0,
+      "predicted": {
+        "naive_last_value": 1602634.1,
+        "moving_avg": 1348397.1,
+        "linear_trend": 1272517.8,
+        "seasonal_naive": 1217517.3,
+        "chronos": 1247640.6,
+        "claude-haiku-4-5": 1244996.4
+      },
+      "diff_pct": {
+        "naive_last_value": -20.6,
+        "moving_avg": -1.5,
+        "linear_trend": 4.2,
+        "seasonal_naive": 8.4,
+        "chronos": 6.1,
+        "claude-haiku-4-5": 6.3
+      }
+    },
+    "Medical Supplier 009": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1187106.1,
+      "predicted": {
+        "naive_last_value": 1582289.6,
+        "moving_avg": 1440843.5,
+        "linear_trend": 1221854.8,
+        "seasonal_naive": 1172182.2,
+        "chronos": 1220177.1,
+        "claude-haiku-4-5": 1194864.5
+      },
+      "diff_pct": {
+        "naive_last_value": -33.3,
+        "moving_avg": -21.4,
+        "linear_trend": -2.9,
+        "seasonal_naive": 1.3,
+        "chronos": -2.8,
+        "claude-haiku-4-5": -0.7
+      }
+    },
+    "Medical Supplier 010": {
+      "champion": "chronos",
+      "actual": 1172797.4,
+      "predicted": {
+        "naive_last_value": 1283551.2,
+        "moving_avg": 1186487.7,
+        "linear_trend": 1226510.0,
+        "seasonal_naive": 1134463.9,
+        "chronos": 1169990.4,
+        "claude-haiku-4-5": 1238300.0
+      },
+      "diff_pct": {
+        "naive_last_value": -9.4,
+        "moving_avg": -1.2,
+        "linear_trend": -4.6,
+        "seasonal_naive": 3.3,
+        "chronos": 0.2,
+        "claude-haiku-4-5": -5.6
+      }
+    },
+    "Medical Supplier 011": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1183716.2,
+      "predicted": {
+        "naive_last_value": 1260957.8,
+        "moving_avg": 1150550.6,
+        "linear_trend": 1246126.8,
+        "seasonal_naive": 1158872.8,
+        "chronos": 1164285.6,
+        "claude-haiku-4-5": 1178800.0
+      },
+      "diff_pct": {
+        "naive_last_value": -6.5,
+        "moving_avg": 2.8,
+        "linear_trend": -5.3,
+        "seasonal_naive": 2.1,
+        "chronos": 1.6,
+        "claude-haiku-4-5": 0.4
+      }
+    },
+    "Medical Supplier 012": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1244471.1,
+      "predicted": {
+        "naive_last_value": 1895849.9,
+        "moving_avg": 1613536.4,
+        "linear_trend": 1383041.4,
+        "seasonal_naive": 1299389.3,
+        "chronos": 1276340.9,
+        "claude-haiku-4-5": 1258700.0
+      },
+      "diff_pct": {
+        "naive_last_value": -52.3,
+        "moving_avg": -29.7,
+        "linear_trend": -11.1,
+        "seasonal_naive": -4.4,
+        "chronos": -2.6,
+        "claude-haiku-4-5": -1.1
+      }
+    },
+    "Medical Supplier 013": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1231665.2,
+      "predicted": {
+        "naive_last_value": 1389609.5,
+        "moving_avg": 1358443.9,
+        "linear_trend": 1384344.1,
+        "seasonal_naive": 1287097.8,
+        "chronos": 1287273.1,
+        "claude-haiku-4-5": 1281254.7
+      },
+      "diff_pct": {
+        "naive_last_value": -12.8,
+        "moving_avg": -10.3,
+        "linear_trend": -12.4,
+        "seasonal_naive": -4.5,
+        "chronos": -4.5,
+        "claude-haiku-4-5": -4.0
+      }
+    },
+    "Medical Supplier 014": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1247868.9,
+      "predicted": {
+        "naive_last_value": 1209920.9,
+        "moving_avg": 1124587.6,
+        "linear_trend": 1220755.6,
+        "seasonal_naive": 1110577.4,
+        "chronos": 1139746.8,
+        "claude-haiku-4-5": 1248100.0
+      },
+      "diff_pct": {
+        "naive_last_value": 3.0,
+        "moving_avg": 9.9,
+        "linear_trend": 2.2,
+        "seasonal_naive": 11.0,
+        "chronos": 8.7,
+        "claude-haiku-4-5": -0.0
+      }
+    },
+    "Medical Supplier 015": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1308132.8,
+      "predicted": {
+        "naive_last_value": 1237680.2,
+        "moving_avg": 1251901.3,
+        "linear_trend": 1285208.6,
+        "seasonal_naive": 1217846.5,
+        "chronos": 1221149.5,
+        "claude-haiku-4-5": 1296500.0
+      },
+      "diff_pct": {
+        "naive_last_value": 5.4,
+        "moving_avg": 4.3,
+        "linear_trend": 1.8,
+        "seasonal_naive": 6.9,
+        "chronos": 6.6,
+        "claude-haiku-4-5": 0.9
+      }
+    },
+    "Medical Supplier 016": {
+      "champion": "seasonal_naive",
+      "actual": 1215656.1,
+      "predicted": {
+        "naive_last_value": 1640015.0,
+        "moving_avg": 1377911.6,
+        "linear_trend": 1311865.4,
+        "seasonal_naive": 1230831.1,
+        "chronos": 1256391.6,
+        "claude-haiku-4-5": 1234402.8
+      },
+      "diff_pct": {
+        "naive_last_value": -34.9,
+        "moving_avg": -13.3,
+        "linear_trend": -7.9,
+        "seasonal_naive": -1.2,
+        "chronos": -3.4,
+        "claude-haiku-4-5": -1.5
+      }
+    },
+    "Medical Supplier 017": {
+      "champion": "seasonal_naive",
+      "actual": 1260494.8,
+      "predicted": {
+        "naive_last_value": 1806725.0,
+        "moving_avg": 1495754.3,
+        "linear_trend": 1350631.6,
+        "seasonal_naive": 1273839.7,
+        "chronos": 1223389.1,
+        "claude-haiku-4-5": 1323000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -43.3,
+        "moving_avg": -18.7,
+        "linear_trend": -7.2,
+        "seasonal_naive": -1.1,
+        "chronos": 2.9,
+        "claude-haiku-4-5": -5.0
+      }
+    },
+    "Medical Supplier 018": {
+      "champion": "seasonal_naive",
+      "actual": 1196850.0,
+      "predicted": {
+        "naive_last_value": 1568438.4,
+        "moving_avg": 1466777.4,
+        "linear_trend": 1304175.9,
+        "seasonal_naive": 1181471.2,
+        "chronos": 1245246.2,
+        "claude-haiku-4-5": 1247600.0
+      },
+      "diff_pct": {
+        "naive_last_value": -31.0,
+        "moving_avg": -22.6,
+        "linear_trend": -9.0,
+        "seasonal_naive": 1.3,
+        "chronos": -4.0,
+        "claude-haiku-4-5": -4.2
+      }
+    },
+    "Medical Supplier 019": {
+      "champion": "seasonal_naive",
+      "actual": 1128466.8,
+      "predicted": {
+        "naive_last_value": 1722159.7,
+        "moving_avg": 1394104.9,
+        "linear_trend": 1326849.8,
+        "seasonal_naive": 1242046.0,
+        "chronos": 1269219.6,
+        "claude-haiku-4-5": 1295000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -52.6,
+        "moving_avg": -23.5,
+        "linear_trend": -17.6,
+        "seasonal_naive": -10.1,
+        "chronos": -12.5,
+        "claude-haiku-4-5": -14.8
+      }
+    },
+    "Medical Supplier 020": {
+      "champion": "linear_trend",
+      "actual": 1264044.2,
+      "predicted": {
+        "naive_last_value": 1535516.5,
+        "moving_avg": 1500116.0,
+        "linear_trend": 1281465.6,
+        "seasonal_naive": 1210901.8,
+        "chronos": 1171845.0,
+        "claude-haiku-4-5": 1196600.0
+      },
+      "diff_pct": {
+        "naive_last_value": -21.5,
+        "moving_avg": -18.7,
+        "linear_trend": -1.4,
+        "seasonal_naive": 4.2,
+        "chronos": 7.3,
+        "claude-haiku-4-5": 5.3
+      }
+    },
+    "Medical Supplier 021": {
+      "champion": "seasonal_naive",
+      "actual": 1246386.6,
+      "predicted": {
+        "naive_last_value": 1456479.4,
+        "moving_avg": 1295373.0,
+        "linear_trend": 1195958.5,
+        "seasonal_naive": 1206301.0,
+        "chronos": 1149014.5,
+        "claude-haiku-4-5": 1149156.7
+      },
+      "diff_pct": {
+        "naive_last_value": -16.9,
+        "moving_avg": -3.9,
+        "linear_trend": 4.0,
+        "seasonal_naive": 3.2,
+        "chronos": 7.8,
+        "claude-haiku-4-5": 7.8
+      }
+    },
+    "Medical Supplier 022": {
+      "champion": "seasonal_naive",
+      "actual": 1206719.2,
+      "predicted": {
+        "naive_last_value": 1444969.0,
+        "moving_avg": 1339158.0,
+        "linear_trend": 1286965.6,
+        "seasonal_naive": 1207029.5,
+        "chronos": 1221700.2,
+        "claude-haiku-4-5": 1239903.8
+      },
+      "diff_pct": {
+        "naive_last_value": -19.7,
+        "moving_avg": -11.0,
+        "linear_trend": -6.6,
+        "seasonal_naive": -0.0,
+        "chronos": -1.2,
+        "claude-haiku-4-5": -2.7
+      }
+    },
+    "Medical Supplier 023": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1187177.2,
+      "predicted": {
+        "naive_last_value": 1401287.0,
+        "moving_avg": 1391123.3,
+        "linear_trend": 1247836.6,
+        "seasonal_naive": 1173762.3,
+        "chronos": 1178087.2,
+        "claude-haiku-4-5": 1188000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -18.0,
+        "moving_avg": -17.2,
+        "linear_trend": -5.1,
+        "seasonal_naive": 1.1,
+        "chronos": 0.8,
+        "claude-haiku-4-5": -0.1
+      }
+    },
+    "Medical Supplier 024": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1244743.6,
+      "predicted": {
+        "naive_last_value": 1707196.4,
+        "moving_avg": 1372272.4,
+        "linear_trend": 1319126.6,
+        "seasonal_naive": 1211433.9,
+        "chronos": 1251889.5,
+        "claude-haiku-4-5": 1247200.0
+      },
+      "diff_pct": {
+        "naive_last_value": -37.2,
+        "moving_avg": -10.2,
+        "linear_trend": -6.0,
+        "seasonal_naive": 2.7,
+        "chronos": -0.6,
+        "claude-haiku-4-5": -0.2
+      }
+    },
+    "Medical Supplier 025": {
+      "champion": "claude-haiku-4-5",
+      "actual": 1214745.5,
+      "predicted": {
+        "naive_last_value": 1442737.2,
+        "moving_avg": 1350965.8,
+        "linear_trend": 1277163.8,
+        "seasonal_naive": 1230715.7,
+        "chronos": 1222154.8,
+        "claude-haiku-4-5": 1214445.0
+      },
+      "diff_pct": {
+        "naive_last_value": -18.8,
+        "moving_avg": -11.2,
+        "linear_trend": -5.1,
+        "seasonal_naive": -1.3,
+        "chronos": -0.6,
+        "claude-haiku-4-5": 0.0
+      }
+    },
+    "Medical Supplier 026": {
+      "champion": "moving_avg",
+      "actual": 1260381.1,
+      "predicted": {
+        "naive_last_value": 1308346.6,
+        "moving_avg": 1230916.1,
+        "linear_trend": 1160151.6,
+        "seasonal_naive": 1137554.4,
+        "chronos": 1145607.5,
+        "claude-haiku-4-5": 1180800.0
+      },
+      "diff_pct": {
+        "naive_last_value": -3.8,
+        "moving_avg": 2.3,
+        "linear_trend": 8.0,
+        "seasonal_naive": 9.7,
+        "chronos": 9.1,
+        "claude-haiku-4-5": 6.3
+      }
+    },
+    "Medical Supplier 027": {
+      "champion": "moving_avg",
+      "actual": 1267321.9,
+      "predicted": {
+        "naive_last_value": 1558480.3,
+        "moving_avg": 1330007.6,
+        "linear_trend": 1180014.7,
+        "seasonal_naive": 1152677.7,
+        "chronos": 1168028.0,
+        "claude-haiku-4-5": 1158000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -23.0,
+        "moving_avg": -4.9,
+        "linear_trend": 6.9,
+        "seasonal_naive": 9.0,
+        "chronos": 7.8,
+        "claude-haiku-4-5": 8.6
+      }
+    },
+    "Medical Supplier 028": {
+      "champion": "seasonal_naive",
+      "actual": 1268214.0,
+      "predicted": {
+        "naive_last_value": 1921690.0,
+        "moving_avg": 1477463.5,
+        "linear_trend": 1310369.6,
+        "seasonal_naive": 1244341.3,
+        "chronos": 1229610.8,
+        "claude-haiku-4-5": 1229500.0
+      },
+      "diff_pct": {
+        "naive_last_value": -51.5,
+        "moving_avg": -16.5,
+        "linear_trend": -3.3,
+        "seasonal_naive": 1.9,
+        "chronos": 3.0,
+        "claude-haiku-4-5": 3.1
+      }
+    },
+    "Medical Supplier 029": {
+      "champion": "moving_avg",
+      "actual": 1359497.8,
+      "predicted": {
+        "naive_last_value": 1503422.6,
+        "moving_avg": 1354194.6,
+        "linear_trend": 1262645.8,
+        "seasonal_naive": 1181904.8,
+        "chronos": 1176457.8,
+        "claude-haiku-4-5": 1205200.0
+      },
+      "diff_pct": {
+        "naive_last_value": -10.6,
+        "moving_avg": 0.4,
+        "linear_trend": 7.1,
+        "seasonal_naive": 13.1,
+        "chronos": 13.5,
+        "claude-haiku-4-5": 11.3
+      }
+    },
+    "Medical Supplier 030": {
+      "champion": "linear_trend",
+      "actual": 1205044.4,
+      "predicted": {
+        "naive_last_value": 1527069.4,
+        "moving_avg": 1317135.1,
+        "linear_trend": 1167495.6,
+        "seasonal_naive": 1162082.9,
+        "chronos": 1160031.0,
+        "claude-haiku-4-5": 1145000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -26.7,
+        "moving_avg": -9.3,
+        "linear_trend": 3.1,
+        "seasonal_naive": 3.6,
+        "chronos": 3.7,
+        "claude-haiku-4-5": 5.0
+      }
+    }
+  },
+  "product": {
+    "Medical Product 0001": {
+      "champion": "linear_trend",
+      "actual": 185592.6,
+      "predicted": {
+        "naive_last_value": 142783.4,
+        "moving_avg": 172823.9,
+        "linear_trend": 182865.7,
+        "seasonal_naive": 191792.5,
+        "chronos": 171463.8,
+        "claude-haiku-4-5": 178008.8
+      },
+      "diff_pct": {
+        "naive_last_value": 23.1,
+        "moving_avg": 6.9,
+        "linear_trend": 1.5,
+        "seasonal_naive": -3.3,
+        "chronos": 7.6,
+        "claude-haiku-4-5": 4.1
+      }
+    },
+    "Medical Product 0002": {
+      "champion": "chronos",
+      "actual": 165311.3,
+      "predicted": {
+        "naive_last_value": 305255.4,
+        "moving_avg": 210033.8,
+        "linear_trend": 203247.1,
+        "seasonal_naive": 193511.8,
+        "chronos": 190421.6,
+        "claude-haiku-4-5": 193076.6
+      },
+      "diff_pct": {
+        "naive_last_value": -84.7,
+        "moving_avg": -27.1,
+        "linear_trend": -22.9,
+        "seasonal_naive": -17.1,
+        "chronos": -15.2,
+        "claude-haiku-4-5": -16.8
+      }
+    },
+    "Medical Product 0003": {
+      "champion": "chronos",
+      "actual": 167432.0,
+      "predicted": {
+        "naive_last_value": 271021.1,
+        "moving_avg": 235745.7,
+        "linear_trend": 198168.1,
+        "seasonal_naive": 181305.2,
+        "chronos": 170367.1,
+        "claude-haiku-4-5": 176632.7
+      },
+      "diff_pct": {
+        "naive_last_value": -61.9,
+        "moving_avg": -40.8,
+        "linear_trend": -18.4,
+        "seasonal_naive": -8.3,
+        "chronos": -1.8,
+        "claude-haiku-4-5": -5.5
+      }
+    },
+    "Medical Product 0004": {
+      "champion": "linear_trend",
+      "actual": 211167.6,
+      "predicted": {
+        "naive_last_value": 192071.5,
+        "moving_avg": 149457.2,
+        "linear_trend": 197774.4,
+        "seasonal_naive": 188830.3,
+        "chronos": 174934.6,
+        "claude-haiku-4-5": 170885.0
+      },
+      "diff_pct": {
+        "naive_last_value": 9.0,
+        "moving_avg": 29.2,
+        "linear_trend": 6.3,
+        "seasonal_naive": 10.6,
+        "chronos": 17.2,
+        "claude-haiku-4-5": 19.1
+      }
+    },
+    "Medical Product 0005": {
+      "champion": "moving_avg",
+      "actual": 205122.4,
+      "predicted": {
+        "naive_last_value": 161961.7,
+        "moving_avg": 202305.7,
+        "linear_trend": 215995.0,
+        "seasonal_naive": 165019.8,
+        "chronos": 181177.3,
+        "claude-haiku-4-5": 195793.6
+      },
+      "diff_pct": {
+        "naive_last_value": 21.0,
+        "moving_avg": 1.4,
+        "linear_trend": -5.3,
+        "seasonal_naive": 19.6,
+        "chronos": 11.7,
+        "claude-haiku-4-5": 4.5
+      }
+    },
+    "Medical Product 0006": {
+      "champion": "naive_last_value",
+      "actual": 196955.4,
+      "predicted": {
+        "naive_last_value": 212217.0,
+        "moving_avg": 176742.0,
+        "linear_trend": 135573.0,
+        "seasonal_naive": 142916.5,
+        "chronos": 153374.4,
+        "claude-haiku-4-5": 154241.4
+      },
+      "diff_pct": {
+        "naive_last_value": -7.7,
+        "moving_avg": 10.3,
+        "linear_trend": 31.2,
+        "seasonal_naive": 27.4,
+        "chronos": 22.1,
+        "claude-haiku-4-5": 21.7
+      }
+    },
+    "Medical Product 0007": {
+      "champion": "seasonal_naive",
+      "actual": 176397.1,
+      "predicted": {
+        "naive_last_value": 438725.6,
+        "moving_avg": 245890.8,
+        "linear_trend": 182063.7,
+        "seasonal_naive": 172213.2,
+        "chronos": 168603.6,
+        "claude-haiku-4-5": 170017.6
+      },
+      "diff_pct": {
+        "naive_last_value": -148.7,
+        "moving_avg": -39.4,
+        "linear_trend": -3.2,
+        "seasonal_naive": 2.4,
+        "chronos": 4.4,
+        "claude-haiku-4-5": 3.6
+      }
+    },
+    "Medical Product 0008": {
+      "champion": "seasonal_naive",
+      "actual": 197994.4,
+      "predicted": {
+        "naive_last_value": 146907.4,
+        "moving_avg": 260585.6,
+        "linear_trend": 221696.8,
+        "seasonal_naive": 206420.1,
+        "chronos": 181728.6,
+        "claude-haiku-4-5": 181440.3
+      },
+      "diff_pct": {
+        "naive_last_value": 25.8,
+        "moving_avg": -31.6,
+        "linear_trend": -12.0,
+        "seasonal_naive": -4.3,
+        "chronos": 8.2,
+        "claude-haiku-4-5": 8.4
+      }
+    },
+    "Medical Product 0009": {
+      "champion": "seasonal_naive",
+      "actual": 174263.6,
+      "predicted": {
+        "naive_last_value": 413145.2,
+        "moving_avg": 268373.3,
+        "linear_trend": 204198.4,
+        "seasonal_naive": 175682.6,
+        "chronos": 179682.2,
+        "claude-haiku-4-5": 178874.5
+      },
+      "diff_pct": {
+        "naive_last_value": -137.1,
+        "moving_avg": -54.0,
+        "linear_trend": -17.2,
+        "seasonal_naive": -0.8,
+        "chronos": -3.1,
+        "claude-haiku-4-5": -2.6
+      }
+    },
+    "Medical Product 0010": {
+      "champion": "linear_trend",
+      "actual": 183073.6,
+      "predicted": {
+        "naive_last_value": 310410.4,
+        "moving_avg": 206505.8,
+        "linear_trend": 175604.1,
+        "seasonal_naive": 168297.8,
+        "chronos": 159765.7,
+        "claude-haiku-4-5": 167905.5
+      },
+      "diff_pct": {
+        "naive_last_value": -69.6,
+        "moving_avg": -12.8,
+        "linear_trend": 4.1,
+        "seasonal_naive": 8.1,
+        "chronos": 12.7,
+        "claude-haiku-4-5": 8.3
+      }
+    },
+    "Medical Product 0011": {
+      "champion": "claude-haiku-4-5",
+      "actual": 202223.9,
+      "predicted": {
+        "naive_last_value": 313210.7,
+        "moving_avg": 244966.0,
+        "linear_trend": 254534.0,
+        "seasonal_naive": 219316.9,
+        "chronos": 221535.0,
+        "claude-haiku-4-5": 214000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -54.9,
+        "moving_avg": -21.1,
+        "linear_trend": -25.9,
+        "seasonal_naive": -8.5,
+        "chronos": -9.5,
+        "claude-haiku-4-5": -5.8
+      }
+    },
+    "Medical Product 0012": {
+      "champion": "moving_avg",
+      "actual": 198797.2,
+      "predicted": {
+        "naive_last_value": 179920.6,
+        "moving_avg": 183905.1,
+        "linear_trend": 171412.2,
+        "seasonal_naive": 171122.8,
+        "chronos": 163702.3,
+        "claude-haiku-4-5": 169385.5
+      },
+      "diff_pct": {
+        "naive_last_value": 9.5,
+        "moving_avg": 7.5,
+        "linear_trend": 13.8,
+        "seasonal_naive": 13.9,
+        "chronos": 17.7,
+        "claude-haiku-4-5": 14.8
+      }
+    },
+    "Medical Product 0013": {
+      "champion": "moving_avg",
+      "actual": 234179.3,
+      "predicted": {
+        "naive_last_value": 283258.4,
+        "moving_avg": 210187.6,
+        "linear_trend": 193957.1,
+        "seasonal_naive": 172741.1,
+        "chronos": 197991.4,
+        "claude-haiku-4-5": 169294.6
+      },
+      "diff_pct": {
+        "naive_last_value": -21.0,
+        "moving_avg": 10.2,
+        "linear_trend": 17.2,
+        "seasonal_naive": 26.2,
+        "chronos": 15.5,
+        "claude-haiku-4-5": 27.7
+      }
+    },
+    "Medical Product 0014": {
+      "champion": "claude-haiku-4-5",
+      "actual": 177772.6,
+      "predicted": {
+        "naive_last_value": 291734.9,
+        "moving_avg": 190489.7,
+        "linear_trend": 179354.4,
+        "seasonal_naive": 160215.9,
+        "chronos": 189887.2,
+        "claude-haiku-4-5": 177105.5
+      },
+      "diff_pct": {
+        "naive_last_value": -64.1,
+        "moving_avg": -7.2,
+        "linear_trend": -0.9,
+        "seasonal_naive": 9.9,
+        "chronos": -6.8,
+        "claude-haiku-4-5": 0.4
+      }
+    },
+    "Medical Product 0015": {
+      "champion": "seasonal_naive",
+      "actual": 167680.0,
+      "predicted": {
+        "naive_last_value": 173751.0,
+        "moving_avg": 150316.0,
+        "linear_trend": 169559.8,
+        "seasonal_naive": 166643.8,
+        "chronos": 175392.8,
+        "claude-haiku-4-5": 179148.8
+      },
+      "diff_pct": {
+        "naive_last_value": -3.6,
+        "moving_avg": 10.4,
+        "linear_trend": -1.1,
+        "seasonal_naive": 0.6,
+        "chronos": -4.6,
+        "claude-haiku-4-5": -6.8
+      }
+    },
+    "Medical Product 0016": {
+      "champion": "claude-haiku-4-5",
+      "actual": 189521.8,
+      "predicted": {
+        "naive_last_value": 169107.5,
+        "moving_avg": 213874.1,
+        "linear_trend": 211102.0,
+        "seasonal_naive": 197413.9,
+        "chronos": 176304.7,
+        "claude-haiku-4-5": 196251.4
+      },
+      "diff_pct": {
+        "naive_last_value": 10.8,
+        "moving_avg": -12.8,
+        "linear_trend": -11.4,
+        "seasonal_naive": -4.2,
+        "chronos": 7.0,
+        "claude-haiku-4-5": -3.6
+      }
+    },
+    "Medical Product 0017": {
+      "champion": "chronos",
+      "actual": 211696.9,
+      "predicted": {
+        "naive_last_value": 145120.4,
+        "moving_avg": 169991.2,
+        "linear_trend": 149803.6,
+        "seasonal_naive": 159289.3,
+        "chronos": 170198.4,
+        "claude-haiku-4-5": 168350.4
+      },
+      "diff_pct": {
+        "naive_last_value": 31.4,
+        "moving_avg": 19.7,
+        "linear_trend": 29.2,
+        "seasonal_naive": 24.8,
+        "chronos": 19.6,
+        "claude-haiku-4-5": 20.5
+      }
+    },
+    "Medical Product 0018": {
+      "champion": "moving_avg",
+      "actual": 205224.4,
+      "predicted": {
+        "naive_last_value": 221113.1,
+        "moving_avg": 200487.0,
+        "linear_trend": 187208.7,
+        "seasonal_naive": 174693.9,
+        "chronos": 167380.2,
+        "claude-haiku-4-5": 174590.9
+      },
+      "diff_pct": {
+        "naive_last_value": -7.7,
+        "moving_avg": 2.3,
+        "linear_trend": 8.8,
+        "seasonal_naive": 14.9,
+        "chronos": 18.4,
+        "claude-haiku-4-5": 14.9
+      }
+    },
+    "Medical Product 0019": {
+      "champion": "linear_trend",
+      "actual": 184356.1,
+      "predicted": {
+        "naive_last_value": 124735.0,
+        "moving_avg": 158590.6,
+        "linear_trend": 179427.4,
+        "seasonal_naive": 152928.1,
+        "chronos": 157103.3,
+        "claude-haiku-4-5": 166792.0
+      },
+      "diff_pct": {
+        "naive_last_value": 32.3,
+        "moving_avg": 14.0,
+        "linear_trend": 2.7,
+        "seasonal_naive": 17.0,
+        "chronos": 14.8,
+        "claude-haiku-4-5": 9.5
+      }
+    },
+    "Medical Product 0020": {
+      "champion": "seasonal_naive",
+      "actual": 185302.4,
+      "predicted": {
+        "naive_last_value": 146335.4,
+        "moving_avg": 158428.7,
+        "linear_trend": 174353.5,
+        "seasonal_naive": 175428.0,
+        "chronos": 168733.7,
+        "claude-haiku-4-5": 161920.3
+      },
+      "diff_pct": {
+        "naive_last_value": 21.0,
+        "moving_avg": 14.5,
+        "linear_trend": 5.9,
+        "seasonal_naive": 5.3,
+        "chronos": 8.9,
+        "claude-haiku-4-5": 12.6
+      }
+    },
+    "Medical Product 0021": {
+      "champion": "linear_trend",
+      "actual": 193640.8,
+      "predicted": {
+        "naive_last_value": 261034.8,
+        "moving_avg": 218022.4,
+        "linear_trend": 182932.5,
+        "seasonal_naive": 174493.9,
+        "chronos": 179398.3,
+        "claude-haiku-4-5": 175136.8
+      },
+      "diff_pct": {
+        "naive_last_value": -34.8,
+        "moving_avg": -12.6,
+        "linear_trend": 5.5,
+        "seasonal_naive": 9.9,
+        "chronos": 7.4,
+        "claude-haiku-4-5": 9.6
+      }
+    },
+    "Medical Product 0022": {
+      "champion": "claude-haiku-4-5",
+      "actual": 202121.1,
+      "predicted": {
+        "naive_last_value": 122742.6,
+        "moving_avg": 139089.9,
+        "linear_trend": 152644.4,
+        "seasonal_naive": 154001.5,
+        "chronos": 148143.6,
+        "claude-haiku-4-5": 166831.0
+      },
+      "diff_pct": {
+        "naive_last_value": 39.3,
+        "moving_avg": 31.2,
+        "linear_trend": 24.5,
+        "seasonal_naive": 23.8,
+        "chronos": 26.7,
+        "claude-haiku-4-5": 17.5
+      }
+    },
+    "Medical Product 0023": {
+      "champion": "seasonal_naive",
+      "actual": 202646.4,
+      "predicted": {
+        "naive_last_value": 107152.2,
+        "moving_avg": 163706.1,
+        "linear_trend": 160113.0,
+        "seasonal_naive": 177719.3,
+        "chronos": 173122.3,
+        "claude-haiku-4-5": 175173.4
+      },
+      "diff_pct": {
+        "naive_last_value": 47.1,
+        "moving_avg": 19.2,
+        "linear_trend": 21.0,
+        "seasonal_naive": 12.3,
+        "chronos": 14.6,
+        "claude-haiku-4-5": 13.6
+      }
+    },
+    "Medical Product 0024": {
+      "champion": "claude-haiku-4-5",
+      "actual": 175819.9,
+      "predicted": {
+        "naive_last_value": 417923.0,
+        "moving_avg": 258761.8,
+        "linear_trend": 200479.9,
+        "seasonal_naive": 201479.4,
+        "chronos": 183945.8,
+        "claude-haiku-4-5": 180455.9
+      },
+      "diff_pct": {
+        "naive_last_value": -137.7,
+        "moving_avg": -47.2,
+        "linear_trend": -14.0,
+        "seasonal_naive": -14.6,
+        "chronos": -4.6,
+        "claude-haiku-4-5": -2.6
+      }
+    },
+    "Medical Product 0025": {
+      "champion": "linear_trend",
+      "actual": 178552.1,
+      "predicted": {
+        "naive_last_value": 332548.1,
+        "moving_avg": 239595.0,
+        "linear_trend": 181997.7,
+        "seasonal_naive": 168307.4,
+        "chronos": 184146.6,
+        "claude-haiku-4-5": 166004.4
+      },
+      "diff_pct": {
+        "naive_last_value": -86.2,
+        "moving_avg": -34.2,
+        "linear_trend": -1.9,
+        "seasonal_naive": 5.7,
+        "chronos": -3.1,
+        "claude-haiku-4-5": 7.0
+      }
+    },
+    "Medical Product 0026": {
+      "champion": "claude-haiku-4-5",
+      "actual": 167833.3,
+      "predicted": {
+        "naive_last_value": 310414.1,
+        "moving_avg": 225732.0,
+        "linear_trend": 188739.2,
+        "seasonal_naive": 182058.4,
+        "chronos": 184905.3,
+        "claude-haiku-4-5": 179619.2
+      },
+      "diff_pct": {
+        "naive_last_value": -85.0,
+        "moving_avg": -34.5,
+        "linear_trend": -12.5,
+        "seasonal_naive": -8.5,
+        "chronos": -10.2,
+        "claude-haiku-4-5": -7.0
+      }
+    },
+    "Medical Product 0027": {
+      "champion": "chronos",
+      "actual": 171045.7,
+      "predicted": {
+        "naive_last_value": 94418.3,
+        "moving_avg": 155537.2,
+        "linear_trend": 194808.0,
+        "seasonal_naive": 177643.6,
+        "chronos": 170524.8,
+        "claude-haiku-4-5": 181084.8
+      },
+      "diff_pct": {
+        "naive_last_value": 44.8,
+        "moving_avg": 9.1,
+        "linear_trend": -13.9,
+        "seasonal_naive": -3.9,
+        "chronos": 0.3,
+        "claude-haiku-4-5": -5.9
+      }
+    },
+    "Medical Product 0028": {
+      "champion": "moving_avg",
+      "actual": 201169.8,
+      "predicted": {
+        "naive_last_value": 229129.1,
+        "moving_avg": 185281.5,
+        "linear_trend": 184620.6,
+        "seasonal_naive": 163363.9,
+        "chronos": 171589.4,
+        "claude-haiku-4-5": 175414.6
+      },
+      "diff_pct": {
+        "naive_last_value": -13.9,
+        "moving_avg": 7.9,
+        "linear_trend": 8.2,
+        "seasonal_naive": 18.8,
+        "chronos": 14.7,
+        "claude-haiku-4-5": 12.8
+      }
+    },
+    "Medical Product 0029": {
+      "champion": "linear_trend",
+      "actual": 154810.4,
+      "predicted": {
+        "naive_last_value": 173263.3,
+        "moving_avg": 161701.3,
+        "linear_trend": 154160.0,
+        "seasonal_naive": 137546.0,
+        "chronos": 159014.8,
+        "claude-haiku-4-5": 163100.0
+      },
+      "diff_pct": {
+        "naive_last_value": -11.9,
+        "moving_avg": -4.5,
+        "linear_trend": 0.4,
+        "seasonal_naive": 11.2,
+        "chronos": -2.7,
+        "claude-haiku-4-5": -5.4
+      }
+    },
+    "Medical Product 0030": {
+      "champion": "chronos",
+      "actual": 167823.6,
+      "predicted": {
+        "naive_last_value": 209117.2,
+        "moving_avg": 218781.5,
+        "linear_trend": 213172.1,
+        "seasonal_naive": 190859.3,
+        "chronos": 184846.9,
+        "claude-haiku-4-5": 184903.0
+      },
+      "diff_pct": {
+        "naive_last_value": -24.6,
+        "moving_avg": -30.4,
+        "linear_trend": -27.0,
+        "seasonal_naive": -13.7,
+        "chronos": -10.1,
+        "claude-haiku-4-5": -10.2
+      }
+    },
+    "Medical Product 0031": {
+      "champion": "claude-haiku-4-5",
+      "actual": 184291.5,
+      "predicted": {
+        "naive_last_value": 293863.9,
+        "moving_avg": 220557.0,
+        "linear_trend": 217998.6,
+        "seasonal_naive": 186617.2,
+        "chronos": 193746.0,
+        "claude-haiku-4-5": 185255.3
+      },
+      "diff_pct": {
+        "naive_last_value": -59.5,
+        "moving_avg": -19.7,
+        "linear_trend": -18.3,
+        "seasonal_naive": -1.3,
+        "chronos": -5.1,
+        "claude-haiku-4-5": -0.5
+      }
+    },
+    "Medical Product 0032": {
+      "champion": "claude-haiku-4-5",
+      "actual": 170243.7,
+      "predicted": {
+        "naive_last_value": 263755.0,
+        "moving_avg": 212708.2,
+        "linear_trend": 173266.8,
+        "seasonal_naive": 162297.8,
+        "chronos": 165528.0,
+        "claude-haiku-4-5": 170272.3
+      },
+      "diff_pct": {
+        "naive_last_value": -54.9,
+        "moving_avg": -24.9,
+        "linear_trend": -1.8,
+        "seasonal_naive": 4.7,
+        "chronos": 2.8,
+        "claude-haiku-4-5": -0.0
+      }
+    },
+    "Medical Product 0033": {
+      "champion": "linear_trend",
+      "actual": 228930.9,
+      "predicted": {
+        "naive_last_value": 77070.4,
+        "moving_avg": 133685.3,
+        "linear_trend": 171472.8,
+        "seasonal_naive": 164169.1,
+        "chronos": 162844.0,
+        "claude-haiku-4-5": 170850.9
+      },
+      "diff_pct": {
+        "naive_last_value": 66.3,
+        "moving_avg": 41.6,
+        "linear_trend": 25.1,
+        "seasonal_naive": 28.3,
+        "chronos": 28.9,
+        "claude-haiku-4-5": 25.4
+      }
+    },
+    "Medical Product 0034": {
+      "champion": "seasonal_naive",
+      "actual": 150912.2,
+      "predicted": {
+        "naive_last_value": 291739.6,
+        "moving_avg": 201666.2,
+        "linear_trend": 161915.1,
+        "seasonal_naive": 159037.0,
+        "chronos": 168454.9,
+        "claude-haiku-4-5": 168194.9
+      },
+      "diff_pct": {
+        "naive_last_value": -93.3,
+        "moving_avg": -33.6,
+        "linear_trend": -7.3,
+        "seasonal_naive": -5.4,
+        "chronos": -11.6,
+        "claude-haiku-4-5": -11.5
+      }
+    },
+    "Medical Product 0035": {
+      "champion": "linear_trend",
+      "actual": 190459.7,
+      "predicted": {
+        "naive_last_value": 217584.6,
+        "moving_avg": 209342.2,
+        "linear_trend": 185047.9,
+        "seasonal_naive": 174483.1,
+        "chronos": 171889.8,
+        "claude-haiku-4-5": 168406.9
+      },
+      "diff_pct": {
+        "naive_last_value": -14.2,
+        "moving_avg": -9.9,
+        "linear_trend": 2.8,
+        "seasonal_naive": 8.4,
+        "chronos": 9.8,
+        "claude-haiku-4-5": 11.6
+      }
+    },
+    "Medical Product 0036": {
+      "champion": "linear_trend",
+      "actual": 180949.7,
+      "predicted": {
+        "naive_last_value": 196286.4,
+        "moving_avg": 168949.2,
+        "linear_trend": 188495.0,
+        "seasonal_naive": 155190.4,
+        "chronos": 158044.1,
+        "claude-haiku-4-5": 172100.0
+      },
+      "diff_pct": {
+        "naive_last_value": -8.5,
+        "moving_avg": 6.6,
+        "linear_trend": -4.2,
+        "seasonal_naive": 14.2,
+        "chronos": 12.7,
+        "claude-haiku-4-5": 4.9
+      }
+    },
+    "Medical Product 0037": {
+      "champion": "claude-haiku-4-5",
+      "actual": 161286.3,
+      "predicted": {
+        "naive_last_value": 313467.2,
+        "moving_avg": 257731.5,
+        "linear_trend": 239353.6,
+        "seasonal_naive": 219270.7,
+        "chronos": 217355.8,
+        "claude-haiku-4-5": 199400.0
+      },
+      "diff_pct": {
+        "naive_last_value": -94.4,
+        "moving_avg": -59.8,
+        "linear_trend": -48.4,
+        "seasonal_naive": -36.0,
+        "chronos": -34.8,
+        "claude-haiku-4-5": -23.6
+      }
+    },
+    "Medical Product 0038": {
+      "champion": "linear_trend",
+      "actual": 195926.1,
+      "predicted": {
+        "naive_last_value": 378283.2,
+        "moving_avg": 222133.6,
+        "linear_trend": 202788.6,
+        "seasonal_naive": 179466.8,
+        "chronos": 168478.4,
+        "claude-haiku-4-5": 184120.9
+      },
+      "diff_pct": {
+        "naive_last_value": -93.1,
+        "moving_avg": -13.4,
+        "linear_trend": -3.5,
+        "seasonal_naive": 8.4,
+        "chronos": 14.0,
+        "claude-haiku-4-5": 6.0
+      }
+    },
+    "Medical Product 0039": {
+      "champion": "naive_last_value",
+      "actual": 188474.3,
+      "predicted": {
+        "naive_last_value": 186011.5,
+        "moving_avg": 150594.9,
+        "linear_trend": 171423.4,
+        "seasonal_naive": 170773.8,
+        "chronos": 124027.8,
+        "claude-haiku-4-5": 168055.5
+      },
+      "diff_pct": {
+        "naive_last_value": 1.3,
+        "moving_avg": 20.1,
+        "linear_trend": 9.0,
+        "seasonal_naive": 9.4,
+        "chronos": 34.2,
+        "claude-haiku-4-5": 10.8
+      }
+    },
+    "Medical Product 0040": {
+      "champion": "claude-haiku-4-5",
+      "actual": 169512.7,
+      "predicted": {
+        "naive_last_value": 222201.5,
+        "moving_avg": 195854.4,
+        "linear_trend": 186529.2,
+        "seasonal_naive": 160913.8,
+        "chronos": 195889.6,
+        "claude-haiku-4-5": 176941.8
+      },
+      "diff_pct": {
+        "naive_last_value": -31.1,
+        "moving_avg": -15.5,
+        "linear_trend": -10.0,
+        "seasonal_naive": 5.1,
+        "chronos": -15.6,
+        "claude-haiku-4-5": -4.4
+      }
+    },
+    "Medical Product 0041": {
+      "champion": "moving_avg",
+      "actual": 237844.9,
+      "predicted": {
+        "naive_last_value": 170568.1,
+        "moving_avg": 174763.4,
+        "linear_trend": 162162.1,
+        "seasonal_naive": 161711.8,
+        "chronos": 166796.5,
+        "claude-haiku-4-5": 173900.0
+      },
+      "diff_pct": {
+        "naive_last_value": 28.3,
+        "moving_avg": 26.5,
+        "linear_trend": 31.8,
+        "seasonal_naive": 32.0,
+        "chronos": 29.9,
+        "claude-haiku-4-5": 26.9
+      }
+    },
+    "Medical Product 0042": {
+      "champion": "chronos",
+      "actual": 169629.3,
+      "predicted": {
+        "naive_last_value": 155133.8,
+        "moving_avg": 208919.4,
+        "linear_trend": 181074.5,
+        "seasonal_naive": 189672.2,
+        "chronos": 172214.7,
+        "claude-haiku-4-5": 215577.5
+      },
+      "diff_pct": {
+        "naive_last_value": 8.5,
+        "moving_avg": -23.2,
+        "linear_trend": -6.7,
+        "seasonal_naive": -11.8,
+        "chronos": -1.5,
+        "claude-haiku-4-5": -27.1
+      }
+    },
+    "Medical Product 0043": {
+      "champion": "chronos",
+      "actual": 153995.6,
+      "predicted": {
+        "naive_last_value": 177147.0,
+        "moving_avg": 229633.3,
+        "linear_trend": 177731.1,
+        "seasonal_naive": 171391.8,
+        "chronos": 159561.5,
+        "claude-haiku-4-5": 160861.0
+      },
+      "diff_pct": {
+        "naive_last_value": -15.0,
+        "moving_avg": -49.1,
+        "linear_trend": -15.4,
+        "seasonal_naive": -11.3,
+        "chronos": -3.6,
+        "claude-haiku-4-5": -4.5
+      }
+    },
+    "Medical Product 0044": {
+      "champion": "moving_avg",
+      "actual": 195217.7,
+      "predicted": {
+        "naive_last_value": 238367.6,
+        "moving_avg": 199784.2,
+        "linear_trend": 184721.7,
+        "seasonal_naive": 168543.6,
+        "chronos": 188741.1,
+        "claude-haiku-4-5": 168779.8
+      },
+      "diff_pct": {
+        "naive_last_value": -22.1,
+        "moving_avg": -2.3,
+        "linear_trend": 5.4,
+        "seasonal_naive": 13.7,
+        "chronos": 3.3,
+        "claude-haiku-4-5": 13.5
+      }
+    },
+    "Medical Product 0045": {
+      "champion": "seasonal_naive",
+      "actual": 195113.8,
+      "predicted": {
+        "naive_last_value": 430835.5,
+        "moving_avg": 333036.9,
+        "linear_trend": 181056.2,
+        "seasonal_naive": 192530.6,
+        "chronos": 219223.0,
+        "claude-haiku-4-5": 188881.8
+      },
+      "diff_pct": {
+        "naive_last_value": -120.8,
+        "moving_avg": -70.7,
+        "linear_trend": 7.2,
+        "seasonal_naive": 1.3,
+        "chronos": -12.4,
+        "claude-haiku-4-5": 3.2
+      }
+    },
+    "Medical Product 0046": {
+      "champion": "claude-haiku-4-5",
+      "actual": 152672.2,
+      "predicted": {
+        "naive_last_value": 240926.6,
+        "moving_avg": 184645.6,
+        "linear_trend": 161362.2,
+        "seasonal_naive": 161694.2,
+        "chronos": 144691.1,
+        "claude-haiku-4-5": 153371.6
+      },
+      "diff_pct": {
+        "naive_last_value": -57.8,
+        "moving_avg": -20.9,
+        "linear_trend": -5.7,
+        "seasonal_naive": -5.9,
+        "chronos": 5.2,
+        "claude-haiku-4-5": -0.5
+      }
+    },
+    "Medical Product 0047": {
+      "champion": "moving_avg",
+      "actual": 199293.9,
+      "predicted": {
+        "naive_last_value": 138360.5,
+        "moving_avg": 174788.7,
+        "linear_trend": 173206.4,
+        "seasonal_naive": 158275.9,
+        "chronos": 163055.3,
+        "claude-haiku-4-5": 171591.8
+      },
+      "diff_pct": {
+        "naive_last_value": 30.6,
+        "moving_avg": 12.3,
+        "linear_trend": 13.1,
+        "seasonal_naive": 20.6,
+        "chronos": 18.2,
+        "claude-haiku-4-5": 13.9
+      }
+    },
+    "Medical Product 0048": {
+      "champion": "chronos",
+      "actual": 185939.2,
+      "predicted": {
+        "naive_last_value": 183732.0,
+        "moving_avg": 176888.5,
+        "linear_trend": 198151.0,
+        "seasonal_naive": 193837.8,
+        "chronos": 184695.8,
+        "claude-haiku-4-5": 184447.9
+      },
+      "diff_pct": {
+        "naive_last_value": 1.2,
+        "moving_avg": 4.9,
+        "linear_trend": -6.6,
+        "seasonal_naive": -4.2,
+        "chronos": 0.7,
+        "claude-haiku-4-5": 0.8
+      }
+    },
+    "Medical Product 0049": {
+      "champion": "chronos",
+      "actual": 185869.1,
+      "predicted": {
+        "naive_last_value": 227797.0,
+        "moving_avg": 226768.6,
+        "linear_trend": 207576.3,
+        "seasonal_naive": 216197.9,
+        "chronos": 181577.2,
+        "claude-haiku-4-5": 192725.8
+      },
+      "diff_pct": {
+        "naive_last_value": -22.6,
+        "moving_avg": -22.0,
+        "linear_trend": -11.7,
+        "seasonal_naive": -16.3,
+        "chronos": 2.3,
+        "claude-haiku-4-5": -3.7
+      }
+    },
+    "Medical Product 0050": {
+      "champion": "linear_trend",
+      "actual": 185893.9,
+      "predicted": {
+        "naive_last_value": 197192.3,
+        "moving_avg": 250866.7,
+        "linear_trend": 183847.9,
+        "seasonal_naive": 167095.7,
+        "chronos": 171797.5,
+        "claude-haiku-4-5": 165503.4
+      },
+      "diff_pct": {
+        "naive_last_value": -6.1,
+        "moving_avg": -35.0,
+        "linear_trend": 1.1,
+        "seasonal_naive": 10.1,
+        "chronos": 7.6,
+        "claude-haiku-4-5": 11.0
+      }
+    },
+    "Medical Product 0051": {
+      "champion": "linear_trend",
+      "actual": 184937.1,
+      "predicted": {
+        "naive_last_value": 107649.2,
+        "moving_avg": 143865.4,
+        "linear_trend": 183428.2,
+        "seasonal_naive": 173870.7,
+        "chronos": 171029.5,
+        "claude-haiku-4-5": 182461.0
+      },
+      "diff_pct": {
+        "naive_last_value": 41.8,
+        "moving_avg": 22.2,
+        "linear_trend": 0.8,
+        "seasonal_naive": 6.0,
+        "chronos": 7.5,
+        "claude-haiku-4-5": 1.3
+      }
+    },
+    "Medical Product 0052": {
+      "champion": "claude-haiku-4-5",
+      "actual": 174082.0,
+      "predicted": {
+        "naive_last_value": 191181.0,
+        "moving_avg": 182264.6,
+        "linear_trend": 191322.6,
+        "seasonal_naive": 192776.3,
+        "chronos": 181818.0,
+        "claude-haiku-4-5": 179200.0
+      },
+      "diff_pct": {
+        "naive_last_value": -9.8,
+        "moving_avg": -4.7,
+        "linear_trend": -9.9,
+        "seasonal_naive": -10.7,
+        "chronos": -4.4,
+        "claude-haiku-4-5": -2.9
+      }
+    },
+    "Medical Product 0053": {
+      "champion": "claude-haiku-4-5",
+      "actual": 182843.1,
+      "predicted": {
+        "naive_last_value": 279516.4,
+        "moving_avg": 206368.6,
+        "linear_trend": 192714.6,
+        "seasonal_naive": 190250.5,
+        "chronos": 173266.0,
+        "claude-haiku-4-5": 183680.0
+      },
+      "diff_pct": {
+        "naive_last_value": -52.9,
+        "moving_avg": -12.9,
+        "linear_trend": -5.4,
+        "seasonal_naive": -4.1,
+        "chronos": 5.2,
+        "claude-haiku-4-5": -0.5
+      }
+    },
+    "Medical Product 0054": {
+      "champion": "chronos",
+      "actual": 178580.5,
+      "predicted": {
+        "naive_last_value": 368945.2,
+        "moving_avg": 200040.4,
+        "linear_trend": 196234.1,
+        "seasonal_naive": 192131.2,
+        "chronos": 177554.7,
+        "claude-haiku-4-5": 187115.7
+      },
+      "diff_pct": {
+        "naive_last_value": -106.6,
+        "moving_avg": -12.0,
+        "linear_trend": -9.9,
+        "seasonal_naive": -7.6,
+        "chronos": 0.6,
+        "claude-haiku-4-5": -4.8
+      }
+    },
+    "Medical Product 0055": {
+      "champion": "chronos",
+      "actual": 165467.4,
+      "predicted": {
+        "naive_last_value": 210044.2,
+        "moving_avg": 184332.8,
+        "linear_trend": 179148.2,
+        "seasonal_naive": 168903.1,
+        "chronos": 167435.0,
+        "claude-haiku-4-5": 177177.9
+      },
+      "diff_pct": {
+        "naive_last_value": -26.9,
+        "moving_avg": -11.4,
+        "linear_trend": -8.3,
+        "seasonal_naive": -2.1,
+        "chronos": -1.2,
+        "claude-haiku-4-5": -7.1
+      }
+    },
+    "Medical Product 0056": {
+      "champion": "chronos",
+      "actual": 184299.8,
+      "predicted": {
+        "naive_last_value": 230024.8,
+        "moving_avg": 227141.1,
+        "linear_trend": 205262.7,
+        "seasonal_naive": 199213.5,
+        "chronos": 184571.6,
+        "claude-haiku-4-5": 191735.3
+      },
+      "diff_pct": {
+        "naive_last_value": -24.8,
+        "moving_avg": -23.2,
+        "linear_trend": -11.4,
+        "seasonal_naive": -8.1,
+        "chronos": -0.1,
+        "claude-haiku-4-5": -4.0
+      }
+    },
+    "Medical Product 0057": {
+      "champion": "moving_avg",
+      "actual": 165198.2,
+      "predicted": {
+        "naive_last_value": 200527.4,
+        "moving_avg": 155570.2,
+        "linear_trend": 129974.9,
+        "seasonal_naive": 144168.7,
+        "chronos": 144727.6,
+        "claude-haiku-4-5": 154200.0
+      },
+      "diff_pct": {
+        "naive_last_value": -21.4,
+        "moving_avg": 5.8,
+        "linear_trend": 21.3,
+        "seasonal_naive": 12.7,
+        "chronos": 12.4,
+        "claude-haiku-4-5": 6.7
+      }
+    },
+    "Medical Product 0058": {
+      "champion": "claude-haiku-4-5",
+      "actual": 168649.0,
+      "predicted": {
+        "naive_last_value": 221272.3,
+        "moving_avg": 177455.0,
+        "linear_trend": 188028.9,
+        "seasonal_naive": 188030.6,
+        "chronos": 176078.6,
+        "claude-haiku-4-5": 173800.0
+      },
+      "diff_pct": {
+        "naive_last_value": -31.2,
+        "moving_avg": -5.2,
+        "linear_trend": -11.5,
+        "seasonal_naive": -11.5,
+        "chronos": -4.4,
+        "claude-haiku-4-5": -3.1
+      }
+    },
+    "Medical Product 0059": {
+      "champion": "claude-haiku-4-5",
+      "actual": 190452.1,
+      "predicted": {
+        "naive_last_value": 447733.6,
+        "moving_avg": 268002.3,
+        "linear_trend": 214696.4,
+        "seasonal_naive": 181675.8,
+        "chronos": 180864.4,
+        "claude-haiku-4-5": 191148.8
+      },
+      "diff_pct": {
+        "naive_last_value": -135.1,
+        "moving_avg": -40.7,
+        "linear_trend": -12.7,
+        "seasonal_naive": 4.6,
+        "chronos": 5.0,
+        "claude-haiku-4-5": -0.4
+      }
+    },
+    "Medical Product 0060": {
+      "champion": "linear_trend",
+      "actual": 215749.8,
+      "predicted": {
+        "naive_last_value": 176658.4,
+        "moving_avg": 175846.5,
+        "linear_trend": 191629.6,
+        "seasonal_naive": 180630.4,
+        "chronos": 178066.8,
+        "claude-haiku-4-5": 184568.8
+      },
+      "diff_pct": {
+        "naive_last_value": 18.1,
+        "moving_avg": 18.5,
+        "linear_trend": 11.2,
+        "seasonal_naive": 16.3,
+        "chronos": 17.5,
+        "claude-haiku-4-5": 14.5
+      }
+    },
+    "Medical Product 0061": {
+      "champion": "claude-haiku-4-5",
+      "actual": 176630.9,
+      "predicted": {
+        "naive_last_value": 329843.3,
+        "moving_avg": 261750.7,
+        "linear_trend": 214946.1,
+        "seasonal_naive": 193219.6,
+        "chronos": 195362.8,
+        "claude-haiku-4-5": 192327.6
+      },
+      "diff_pct": {
+        "naive_last_value": -86.7,
+        "moving_avg": -48.2,
+        "linear_trend": -21.7,
+        "seasonal_naive": -9.4,
+        "chronos": -10.6,
+        "claude-haiku-4-5": -8.9
+      }
+    },
+    "Medical Product 0062": {
+      "champion": "moving_avg",
+      "actual": 195744.0,
+      "predicted": {
+        "naive_last_value": 180940.3,
+        "moving_avg": 199890.6,
+        "linear_trend": 178070.8,
+        "seasonal_naive": 165641.5,
+        "chronos": 167651.5,
+        "claude-haiku-4-5": 168400.0
+      },
+      "diff_pct": {
+        "naive_last_value": 7.6,
+        "moving_avg": -2.1,
+        "linear_trend": 9.0,
+        "seasonal_naive": 15.4,
+        "chronos": 14.4,
+        "claude-haiku-4-5": 14.0
+      }
+    },
+    "Medical Product 0063": {
+      "champion": "moving_avg",
+      "actual": 193115.9,
+      "predicted": {
+        "naive_last_value": 325259.8,
+        "moving_avg": 198434.7,
+        "linear_trend": 182985.6,
+        "seasonal_naive": 186034.2,
+        "chronos": 171432.6,
+        "claude-haiku-4-5": 170837.4
+      },
+      "diff_pct": {
+        "naive_last_value": -68.4,
+        "moving_avg": -2.8,
+        "linear_trend": 5.2,
+        "seasonal_naive": 3.7,
+        "chronos": 11.2,
+        "claude-haiku-4-5": 11.5
+      }
+    },
+    "Medical Product 0064": {
+      "champion": "chronos",
+      "actual": 173476.3,
+      "predicted": {
+        "naive_last_value": 330489.4,
+        "moving_avg": 199524.9,
+        "linear_trend": 187861.2,
+        "seasonal_naive": 183842.7,
+        "chronos": 172687.4,
+        "claude-haiku-4-5": 198652.2
+      },
+      "diff_pct": {
+        "naive_last_value": -90.5,
+        "moving_avg": -15.0,
+        "linear_trend": -8.3,
+        "seasonal_naive": -6.0,
+        "chronos": 0.5,
+        "claude-haiku-4-5": -14.5
+      }
+    },
+    "Medical Product 0065": {
+      "champion": "chronos",
+      "actual": 166556.2,
+      "predicted": {
+        "naive_last_value": 203546.6,
+        "moving_avg": 221524.9,
+        "linear_trend": 170213.7,
+        "seasonal_naive": 179584.0,
+        "chronos": 165373.8,
+        "claude-haiku-4-5": 164039.2
+      },
+      "diff_pct": {
+        "naive_last_value": -22.2,
+        "moving_avg": -33.0,
+        "linear_trend": -2.2,
+        "seasonal_naive": -7.8,
+        "chronos": 0.7,
+        "claude-haiku-4-5": 1.5
+      }
+    },
+    "Medical Product 0066": {
+      "champion": "claude-haiku-4-5",
+      "actual": 206039.6,
+      "predicted": {
+        "naive_last_value": 213819.1,
+        "moving_avg": 242407.9,
+        "linear_trend": 217093.3,
+        "seasonal_naive": 201431.6,
+        "chronos": 194367.1,
+        "claude-haiku-4-5": 203705.5
+      },
+      "diff_pct": {
+        "naive_last_value": -3.8,
+        "moving_avg": -17.7,
+        "linear_trend": -5.4,
+        "seasonal_naive": 2.2,
+        "chronos": 5.7,
+        "claude-haiku-4-5": 1.1
+      }
+    },
+    "Medical Product 0067": {
+      "champion": "chronos",
+      "actual": 178311.6,
+      "predicted": {
+        "naive_last_value": 223826.0,
+        "moving_avg": 227997.0,
+        "linear_trend": 171242.6,
+        "seasonal_naive": 167739.3,
+        "chronos": 177864.5,
+        "claude-haiku-4-5": 142637.0
+      },
+      "diff_pct": {
+        "naive_last_value": -25.5,
+        "moving_avg": -27.9,
+        "linear_trend": 4.0,
+        "seasonal_naive": 5.9,
+        "chronos": 0.3,
+        "claude-haiku-4-5": 20.0
+      }
+    },
+    "Medical Product 0068": {
+      "champion": "claude-haiku-4-5",
+      "actual": 157148.9,
+      "predicted": {
+        "naive_last_value": 220755.1,
+        "moving_avg": 242602.4,
+        "linear_trend": 192957.4,
+        "seasonal_naive": 191424.0,
+        "chronos": 185934.8,
+        "claude-haiku-4-5": 180127.5
+      },
+      "diff_pct": {
+        "naive_last_value": -40.5,
+        "moving_avg": -54.4,
+        "linear_trend": -22.8,
+        "seasonal_naive": -21.8,
+        "chronos": -18.3,
+        "claude-haiku-4-5": -14.6
+      }
+    },
+    "Medical Product 0069": {
+      "champion": "claude-haiku-4-5",
+      "actual": 184272.0,
+      "predicted": {
+        "naive_last_value": 59593.1,
+        "moving_avg": 145709.6,
+        "linear_trend": 174794.9,
+        "seasonal_naive": 177980.6,
+        "chronos": 171102.8,
+        "claude-haiku-4-5": 178158.8
+      },
+      "diff_pct": {
+        "naive_last_value": 67.7,
+        "moving_avg": 20.9,
+        "linear_trend": 5.1,
+        "seasonal_naive": 3.4,
+        "chronos": 7.1,
+        "claude-haiku-4-5": 3.3
+      }
+    },
+    "Medical Product 0070": {
+      "champion": "linear_trend",
+      "actual": 167656.2,
+      "predicted": {
+        "naive_last_value": 197111.0,
+        "moving_avg": 145615.4,
+        "linear_trend": 175241.5,
+        "seasonal_naive": 153269.7,
+        "chronos": 159772.7,
+        "claude-haiku-4-5": 181523.0
+      },
+      "diff_pct": {
+        "naive_last_value": -17.6,
+        "moving_avg": 13.1,
+        "linear_trend": -4.5,
+        "seasonal_naive": 8.6,
+        "chronos": 4.7,
+        "claude-haiku-4-5": -8.3
+      }
+    },
+    "Medical Product 0071": {
+      "champion": "claude-haiku-4-5",
+      "actual": 184140.6,
+      "predicted": {
+        "naive_last_value": 319159.7,
+        "moving_avg": 299060.8,
+        "linear_trend": 232791.1,
+        "seasonal_naive": 217074.6,
+        "chronos": 231321.1,
+        "claude-haiku-4-5": 195804.8
+      },
+      "diff_pct": {
+        "naive_last_value": -73.3,
+        "moving_avg": -62.4,
+        "linear_trend": -26.4,
+        "seasonal_naive": -17.9,
+        "chronos": -25.6,
+        "claude-haiku-4-5": -6.3
+      }
+    },
+    "Medical Product 0072": {
+      "champion": "seasonal_naive",
+      "actual": 198158.7,
+      "predicted": {
+        "naive_last_value": 130337.9,
+        "moving_avg": 212624.0,
+        "linear_trend": 188981.1,
+        "seasonal_naive": 192108.6,
+        "chronos": 179956.3,
+        "claude-haiku-4-5": 187614.8
+      },
+      "diff_pct": {
+        "naive_last_value": 34.2,
+        "moving_avg": -7.3,
+        "linear_trend": 4.6,
+        "seasonal_naive": 3.1,
+        "chronos": 9.2,
+        "claude-haiku-4-5": 5.3
+      }
+    },
+    "Medical Product 0073": {
+      "champion": "claude-haiku-4-5",
+      "actual": 198481.4,
+      "predicted": {
+        "naive_last_value": 243550.8,
+        "moving_avg": 216459.5,
+        "linear_trend": 180171.0,
+        "seasonal_naive": 184994.7,
+        "chronos": 190807.6,
+        "claude-haiku-4-5": 196600.0
+      },
+      "diff_pct": {
+        "naive_last_value": -22.7,
+        "moving_avg": -9.1,
+        "linear_trend": 9.2,
+        "seasonal_naive": 6.8,
+        "chronos": 3.9,
+        "claude-haiku-4-5": 0.9
+      }
+    },
+    "Medical Product 0074": {
+      "champion": "seasonal_naive",
+      "actual": 209565.6,
+      "predicted": {
+        "naive_last_value": 93640.1,
+        "moving_avg": 151191.6,
+        "linear_trend": 171381.2,
+        "seasonal_naive": 173411.8,
+        "chronos": 165582.8,
+        "claude-haiku-4-5": 168450.1
+      },
+      "diff_pct": {
+        "naive_last_value": 55.3,
+        "moving_avg": 27.9,
+        "linear_trend": 18.2,
+        "seasonal_naive": 17.3,
+        "chronos": 21.0,
+        "claude-haiku-4-5": 19.6
+      }
+    },
+    "Medical Product 0075": {
+      "champion": "claude-haiku-4-5",
+      "actual": 168716.6,
+      "predicted": {
+        "naive_last_value": 238656.4,
+        "moving_avg": 224901.2,
+        "linear_trend": 192510.8,
+        "seasonal_naive": 178948.9,
+        "chronos": 181015.0,
+        "claude-haiku-4-5": 176213.8
+      },
+      "diff_pct": {
+        "naive_last_value": -41.5,
+        "moving_avg": -33.3,
+        "linear_trend": -14.1,
+        "seasonal_naive": -6.1,
+        "chronos": -7.3,
+        "claude-haiku-4-5": -4.4
+      }
+    },
+    "Medical Product 0076": {
+      "champion": "naive_last_value",
+      "actual": 165150.1,
+      "predicted": {
+        "naive_last_value": 172994.2,
+        "moving_avg": 179470.2,
+        "linear_trend": 233545.2,
+        "seasonal_naive": 220444.7,
+        "chronos": 195443.7,
+        "claude-haiku-4-5": 192705.4
+      },
+      "diff_pct": {
+        "naive_last_value": -4.7,
+        "moving_avg": -8.7,
+        "linear_trend": -41.4,
+        "seasonal_naive": -33.5,
+        "chronos": -18.3,
+        "claude-haiku-4-5": -16.7
+      }
+    },
+    "Medical Product 0077": {
+      "champion": "moving_avg",
+      "actual": 163268.4,
+      "predicted": {
+        "naive_last_value": 218448.2,
+        "moving_avg": 157757.9,
+        "linear_trend": 229793.6,
+        "seasonal_naive": 195847.2,
+        "chronos": 196593.2,
+        "claude-haiku-4-5": 193736.9
+      },
+      "diff_pct": {
+        "naive_last_value": -33.8,
+        "moving_avg": 3.4,
+        "linear_trend": -40.7,
+        "seasonal_naive": -20.0,
+        "chronos": -20.4,
+        "claude-haiku-4-5": -18.7
+      }
+    },
+    "Medical Product 0078": {
+      "champion": "chronos",
+      "actual": 149636.3,
+      "predicted": {
+        "naive_last_value": 280394.8,
+        "moving_avg": 234565.2,
+        "linear_trend": 202703.4,
+        "seasonal_naive": 193748.1,
+        "chronos": 191645.2,
+        "claude-haiku-4-5": 191991.8
+      },
+      "diff_pct": {
+        "naive_last_value": -87.4,
+        "moving_avg": -56.8,
+        "linear_trend": -35.5,
+        "seasonal_naive": -29.5,
+        "chronos": -28.1,
+        "claude-haiku-4-5": -28.3
+      }
+    },
+    "Medical Product 0079": {
+      "champion": "linear_trend",
+      "actual": 241317.4,
+      "predicted": {
+        "naive_last_value": 330561.5,
+        "moving_avg": 200780.4,
+        "linear_trend": 203362.2,
+        "seasonal_naive": 184201.3,
+        "chronos": 177270.4,
+        "claude-haiku-4-5": 190105.6
+      },
+      "diff_pct": {
+        "naive_last_value": -37.0,
+        "moving_avg": 16.8,
+        "linear_trend": 15.7,
+        "seasonal_naive": 23.7,
+        "chronos": 26.5,
+        "claude-haiku-4-5": 21.2
+      }
+    },
+    "Medical Product 0080": {
+      "champion": "moving_avg",
+      "actual": 220302.5,
+      "predicted": {
+        "naive_last_value": 253064.9,
+        "moving_avg": 239010.2,
+        "linear_trend": 198488.1,
+        "seasonal_naive": 183419.7,
+        "chronos": 183024.6,
+        "claude-haiku-4-5": 185716.9
+      },
+      "diff_pct": {
+        "naive_last_value": -14.9,
+        "moving_avg": -8.5,
+        "linear_trend": 9.9,
+        "seasonal_naive": 16.7,
+        "chronos": 16.9,
+        "claude-haiku-4-5": 15.7
+      }
+    },
+    "Medical Product 0081": {
+      "champion": "chronos",
+      "actual": 193998.0,
+      "predicted": {
+        "naive_last_value": 325897.3,
+        "moving_avg": 233117.6,
+        "linear_trend": 191821.0,
+        "seasonal_naive": 167582.3,
+        "chronos": 193373.9,
+        "claude-haiku-4-5": 186000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -68.0,
+        "moving_avg": -20.2,
+        "linear_trend": 1.1,
+        "seasonal_naive": 13.6,
+        "chronos": 0.3,
+        "claude-haiku-4-5": 4.1
+      }
+    },
+    "Medical Product 0082": {
+      "champion": "chronos",
+      "actual": 194965.2,
+      "predicted": {
+        "naive_last_value": 293496.0,
+        "moving_avg": 251407.8,
+        "linear_trend": 210609.8,
+        "seasonal_naive": 209121.1,
+        "chronos": 201918.7,
+        "claude-haiku-4-5": 172367.5
+      },
+      "diff_pct": {
+        "naive_last_value": -50.5,
+        "moving_avg": -29.0,
+        "linear_trend": -8.0,
+        "seasonal_naive": -7.3,
+        "chronos": -3.6,
+        "claude-haiku-4-5": 11.6
+      }
+    },
+    "Medical Product 0083": {
+      "champion": "naive_last_value",
+      "actual": 172913.9,
+      "predicted": {
+        "naive_last_value": 178480.9,
+        "moving_avg": 185282.0,
+        "linear_trend": 202574.8,
+        "seasonal_naive": 201906.1,
+        "chronos": 182562.3,
+        "claude-haiku-4-5": 194949.9
+      },
+      "diff_pct": {
+        "naive_last_value": -3.2,
+        "moving_avg": -7.2,
+        "linear_trend": -17.2,
+        "seasonal_naive": -16.8,
+        "chronos": -5.6,
+        "claude-haiku-4-5": -12.7
+      }
+    },
+    "Medical Product 0084": {
+      "champion": "linear_trend",
+      "actual": 204077.5,
+      "predicted": {
+        "naive_last_value": 229195.8,
+        "moving_avg": 168307.4,
+        "linear_trend": 207372.8,
+        "seasonal_naive": 185833.0,
+        "chronos": 181422.7,
+        "claude-haiku-4-5": 192327.0
+      },
+      "diff_pct": {
+        "naive_last_value": -12.3,
+        "moving_avg": 17.5,
+        "linear_trend": -1.6,
+        "seasonal_naive": 8.9,
+        "chronos": 11.1,
+        "claude-haiku-4-5": 5.8
+      }
+    },
+    "Medical Product 0085": {
+      "champion": "claude-haiku-4-5",
+      "actual": 170382.6,
+      "predicted": {
+        "naive_last_value": 320464.7,
+        "moving_avg": 192440.2,
+        "linear_trend": 188478.4,
+        "seasonal_naive": 159253.6,
+        "chronos": 158614.4,
+        "claude-haiku-4-5": 169023.8
+      },
+      "diff_pct": {
+        "naive_last_value": -88.1,
+        "moving_avg": -12.9,
+        "linear_trend": -10.6,
+        "seasonal_naive": 6.5,
+        "chronos": 6.9,
+        "claude-haiku-4-5": 0.8
+      }
+    },
+    "Medical Product 0086": {
+      "champion": "linear_trend",
+      "actual": 206849.1,
+      "predicted": {
+        "naive_last_value": 134937.7,
+        "moving_avg": 137816.2,
+        "linear_trend": 172381.5,
+        "seasonal_naive": 157621.9,
+        "chronos": 160575.8,
+        "claude-haiku-4-5": 170163.9
+      },
+      "diff_pct": {
+        "naive_last_value": 34.8,
+        "moving_avg": 33.4,
+        "linear_trend": 16.7,
+        "seasonal_naive": 23.8,
+        "chronos": 22.4,
+        "claude-haiku-4-5": 17.7
+      }
+    },
+    "Medical Product 0087": {
+      "champion": "claude-haiku-4-5",
+      "actual": 174855.2,
+      "predicted": {
+        "naive_last_value": 258771.7,
+        "moving_avg": 270627.1,
+        "linear_trend": 191293.1,
+        "seasonal_naive": 184850.8,
+        "chronos": 181059.1,
+        "claude-haiku-4-5": 170365.5
+      },
+      "diff_pct": {
+        "naive_last_value": -48.0,
+        "moving_avg": -54.8,
+        "linear_trend": -9.4,
+        "seasonal_naive": -5.7,
+        "chronos": -3.5,
+        "claude-haiku-4-5": 2.6
+      }
+    },
+    "Medical Product 0088": {
+      "champion": "claude-haiku-4-5",
+      "actual": 159511.1,
+      "predicted": {
+        "naive_last_value": 128305.0,
+        "moving_avg": 204419.2,
+        "linear_trend": 193043.4,
+        "seasonal_naive": 178127.2,
+        "chronos": 169192.3,
+        "claude-haiku-4-5": 167919.7
+      },
+      "diff_pct": {
+        "naive_last_value": 19.6,
+        "moving_avg": -28.2,
+        "linear_trend": -21.0,
+        "seasonal_naive": -11.7,
+        "chronos": -6.1,
+        "claude-haiku-4-5": -5.3
+      }
+    },
+    "Medical Product 0089": {
+      "champion": "claude-haiku-4-5",
+      "actual": 188338.4,
+      "predicted": {
+        "naive_last_value": 248071.9,
+        "moving_avg": 217719.8,
+        "linear_trend": 204540.5,
+        "seasonal_naive": 178059.0,
+        "chronos": 180641.2,
+        "claude-haiku-4-5": 186405.0
+      },
+      "diff_pct": {
+        "naive_last_value": -31.7,
+        "moving_avg": -15.6,
+        "linear_trend": -8.6,
+        "seasonal_naive": 5.5,
+        "chronos": 4.1,
+        "claude-haiku-4-5": 1.0
+      }
+    },
+    "Medical Product 0090": {
+      "champion": "chronos",
+      "actual": 165472.7,
+      "predicted": {
+        "naive_last_value": 319682.6,
+        "moving_avg": 226848.7,
+        "linear_trend": 188912.3,
+        "seasonal_naive": 192064.2,
+        "chronos": 180019.4,
+        "claude-haiku-4-5": 183349.3
+      },
+      "diff_pct": {
+        "naive_last_value": -93.2,
+        "moving_avg": -37.1,
+        "linear_trend": -14.2,
+        "seasonal_naive": -16.1,
+        "chronos": -8.8,
+        "claude-haiku-4-5": -10.8
+      }
+    },
+    "Medical Product 0091": {
+      "champion": "claude-haiku-4-5",
+      "actual": 197855.4,
+      "predicted": {
+        "naive_last_value": 297889.8,
+        "moving_avg": 279055.0,
+        "linear_trend": 213210.4,
+        "seasonal_naive": 209392.0,
+        "chronos": 220735.7,
+        "claude-haiku-4-5": 190700.0
+      },
+      "diff_pct": {
+        "naive_last_value": -50.6,
+        "moving_avg": -41.0,
+        "linear_trend": -7.8,
+        "seasonal_naive": -5.8,
+        "chronos": -11.6,
+        "claude-haiku-4-5": 3.6
+      }
+    },
+    "Medical Product 0092": {
+      "champion": "naive_last_value",
+      "actual": 164261.1,
+      "predicted": {
+        "naive_last_value": 168736.8,
+        "moving_avg": 214383.2,
+        "linear_trend": 183613.6,
+        "seasonal_naive": 180237.8,
+        "chronos": 174292.2,
+        "claude-haiku-4-5": 188949.9
+      },
+      "diff_pct": {
+        "naive_last_value": -2.7,
+        "moving_avg": -30.5,
+        "linear_trend": -11.8,
+        "seasonal_naive": -9.7,
+        "chronos": -6.1,
+        "claude-haiku-4-5": -15.0
+      }
+    },
+    "Medical Product 0093": {
+      "champion": "seasonal_naive",
+      "actual": 198539.4,
+      "predicted": {
+        "naive_last_value": 252576.0,
+        "moving_avg": 204526.3,
+        "linear_trend": 190710.7,
+        "seasonal_naive": 201686.2,
+        "chronos": 173992.2,
+        "claude-haiku-4-5": 172410.4
+      },
+      "diff_pct": {
+        "naive_last_value": -27.2,
+        "moving_avg": -3.0,
+        "linear_trend": 3.9,
+        "seasonal_naive": -1.6,
+        "chronos": 12.4,
+        "claude-haiku-4-5": 13.2
+      }
+    },
+    "Medical Product 0094": {
+      "champion": "claude-haiku-4-5",
+      "actual": 148437.4,
+      "predicted": {
+        "naive_last_value": 414052.7,
+        "moving_avg": 298474.6,
+        "linear_trend": 214744.4,
+        "seasonal_naive": 200515.9,
+        "chronos": 204992.8,
+        "claude-haiku-4-5": 174204.1
+      },
+      "diff_pct": {
+        "naive_last_value": -178.9,
+        "moving_avg": -101.1,
+        "linear_trend": -44.7,
+        "seasonal_naive": -35.1,
+        "chronos": -38.1,
+        "claude-haiku-4-5": -17.4
+      }
+    },
+    "Medical Product 0095": {
+      "champion": "chronos",
+      "actual": 185234.3,
+      "predicted": {
+        "naive_last_value": 225441.2,
+        "moving_avg": 194108.5,
+        "linear_trend": 207230.4,
+        "seasonal_naive": 197490.4,
+        "chronos": 186275.4,
+        "claude-haiku-4-5": 197393.5
+      },
+      "diff_pct": {
+        "naive_last_value": -21.7,
+        "moving_avg": -4.8,
+        "linear_trend": -11.9,
+        "seasonal_naive": -6.6,
+        "chronos": -0.6,
+        "claude-haiku-4-5": -6.6
+      }
+    },
+    "Medical Product 0096": {
+      "champion": "seasonal_naive",
+      "actual": 164537.9,
+      "predicted": {
+        "naive_last_value": 438887.9,
+        "moving_avg": 229872.0,
+        "linear_trend": 227461.5,
+        "seasonal_naive": 203173.5,
+        "chronos": 205473.1,
+        "claude-haiku-4-5": 207400.0
+      },
+      "diff_pct": {
+        "naive_last_value": -166.7,
+        "moving_avg": -39.7,
+        "linear_trend": -38.2,
+        "seasonal_naive": -23.5,
+        "chronos": -24.9,
+        "claude-haiku-4-5": -26.1
+      }
+    },
+    "Medical Product 0097": {
+      "champion": "seasonal_naive",
+      "actual": 164657.1,
+      "predicted": {
+        "naive_last_value": 258728.5,
+        "moving_avg": 210830.6,
+        "linear_trend": 193805.7,
+        "seasonal_naive": 165369.6,
+        "chronos": 177068.4,
+        "claude-haiku-4-5": 170681.0
+      },
+      "diff_pct": {
+        "naive_last_value": -57.1,
+        "moving_avg": -28.0,
+        "linear_trend": -17.7,
+        "seasonal_naive": -0.4,
+        "chronos": -7.5,
+        "claude-haiku-4-5": -3.7
+      }
+    },
+    "Medical Product 0098": {
+      "champion": "chronos",
+      "actual": 176835.4,
+      "predicted": {
+        "naive_last_value": 151821.7,
+        "moving_avg": 202055.8,
+        "linear_trend": 167195.5,
+        "seasonal_naive": 158756.8,
+        "chronos": 175331.5,
+        "claude-haiku-4-5": 168350.8
+      },
+      "diff_pct": {
+        "naive_last_value": 14.1,
+        "moving_avg": -14.3,
+        "linear_trend": 5.5,
+        "seasonal_naive": 10.2,
+        "chronos": 0.9,
+        "claude-haiku-4-5": 4.8
+      }
+    },
+    "Medical Product 0099": {
+      "champion": "linear_trend",
+      "actual": 194032.8,
+      "predicted": {
+        "naive_last_value": 101470.7,
+        "moving_avg": 160257.2,
+        "linear_trend": 187704.5,
+        "seasonal_naive": 161024.9,
+        "chronos": 161596.6,
+        "claude-haiku-4-5": 171304.7
+      },
+      "diff_pct": {
+        "naive_last_value": 47.7,
+        "moving_avg": 17.4,
+        "linear_trend": 3.3,
+        "seasonal_naive": 17.0,
+        "chronos": 16.7,
+        "claude-haiku-4-5": 11.7
+      }
+    },
+    "Medical Product 0100": {
+      "champion": "chronos",
+      "actual": 184736.7,
+      "predicted": {
+        "naive_last_value": 228201.7,
+        "moving_avg": 216599.4,
+        "linear_trend": 207264.2,
+        "seasonal_naive": 196031.4,
+        "chronos": 190934.4,
+        "claude-haiku-4-5": 201735.4
+      },
+      "diff_pct": {
+        "naive_last_value": -23.5,
+        "moving_avg": -17.2,
+        "linear_trend": -12.2,
+        "seasonal_naive": -6.1,
+        "chronos": -3.4,
+        "claude-haiku-4-5": -9.2
+      }
+    },
+    "Medical Product 0101": {
+      "champion": "seasonal_naive",
+      "actual": 169834.8,
+      "predicted": {
+        "naive_last_value": 207841.1,
+        "moving_avg": 211245.3,
+        "linear_trend": 199303.1,
+        "seasonal_naive": 176741.1,
+        "chronos": 182719.4,
+        "claude-haiku-4-5": 190500.0
+      },
+      "diff_pct": {
+        "naive_last_value": -22.4,
+        "moving_avg": -24.4,
+        "linear_trend": -17.4,
+        "seasonal_naive": -4.1,
+        "chronos": -7.6,
+        "claude-haiku-4-5": -12.2
+      }
+    },
+    "Medical Product 0102": {
+      "champion": "claude-haiku-4-5",
+      "actual": 177142.1,
+      "predicted": {
+        "naive_last_value": 231714.4,
+        "moving_avg": 169999.3,
+        "linear_trend": 183930.8,
+        "seasonal_naive": 173556.1,
+        "chronos": 169892.7,
+        "claude-haiku-4-5": 176290.9
+      },
+      "diff_pct": {
+        "naive_last_value": -30.8,
+        "moving_avg": 4.0,
+        "linear_trend": -3.8,
+        "seasonal_naive": 2.0,
+        "chronos": 4.1,
+        "claude-haiku-4-5": 0.5
+      }
+    },
+    "Medical Product 0103": {
+      "champion": "claude-haiku-4-5",
+      "actual": 170325.8,
+      "predicted": {
+        "naive_last_value": 204365.3,
+        "moving_avg": 183524.3,
+        "linear_trend": 190212.8,
+        "seasonal_naive": 192782.9,
+        "chronos": 162534.5,
+        "claude-haiku-4-5": 166760.8
+      },
+      "diff_pct": {
+        "naive_last_value": -20.0,
+        "moving_avg": -7.7,
+        "linear_trend": -11.7,
+        "seasonal_naive": -13.2,
+        "chronos": 4.6,
+        "claude-haiku-4-5": 2.1
+      }
+    },
+    "Medical Product 0104": {
+      "champion": "chronos",
+      "actual": 193208.5,
+      "predicted": {
+        "naive_last_value": 206899.9,
+        "moving_avg": 166556.8,
+        "linear_trend": 218225.3,
+        "seasonal_naive": 206941.4,
+        "chronos": 194307.1,
+        "claude-haiku-4-5": 198831.4
+      },
+      "diff_pct": {
+        "naive_last_value": -7.1,
+        "moving_avg": 13.8,
+        "linear_trend": -12.9,
+        "seasonal_naive": -7.1,
+        "chronos": -0.6,
+        "claude-haiku-4-5": -2.9
+      }
+    },
+    "Medical Product 0105": {
+      "champion": "chronos",
+      "actual": 174533.2,
+      "predicted": {
+        "naive_last_value": 193186.2,
+        "moving_avg": 260590.0,
+        "linear_trend": 197196.9,
+        "seasonal_naive": 186251.2,
+        "chronos": 171293.2,
+        "claude-haiku-4-5": 169196.5
+      },
+      "diff_pct": {
+        "naive_last_value": -10.7,
+        "moving_avg": -49.3,
+        "linear_trend": -13.0,
+        "seasonal_naive": -6.7,
+        "chronos": 1.9,
+        "claude-haiku-4-5": 3.1
+      }
+    },
+    "Medical Product 0106": {
+      "champion": "claude-haiku-4-5",
+      "actual": 196400.6,
+      "predicted": {
+        "naive_last_value": 270023.8,
+        "moving_avg": 233073.4,
+        "linear_trend": 186199.4,
+        "seasonal_naive": 178412.4,
+        "chronos": 177269.9,
+        "claude-haiku-4-5": 189676.8
+      },
+      "diff_pct": {
+        "naive_last_value": -37.5,
+        "moving_avg": -18.7,
+        "linear_trend": 5.2,
+        "seasonal_naive": 9.2,
+        "chronos": 9.7,
+        "claude-haiku-4-5": 3.4
+      }
+    },
+    "Medical Product 0107": {
+      "champion": "moving_avg",
+      "actual": 238548.8,
+      "predicted": {
+        "naive_last_value": 121087.3,
+        "moving_avg": 200920.8,
+        "linear_trend": 159565.6,
+        "seasonal_naive": 173465.2,
+        "chronos": 165820.6,
+        "claude-haiku-4-5": 166447.5
+      },
+      "diff_pct": {
+        "naive_last_value": 49.2,
+        "moving_avg": 15.8,
+        "linear_trend": 33.1,
+        "seasonal_naive": 27.3,
+        "chronos": 30.5,
+        "claude-haiku-4-5": 30.2
+      }
+    },
+    "Medical Product 0108": {
+      "champion": "chronos",
+      "actual": 204808.6,
+      "predicted": {
+        "naive_last_value": 435252.8,
+        "moving_avg": 274299.8,
+        "linear_trend": 230409.9,
+        "seasonal_naive": 218147.4,
+        "chronos": 202761.2,
+        "claude-haiku-4-5": 181747.3
+      },
+      "diff_pct": {
+        "naive_last_value": -112.5,
+        "moving_avg": -33.9,
+        "linear_trend": -12.5,
+        "seasonal_naive": -6.5,
+        "chronos": 1.0,
+        "claude-haiku-4-5": 11.3
+      }
+    },
+    "Medical Product 0109": {
+      "champion": "chronos",
+      "actual": 201086.0,
+      "predicted": {
+        "naive_last_value": 222303.5,
+        "moving_avg": 222609.6,
+        "linear_trend": 154863.7,
+        "seasonal_naive": 155764.9,
+        "chronos": 191517.8,
+        "claude-haiku-4-5": 171074.4
+      },
+      "diff_pct": {
+        "naive_last_value": -10.6,
+        "moving_avg": -10.7,
+        "linear_trend": 23.0,
+        "seasonal_naive": 22.5,
+        "chronos": 4.8,
+        "claude-haiku-4-5": 14.9
+      }
+    },
+    "Medical Product 0110": {
+      "champion": "chronos",
+      "actual": 168969.8,
+      "predicted": {
+        "naive_last_value": 253362.8,
+        "moving_avg": 228497.7,
+        "linear_trend": 213515.2,
+        "seasonal_naive": 199909.4,
+        "chronos": 188037.8,
+        "claude-haiku-4-5": 191566.6
+      },
+      "diff_pct": {
+        "naive_last_value": -49.9,
+        "moving_avg": -35.2,
+        "linear_trend": -26.4,
+        "seasonal_naive": -18.3,
+        "chronos": -11.3,
+        "claude-haiku-4-5": -13.4
+      }
+    },
+    "Medical Product 0111": {
+      "champion": "chronos",
+      "actual": 172911.0,
+      "predicted": {
+        "naive_last_value": 118146.1,
+        "moving_avg": 135017.9,
+        "linear_trend": 153318.0,
+        "seasonal_naive": 144346.2,
+        "chronos": 154895.1,
+        "claude-haiku-4-5": 152288.6
+      },
+      "diff_pct": {
+        "naive_last_value": 31.7,
+        "moving_avg": 21.9,
+        "linear_trend": 11.3,
+        "seasonal_naive": 16.5,
+        "chronos": 10.4,
+        "claude-haiku-4-5": 11.9
+      }
+    },
+    "Medical Product 0112": {
+      "champion": "chronos",
+      "actual": 180057.4,
+      "predicted": {
+        "naive_last_value": 296684.5,
+        "moving_avg": 243566.4,
+        "linear_trend": 195479.8,
+        "seasonal_naive": 201820.8,
+        "chronos": 178834.9,
+        "claude-haiku-4-5": 174800.2
+      },
+      "diff_pct": {
+        "naive_last_value": -64.8,
+        "moving_avg": -35.3,
+        "linear_trend": -8.6,
+        "seasonal_naive": -12.1,
+        "chronos": 0.7,
+        "claude-haiku-4-5": 2.9
+      }
+    },
+    "Medical Product 0113": {
+      "champion": "moving_avg",
+      "actual": 197943.6,
+      "predicted": {
+        "naive_last_value": 238321.7,
+        "moving_avg": 201318.7,
+        "linear_trend": 164973.5,
+        "seasonal_naive": 174325.0,
+        "chronos": 147291.6,
+        "claude-haiku-4-5": 171247.5
+      },
+      "diff_pct": {
+        "naive_last_value": -20.4,
+        "moving_avg": -1.7,
+        "linear_trend": 16.7,
+        "seasonal_naive": 11.9,
+        "chronos": 25.6,
+        "claude-haiku-4-5": 13.5
+      }
+    },
+    "Medical Product 0114": {
+      "champion": "seasonal_naive",
+      "actual": 207506.7,
+      "predicted": {
+        "naive_last_value": 191329.8,
+        "moving_avg": 281836.7,
+        "linear_trend": 233296.9,
+        "seasonal_naive": 207711.8,
+        "chronos": 198705.3,
+        "claude-haiku-4-5": 182758.2
+      },
+      "diff_pct": {
+        "naive_last_value": 7.8,
+        "moving_avg": -35.8,
+        "linear_trend": -12.4,
+        "seasonal_naive": -0.1,
+        "chronos": 4.2,
+        "claude-haiku-4-5": 11.9
+      }
+    },
+    "Medical Product 0115": {
+      "champion": "claude-haiku-4-5",
+      "actual": 169150.1,
+      "predicted": {
+        "naive_last_value": 431893.8,
+        "moving_avg": 231271.4,
+        "linear_trend": 195746.8,
+        "seasonal_naive": 176365.2,
+        "chronos": 177107.7,
+        "claude-haiku-4-5": 165725.8
+      },
+      "diff_pct": {
+        "naive_last_value": -155.3,
+        "moving_avg": -36.7,
+        "linear_trend": -15.7,
+        "seasonal_naive": -4.3,
+        "chronos": -4.7,
+        "claude-haiku-4-5": 2.0
+      }
+    },
+    "Medical Product 0116": {
+      "champion": "linear_trend",
+      "actual": 187993.2,
+      "predicted": {
+        "naive_last_value": 134020.1,
+        "moving_avg": 148744.3,
+        "linear_trend": 182339.9,
+        "seasonal_naive": 152124.8,
+        "chronos": 159467.7,
+        "claude-haiku-4-5": 170275.0
+      },
+      "diff_pct": {
+        "naive_last_value": 28.7,
+        "moving_avg": 20.9,
+        "linear_trend": 3.0,
+        "seasonal_naive": 19.1,
+        "chronos": 15.2,
+        "claude-haiku-4-5": 9.4
+      }
+    },
+    "Medical Product 0117": {
+      "champion": "chronos",
+      "actual": 184755.7,
+      "predicted": {
+        "naive_last_value": 210130.2,
+        "moving_avg": 173994.1,
+        "linear_trend": 192238.3,
+        "seasonal_naive": 155777.7,
+        "chronos": 181997.7,
+        "claude-haiku-4-5": 189249.9
+      },
+      "diff_pct": {
+        "naive_last_value": -13.7,
+        "moving_avg": 5.8,
+        "linear_trend": -4.0,
+        "seasonal_naive": 15.7,
+        "chronos": 1.5,
+        "claude-haiku-4-5": -2.4
+      }
+    },
+    "Medical Product 0118": {
+      "champion": "linear_trend",
+      "actual": 195717.6,
+      "predicted": {
+        "naive_last_value": 254247.6,
+        "moving_avg": 234749.5,
+        "linear_trend": 184926.3,
+        "seasonal_naive": 179472.9,
+        "chronos": 152553.8,
+        "claude-haiku-4-5": 179725.9
+      },
+      "diff_pct": {
+        "naive_last_value": -29.9,
+        "moving_avg": -19.9,
+        "linear_trend": 5.5,
+        "seasonal_naive": 8.3,
+        "chronos": 22.1,
+        "claude-haiku-4-5": 8.2
+      }
+    },
+    "Medical Product 0119": {
+      "champion": "seasonal_naive",
+      "actual": 154025.5,
+      "predicted": {
+        "naive_last_value": 193266.7,
+        "moving_avg": 131734.6,
+        "linear_trend": 187690.4,
+        "seasonal_naive": 170494.5,
+        "chronos": 176253.1,
+        "claude-haiku-4-5": 174494.7
+      },
+      "diff_pct": {
+        "naive_last_value": -25.5,
+        "moving_avg": 14.5,
+        "linear_trend": -21.9,
+        "seasonal_naive": -10.7,
+        "chronos": -14.4,
+        "claude-haiku-4-5": -13.3
+      }
+    },
+    "Medical Product 0120": {
+      "champion": "linear_trend",
+      "actual": 223986.1,
+      "predicted": {
+        "naive_last_value": 257573.8,
+        "moving_avg": 189543.5,
+        "linear_trend": 200291.4,
+        "seasonal_naive": 194361.3,
+        "chronos": 177950.2,
+        "claude-haiku-4-5": 182979.6
+      },
+      "diff_pct": {
+        "naive_last_value": -15.0,
+        "moving_avg": 15.4,
+        "linear_trend": 10.6,
+        "seasonal_naive": 13.2,
+        "chronos": 20.6,
+        "claude-haiku-4-5": 18.3
+      }
+    },
+    "Medical Product 0121": {
+      "champion": "linear_trend",
+      "actual": 185218.0,
+      "predicted": {
+        "naive_last_value": 209252.8,
+        "moving_avg": 174214.2,
+        "linear_trend": 185699.8,
+        "seasonal_naive": 177645.5,
+        "chronos": 175308.0,
+        "claude-haiku-4-5": 198652.2
+      },
+      "diff_pct": {
+        "naive_last_value": -13.0,
+        "moving_avg": 5.9,
+        "linear_trend": -0.3,
+        "seasonal_naive": 4.1,
+        "chronos": 5.4,
+        "claude-haiku-4-5": -7.3
+      }
+    },
+    "Medical Product 0122": {
+      "champion": "moving_avg",
+      "actual": 223232.7,
+      "predicted": {
+        "naive_last_value": 74500.8,
+        "moving_avg": 204152.1,
+        "linear_trend": 184022.6,
+        "seasonal_naive": 176996.3,
+        "chronos": 175806.2,
+        "claude-haiku-4-5": 187900.0
+      },
+      "diff_pct": {
+        "naive_last_value": 66.6,
+        "moving_avg": 8.5,
+        "linear_trend": 17.6,
+        "seasonal_naive": 20.7,
+        "chronos": 21.2,
+        "claude-haiku-4-5": 15.8
+      }
+    },
+    "Medical Product 0123": {
+      "champion": "chronos",
+      "actual": 202767.8,
+      "predicted": {
+        "naive_last_value": 261473.2,
+        "moving_avg": 250224.6,
+        "linear_trend": 207835.5,
+        "seasonal_naive": 189420.5,
+        "chronos": 202301.7,
+        "claude-haiku-4-5": 191763.1
+      },
+      "diff_pct": {
+        "naive_last_value": -29.0,
+        "moving_avg": -23.4,
+        "linear_trend": -2.5,
+        "seasonal_naive": 6.6,
+        "chronos": 0.2,
+        "claude-haiku-4-5": 5.4
+      }
+    },
+    "Medical Product 0124": {
+      "champion": "linear_trend",
+      "actual": 203576.1,
+      "predicted": {
+        "naive_last_value": 290341.1,
+        "moving_avg": 212918.7,
+        "linear_trend": 204182.4,
+        "seasonal_naive": 179335.9,
+        "chronos": 186195.2,
+        "claude-haiku-4-5": 198885.1
+      },
+      "diff_pct": {
+        "naive_last_value": -42.6,
+        "moving_avg": -4.6,
+        "linear_trend": -0.3,
+        "seasonal_naive": 11.9,
+        "chronos": 8.5,
+        "claude-haiku-4-5": 2.3
+      }
+    },
+    "Medical Product 0125": {
+      "champion": "linear_trend",
+      "actual": 163807.3,
+      "predicted": {
+        "naive_last_value": 126826.7,
+        "moving_avg": 144307.0,
+        "linear_trend": 167766.6,
+        "seasonal_naive": 173584.4,
+        "chronos": 154353.6,
+        "claude-haiku-4-5": 170392.0
+      },
+      "diff_pct": {
+        "naive_last_value": 22.6,
+        "moving_avg": 11.9,
+        "linear_trend": -2.4,
+        "seasonal_naive": -6.0,
+        "chronos": 5.8,
+        "claude-haiku-4-5": -4.0
+      }
+    },
+    "Medical Product 0126": {
+      "champion": "linear_trend",
+      "actual": 198493.2,
+      "predicted": {
+        "naive_last_value": 157960.0,
+        "moving_avg": 236446.0,
+        "linear_trend": 201064.7,
+        "seasonal_naive": 190361.8,
+        "chronos": 180887.5,
+        "claude-haiku-4-5": 186174.2
+      },
+      "diff_pct": {
+        "naive_last_value": 20.4,
+        "moving_avg": -19.1,
+        "linear_trend": -1.3,
+        "seasonal_naive": 4.1,
+        "chronos": 8.9,
+        "claude-haiku-4-5": 6.2
+      }
+    },
+    "Medical Product 0127": {
+      "champion": "chronos",
+      "actual": 170639.7,
+      "predicted": {
+        "naive_last_value": 190938.5,
+        "moving_avg": 193407.8,
+        "linear_trend": 190791.4,
+        "seasonal_naive": 177754.3,
+        "chronos": 177144.8,
+        "claude-haiku-4-5": 177751.6
+      },
+      "diff_pct": {
+        "naive_last_value": -11.9,
+        "moving_avg": -13.3,
+        "linear_trend": -11.8,
+        "seasonal_naive": -4.2,
+        "chronos": -3.8,
+        "claude-haiku-4-5": -4.2
+      }
+    },
+    "Medical Product 0128": {
+      "champion": "seasonal_naive",
+      "actual": 172036.5,
+      "predicted": {
+        "naive_last_value": 343241.3,
+        "moving_avg": 184255.7,
+        "linear_trend": 160594.8,
+        "seasonal_naive": 169086.3,
+        "chronos": 168375.8,
+        "claude-haiku-4-5": 184555.5
+      },
+      "diff_pct": {
+        "naive_last_value": -99.5,
+        "moving_avg": -7.1,
+        "linear_trend": 6.7,
+        "seasonal_naive": 1.7,
+        "chronos": 2.1,
+        "claude-haiku-4-5": -7.3
+      }
+    },
+    "Medical Product 0129": {
+      "champion": "claude-haiku-4-5",
+      "actual": 192189.5,
+      "predicted": {
+        "naive_last_value": 276051.0,
+        "moving_avg": 225298.4,
+        "linear_trend": 204126.4,
+        "seasonal_naive": 177744.2,
+        "chronos": 182863.4,
+        "claude-haiku-4-5": 185924.1
+      },
+      "diff_pct": {
+        "naive_last_value": -43.6,
+        "moving_avg": -17.2,
+        "linear_trend": -6.2,
+        "seasonal_naive": 7.5,
+        "chronos": 4.9,
+        "claude-haiku-4-5": 3.3
+      }
+    },
+    "Medical Product 0130": {
+      "champion": "linear_trend",
+      "actual": 209380.1,
+      "predicted": {
+        "naive_last_value": 182952.6,
+        "moving_avg": 185205.9,
+        "linear_trend": 185457.0,
+        "seasonal_naive": 167378.1,
+        "chronos": 170028.7,
+        "claude-haiku-4-5": 176324.7
+      },
+      "diff_pct": {
+        "naive_last_value": 12.6,
+        "moving_avg": 11.5,
+        "linear_trend": 11.4,
+        "seasonal_naive": 20.1,
+        "chronos": 18.8,
+        "claude-haiku-4-5": 15.8
+      }
+    },
+    "Medical Product 0131": {
+      "champion": "linear_trend",
+      "actual": 160240.2,
+      "predicted": {
+        "naive_last_value": 266356.9,
+        "moving_avg": 158447.4,
+        "linear_trend": 160980.3,
+        "seasonal_naive": 159223.8,
+        "chronos": 170919.8,
+        "claude-haiku-4-5": 161604.7
+      },
+      "diff_pct": {
+        "naive_last_value": -66.2,
+        "moving_avg": 1.1,
+        "linear_trend": -0.5,
+        "seasonal_naive": 0.6,
+        "chronos": -6.7,
+        "claude-haiku-4-5": -0.9
+      }
+    },
+    "Medical Product 0132": {
+      "champion": "seasonal_naive",
+      "actual": 183894.2,
+      "predicted": {
+        "naive_last_value": 175833.1,
+        "moving_avg": 173097.0,
+        "linear_trend": 200687.6,
+        "seasonal_naive": 179857.2,
+        "chronos": 178254.0,
+        "claude-haiku-4-5": 189515.9
+      },
+      "diff_pct": {
+        "naive_last_value": 4.4,
+        "moving_avg": 5.9,
+        "linear_trend": -9.1,
+        "seasonal_naive": 2.2,
+        "chronos": 3.1,
+        "claude-haiku-4-5": -3.1
+      }
+    },
+    "Medical Product 0133": {
+      "champion": "linear_trend",
+      "actual": 179995.7,
+      "predicted": {
+        "naive_last_value": 218247.2,
+        "moving_avg": 190682.8,
+        "linear_trend": 182602.6,
+        "seasonal_naive": 158323.8,
+        "chronos": 171028.5,
+        "claude-haiku-4-5": 174784.2
+      },
+      "diff_pct": {
+        "naive_last_value": -21.3,
+        "moving_avg": -5.9,
+        "linear_trend": -1.4,
+        "seasonal_naive": 12.0,
+        "chronos": 5.0,
+        "claude-haiku-4-5": 2.9
+      }
+    },
+    "Medical Product 0134": {
+      "champion": "claude-haiku-4-5",
+      "actual": 192194.9,
+      "predicted": {
+        "naive_last_value": 231126.6,
+        "moving_avg": 219484.2,
+        "linear_trend": 170053.9,
+        "seasonal_naive": 165324.0,
+        "chronos": 169957.3,
+        "claude-haiku-4-5": 174625.8
+      },
+      "diff_pct": {
+        "naive_last_value": -20.3,
+        "moving_avg": -14.2,
+        "linear_trend": 11.5,
+        "seasonal_naive": 14.0,
+        "chronos": 11.6,
+        "claude-haiku-4-5": 9.1
+      }
+    },
+    "Medical Product 0135": {
+      "champion": "linear_trend",
+      "actual": 192529.7,
+      "predicted": {
+        "naive_last_value": 346771.2,
+        "moving_avg": 184271.8,
+        "linear_trend": 194256.5,
+        "seasonal_naive": 197660.9,
+        "chronos": 171538.0,
+        "claude-haiku-4-5": 175485.5
+      },
+      "diff_pct": {
+        "naive_last_value": -80.1,
+        "moving_avg": 4.3,
+        "linear_trend": -0.9,
+        "seasonal_naive": -2.7,
+        "chronos": 10.9,
+        "claude-haiku-4-5": 8.9
+      }
+    },
+    "Medical Product 0136": {
+      "champion": "chronos",
+      "actual": 191883.4,
+      "predicted": {
+        "naive_last_value": 278389.7,
+        "moving_avg": 231611.2,
+        "linear_trend": 167061.7,
+        "seasonal_naive": 172170.9,
+        "chronos": 182022.3,
+        "claude-haiku-4-5": 170690.4
+      },
+      "diff_pct": {
+        "naive_last_value": -45.1,
+        "moving_avg": -20.7,
+        "linear_trend": 12.9,
+        "seasonal_naive": 10.3,
+        "chronos": 5.1,
+        "claude-haiku-4-5": 11.0
+      }
+    },
+    "Medical Product 0137": {
+      "champion": "moving_avg",
+      "actual": 193036.0,
+      "predicted": {
+        "naive_last_value": 196114.8,
+        "moving_avg": 192350.2,
+        "linear_trend": 175527.4,
+        "seasonal_naive": 165796.9,
+        "chronos": 169694.2,
+        "claude-haiku-4-5": 161956.8
+      },
+      "diff_pct": {
+        "naive_last_value": -1.6,
+        "moving_avg": 0.4,
+        "linear_trend": 9.1,
+        "seasonal_naive": 14.1,
+        "chronos": 12.1,
+        "claude-haiku-4-5": 16.1
+      }
+    },
+    "Medical Product 0138": {
+      "champion": "claude-haiku-4-5",
+      "actual": 185256.2,
+      "predicted": {
+        "naive_last_value": 237732.7,
+        "moving_avg": 286351.9,
+        "linear_trend": 221647.6,
+        "seasonal_naive": 192632.5,
+        "chronos": 207815.7,
+        "claude-haiku-4-5": 185200.0
+      },
+      "diff_pct": {
+        "naive_last_value": -28.3,
+        "moving_avg": -54.6,
+        "linear_trend": -19.6,
+        "seasonal_naive": -4.0,
+        "chronos": -12.2,
+        "claude-haiku-4-5": 0.0
+      }
+    },
+    "Medical Product 0139": {
+      "champion": "seasonal_naive",
+      "actual": 174314.2,
+      "predicted": {
+        "naive_last_value": 232495.0,
+        "moving_avg": 227592.4,
+        "linear_trend": 218600.8,
+        "seasonal_naive": 187013.7,
+        "chronos": 204502.3,
+        "claude-haiku-4-5": 204245.4
+      },
+      "diff_pct": {
+        "naive_last_value": -33.4,
+        "moving_avg": -30.6,
+        "linear_trend": -25.4,
+        "seasonal_naive": -7.3,
+        "chronos": -17.3,
+        "claude-haiku-4-5": -17.2
+      }
+    },
+    "Medical Product 0140": {
+      "champion": "seasonal_naive",
+      "actual": 173051.6,
+      "predicted": {
+        "naive_last_value": 139707.8,
+        "moving_avg": 148939.7,
+        "linear_trend": 179347.0,
+        "seasonal_naive": 168893.9,
+        "chronos": 163140.2,
+        "claude-haiku-4-5": 150000.0
+      },
+      "diff_pct": {
+        "naive_last_value": 19.3,
+        "moving_avg": 13.9,
+        "linear_trend": -3.6,
+        "seasonal_naive": 2.4,
+        "chronos": 5.7,
+        "claude-haiku-4-5": 13.3
+      }
+    },
+    "Medical Product 0141": {
+      "champion": "chronos",
+      "actual": 174551.8,
+      "predicted": {
+        "naive_last_value": 183883.7,
+        "moving_avg": 180368.0,
+        "linear_trend": 168977.4,
+        "seasonal_naive": 178509.9,
+        "chronos": 174593.8,
+        "claude-haiku-4-5": 180993.4
+      },
+      "diff_pct": {
+        "naive_last_value": -5.3,
+        "moving_avg": -3.3,
+        "linear_trend": 3.2,
+        "seasonal_naive": -2.3,
+        "chronos": -0.0,
+        "claude-haiku-4-5": -3.7
+      }
+    },
+    "Medical Product 0142": {
+      "champion": "moving_avg",
+      "actual": 209136.9,
+      "predicted": {
+        "naive_last_value": 166081.8,
+        "moving_avg": 200542.1,
+        "linear_trend": 179148.4,
+        "seasonal_naive": 177691.0,
+        "chronos": 170759.8,
+        "claude-haiku-4-5": 168150.0
+      },
+      "diff_pct": {
+        "naive_last_value": 20.6,
+        "moving_avg": 4.1,
+        "linear_trend": 14.3,
+        "seasonal_naive": 15.0,
+        "chronos": 18.4,
+        "claude-haiku-4-5": 19.6
+      }
+    },
+    "Medical Product 0143": {
+      "champion": "chronos",
+      "actual": 192532.1,
+      "predicted": {
+        "naive_last_value": 272601.8,
+        "moving_avg": 234818.5,
+        "linear_trend": 227822.6,
+        "seasonal_naive": 206343.9,
+        "chronos": 190592.4,
+        "claude-haiku-4-5": 196927.1
+      },
+      "diff_pct": {
+        "naive_last_value": -41.6,
+        "moving_avg": -22.0,
+        "linear_trend": -18.3,
+        "seasonal_naive": -7.2,
+        "chronos": 1.0,
+        "claude-haiku-4-5": -2.3
+      }
+    },
+    "Medical Product 0144": {
+      "champion": "linear_trend",
+      "actual": 200342.2,
+      "predicted": {
+        "naive_last_value": 227537.2,
+        "moving_avg": 223823.5,
+        "linear_trend": 190744.8,
+        "seasonal_naive": 186173.5,
+        "chronos": 176789.5,
+        "claude-haiku-4-5": 183505.9
+      },
+      "diff_pct": {
+        "naive_last_value": -13.6,
+        "moving_avg": -11.7,
+        "linear_trend": 4.8,
+        "seasonal_naive": 7.1,
+        "chronos": 11.8,
+        "claude-haiku-4-5": 8.4
+      }
+    },
+    "Medical Product 0145": {
+      "champion": "linear_trend",
+      "actual": 193643.9,
+      "predicted": {
+        "naive_last_value": 219142.0,
+        "moving_avg": 179478.3,
+        "linear_trend": 196022.3,
+        "seasonal_naive": 197088.5,
+        "chronos": 186879.0,
+        "claude-haiku-4-5": 189685.8
+      },
+      "diff_pct": {
+        "naive_last_value": -13.2,
+        "moving_avg": 7.3,
+        "linear_trend": -1.2,
+        "seasonal_naive": -1.8,
+        "chronos": 3.5,
+        "claude-haiku-4-5": 2.0
+      }
+    },
+    "Medical Product 0146": {
+      "champion": "linear_trend",
+      "actual": 184206.8,
+      "predicted": {
+        "naive_last_value": 265542.4,
+        "moving_avg": 179920.8,
+        "linear_trend": 186037.5,
+        "seasonal_naive": 164469.2,
+        "chronos": 164541.7,
+        "claude-haiku-4-5": 168855.5
+      },
+      "diff_pct": {
+        "naive_last_value": -44.2,
+        "moving_avg": 2.3,
+        "linear_trend": -1.0,
+        "seasonal_naive": 10.7,
+        "chronos": 10.7,
+        "claude-haiku-4-5": 8.3
+      }
+    },
+    "Medical Product 0147": {
+      "champion": "seasonal_naive",
+      "actual": 168215.2,
+      "predicted": {
+        "naive_last_value": 100343.6,
+        "moving_avg": 117189.8,
+        "linear_trend": 155102.3,
+        "seasonal_naive": 165337.5,
+        "chronos": 153184.0,
+        "claude-haiku-4-5": 162422.5
+      },
+      "diff_pct": {
+        "naive_last_value": 40.3,
+        "moving_avg": 30.3,
+        "linear_trend": 7.8,
+        "seasonal_naive": 1.7,
+        "chronos": 8.9,
+        "claude-haiku-4-5": 3.4
+      }
+    },
+    "Medical Product 0148": {
+      "champion": "chronos",
+      "actual": 195004.1,
+      "predicted": {
+        "naive_last_value": 215866.6,
+        "moving_avg": 233242.6,
+        "linear_trend": 239843.2,
+        "seasonal_naive": 214577.6,
+        "chronos": 187256.1,
+        "claude-haiku-4-5": 210670.5
+      },
+      "diff_pct": {
+        "naive_last_value": -10.7,
+        "moving_avg": -19.6,
+        "linear_trend": -23.0,
+        "seasonal_naive": -10.0,
+        "chronos": 4.0,
+        "claude-haiku-4-5": -8.0
+      }
+    },
+    "Medical Product 0149": {
+      "champion": "linear_trend",
+      "actual": 194787.6,
+      "predicted": {
+        "naive_last_value": 192788.6,
+        "moving_avg": 151911.7,
+        "linear_trend": 194972.7,
+        "seasonal_naive": 198516.2,
+        "chronos": 163571.7,
+        "claude-haiku-4-5": 168115.5
+      },
+      "diff_pct": {
+        "naive_last_value": 1.0,
+        "moving_avg": 22.0,
+        "linear_trend": -0.1,
+        "seasonal_naive": -1.9,
+        "chronos": 16.0,
+        "claude-haiku-4-5": 13.7
+      }
+    },
+    "Medical Product 0150": {
+      "champion": "claude-haiku-4-5",
+      "actual": 184604.8,
+      "predicted": {
+        "naive_last_value": 387647.5,
+        "moving_avg": 247080.3,
+        "linear_trend": 211421.9,
+        "seasonal_naive": 203006.2,
+        "chronos": 188434.9,
+        "claude-haiku-4-5": 183049.4
+      },
+      "diff_pct": {
+        "naive_last_value": -110.0,
+        "moving_avg": -33.8,
+        "linear_trend": -14.5,
+        "seasonal_naive": -10.0,
+        "chronos": -2.1,
+        "claude-haiku-4-5": 0.8
+      }
+    },
+    "Medical Product 0151": {
+      "champion": "claude-haiku-4-5",
+      "actual": 166800.0,
+      "predicted": {
+        "naive_last_value": 139016.0,
+        "moving_avg": 123211.8,
+        "linear_trend": 152281.6,
+        "seasonal_naive": 159573.0,
+        "chronos": 158875.0,
+        "claude-haiku-4-5": 167210.8
+      },
+      "diff_pct": {
+        "naive_last_value": 16.7,
+        "moving_avg": 26.1,
+        "linear_trend": 8.7,
+        "seasonal_naive": 4.3,
+        "chronos": 4.8,
+        "claude-haiku-4-5": -0.2
+      }
+    },
+    "Medical Product 0152": {
+      "champion": "linear_trend",
+      "actual": 231122.0,
+      "predicted": {
+        "naive_last_value": 134016.8,
+        "moving_avg": 172219.8,
+        "linear_trend": 182412.8,
+        "seasonal_naive": 161398.9,
+        "chronos": 160468.0,
+        "claude-haiku-4-5": 172057.4
+      },
+      "diff_pct": {
+        "naive_last_value": 42.0,
+        "moving_avg": 25.5,
+        "linear_trend": 21.1,
+        "seasonal_naive": 30.2,
+        "chronos": 30.6,
+        "claude-haiku-4-5": 25.6
+      }
+    },
+    "Medical Product 0153": {
+      "champion": "naive_last_value",
+      "actual": 206417.5,
+      "predicted": {
+        "naive_last_value": 210052.7,
+        "moving_avg": 200084.5,
+        "linear_trend": 181977.2,
+        "seasonal_naive": 181574.7,
+        "chronos": 175545.5,
+        "claude-haiku-4-5": 180871.7
+      },
+      "diff_pct": {
+        "naive_last_value": -1.8,
+        "moving_avg": 3.1,
+        "linear_trend": 11.8,
+        "seasonal_naive": 12.0,
+        "chronos": 15.0,
+        "claude-haiku-4-5": 12.4
+      }
+    },
+    "Medical Product 0154": {
+      "champion": "chronos",
+      "actual": 160825.0,
+      "predicted": {
+        "naive_last_value": 70925.5,
+        "moving_avg": 171334.8,
+        "linear_trend": 167230.7,
+        "seasonal_naive": 160128.8,
+        "chronos": 160959.6,
+        "claude-haiku-4-5": 168202.3
+      },
+      "diff_pct": {
+        "naive_last_value": 55.9,
+        "moving_avg": -6.5,
+        "linear_trend": -4.0,
+        "seasonal_naive": 0.4,
+        "chronos": -0.1,
+        "claude-haiku-4-5": -4.6
+      }
+    },
+    "Medical Product 0155": {
+      "champion": "chronos",
+      "actual": 167839.0,
+      "predicted": {
+        "naive_last_value": 229863.2,
+        "moving_avg": 241341.0,
+        "linear_trend": 214943.6,
+        "seasonal_naive": 207642.5,
+        "chronos": 205507.0,
+        "claude-haiku-4-5": 220105.5
+      },
+      "diff_pct": {
+        "naive_last_value": -37.0,
+        "moving_avg": -43.8,
+        "linear_trend": -28.1,
+        "seasonal_naive": -23.7,
+        "chronos": -22.4,
+        "claude-haiku-4-5": -31.1
+      }
+    },
+    "Medical Product 0156": {
+      "champion": "naive_last_value",
+      "actual": 198516.1,
+      "predicted": {
+        "naive_last_value": 190901.2,
+        "moving_avg": 174559.7,
+        "linear_trend": 215800.0,
+        "seasonal_naive": 189245.5,
+        "chronos": 170702.2,
+        "claude-haiku-4-5": 185615.0
+      },
+      "diff_pct": {
+        "naive_last_value": 3.8,
+        "moving_avg": 12.1,
+        "linear_trend": -8.7,
+        "seasonal_naive": 4.7,
+        "chronos": 14.0,
+        "claude-haiku-4-5": 6.5
+      }
+    },
+    "Medical Product 0157": {
+      "champion": "chronos",
+      "actual": 196567.6,
+      "predicted": {
+        "naive_last_value": 215656.0,
+        "moving_avg": 207873.7,
+        "linear_trend": 213923.7,
+        "seasonal_naive": 203490.1,
+        "chronos": 193793.9,
+        "claude-haiku-4-5": 202498.4
+      },
+      "diff_pct": {
+        "naive_last_value": -9.7,
+        "moving_avg": -5.8,
+        "linear_trend": -8.8,
+        "seasonal_naive": -3.5,
+        "chronos": 1.4,
+        "claude-haiku-4-5": -3.0
+      }
+    },
+    "Medical Product 0158": {
+      "champion": "chronos",
+      "actual": 155834.4,
+      "predicted": {
+        "naive_last_value": 271088.6,
+        "moving_avg": 202801.8,
+        "linear_trend": 175705.8,
+        "seasonal_naive": 178824.8,
+        "chronos": 168254.9,
+        "claude-haiku-4-5": 172146.3
+      },
+      "diff_pct": {
+        "naive_last_value": -74.0,
+        "moving_avg": -30.1,
+        "linear_trend": -12.8,
+        "seasonal_naive": -14.8,
+        "chronos": -8.0,
+        "claude-haiku-4-5": -10.5
+      }
+    },
+    "Medical Product 0159": {
+      "champion": "linear_trend",
+      "actual": 206081.2,
+      "predicted": {
+        "naive_last_value": 273973.3,
+        "moving_avg": 236233.2,
+        "linear_trend": 211122.6,
+        "seasonal_naive": 211667.6,
+        "chronos": 182455.1,
+        "claude-haiku-4-5": 193736.2
+      },
+      "diff_pct": {
+        "naive_last_value": -32.9,
+        "moving_avg": -14.6,
+        "linear_trend": -2.4,
+        "seasonal_naive": -2.7,
+        "chronos": 11.5,
+        "claude-haiku-4-5": 6.0
+      }
+    },
+    "Medical Product 0160": {
+      "champion": "moving_avg",
+      "actual": 196325.1,
+      "predicted": {
+        "naive_last_value": 79603.8,
+        "moving_avg": 198710.2,
+        "linear_trend": 165699.2,
+        "seasonal_naive": 184539.4,
+        "chronos": 170102.1,
+        "claude-haiku-4-5": 160366.9
+      },
+      "diff_pct": {
+        "naive_last_value": 59.5,
+        "moving_avg": -1.2,
+        "linear_trend": 15.6,
+        "seasonal_naive": 6.0,
+        "chronos": 13.4,
+        "claude-haiku-4-5": 18.3
+      }
+    },
+    "Medical Product 0161": {
+      "champion": "moving_avg",
+      "actual": 177203.4,
+      "predicted": {
+        "naive_last_value": 220294.8,
+        "moving_avg": 193295.2,
+        "linear_trend": 219929.3,
+        "seasonal_naive": 206398.2,
+        "chronos": 197106.7,
+        "claude-haiku-4-5": 206500.0
+      },
+      "diff_pct": {
+        "naive_last_value": -24.3,
+        "moving_avg": -9.1,
+        "linear_trend": -24.1,
+        "seasonal_naive": -16.5,
+        "chronos": -11.2,
+        "claude-haiku-4-5": -16.5
+      }
+    },
+    "Medical Product 0162": {
+      "champion": "linear_trend",
+      "actual": 215944.2,
+      "predicted": {
+        "naive_last_value": 210666.4,
+        "moving_avg": 223660.3,
+        "linear_trend": 217673.8,
+        "seasonal_naive": 183329.9,
+        "chronos": 197779.6,
+        "claude-haiku-4-5": 203005.0
+      },
+      "diff_pct": {
+        "naive_last_value": 2.4,
+        "moving_avg": -3.6,
+        "linear_trend": -0.8,
+        "seasonal_naive": 15.1,
+        "chronos": 8.4,
+        "claude-haiku-4-5": 6.0
+      }
+    },
+    "Medical Product 0163": {
+      "champion": "linear_trend",
+      "actual": 192936.7,
+      "predicted": {
+        "naive_last_value": 214967.9,
+        "moving_avg": 224351.0,
+        "linear_trend": 194348.1,
+        "seasonal_naive": 168886.1,
+        "chronos": 171339.9,
+        "claude-haiku-4-5": 177100.0
+      },
+      "diff_pct": {
+        "naive_last_value": -11.4,
+        "moving_avg": -16.3,
+        "linear_trend": -0.7,
+        "seasonal_naive": 12.5,
+        "chronos": 11.2,
+        "claude-haiku-4-5": 8.2
+      }
+    },
+    "Medical Product 0164": {
+      "champion": "chronos",
+      "actual": 159384.7,
+      "predicted": {
+        "naive_last_value": 148336.2,
+        "moving_avg": 204375.1,
+        "linear_trend": 181072.6,
+        "seasonal_naive": 175281.0,
+        "chronos": 168258.2,
+        "claude-haiku-4-5": 171874.9
+      },
+      "diff_pct": {
+        "naive_last_value": 6.9,
+        "moving_avg": -28.2,
+        "linear_trend": -13.6,
+        "seasonal_naive": -10.0,
+        "chronos": -5.6,
+        "claude-haiku-4-5": -7.8
+      }
+    },
+    "Medical Product 0165": {
+      "champion": "moving_avg",
+      "actual": 185051.1,
+      "predicted": {
+        "naive_last_value": 253410.8,
+        "moving_avg": 176646.6,
+        "linear_trend": 164143.2,
+        "seasonal_naive": 150306.3,
+        "chronos": 163441.6,
+        "claude-haiku-4-5": 164505.5
+      },
+      "diff_pct": {
+        "naive_last_value": -36.9,
+        "moving_avg": 4.5,
+        "linear_trend": 11.3,
+        "seasonal_naive": 18.8,
+        "chronos": 11.7,
+        "claude-haiku-4-5": 11.1
+      }
+    },
+    "Medical Product 0166": {
+      "champion": "chronos",
+      "actual": 190757.8,
+      "predicted": {
+        "naive_last_value": 158303.0,
+        "moving_avg": 224518.0,
+        "linear_trend": 176555.9,
+        "seasonal_naive": 168153.2,
+        "chronos": 179554.6,
+        "claude-haiku-4-5": 169008.5
+      },
+      "diff_pct": {
+        "naive_last_value": 17.0,
+        "moving_avg": -17.7,
+        "linear_trend": 7.4,
+        "seasonal_naive": 11.8,
+        "chronos": 5.9,
+        "claude-haiku-4-5": 11.4
+      }
+    },
+    "Medical Product 0167": {
+      "champion": "claude-haiku-4-5",
+      "actual": 179895.7,
+      "predicted": {
+        "naive_last_value": 288490.3,
+        "moving_avg": 201071.7,
+        "linear_trend": 196230.6,
+        "seasonal_naive": 176979.3,
+        "chronos": 181480.5,
+        "claude-haiku-4-5": 180059.4
+      },
+      "diff_pct": {
+        "naive_last_value": -60.4,
+        "moving_avg": -11.8,
+        "linear_trend": -9.1,
+        "seasonal_naive": 1.6,
+        "chronos": -0.9,
+        "claude-haiku-4-5": -0.1
+      }
+    },
+    "Medical Product 0168": {
+      "champion": "claude-haiku-4-5",
+      "actual": 199217.4,
+      "predicted": {
+        "naive_last_value": 181600.6,
+        "moving_avg": 263366.7,
+        "linear_trend": 219973.0,
+        "seasonal_naive": 187498.3,
+        "chronos": 181091.1,
+        "claude-haiku-4-5": 195705.5
+      },
+      "diff_pct": {
+        "naive_last_value": 8.8,
+        "moving_avg": -32.2,
+        "linear_trend": -10.4,
+        "seasonal_naive": 5.9,
+        "chronos": 9.1,
+        "claude-haiku-4-5": 1.8
+      }
+    },
+    "Medical Product 0169": {
+      "champion": "linear_trend",
+      "actual": 190995.4,
+      "predicted": {
+        "naive_last_value": 285646.6,
+        "moving_avg": 230465.8,
+        "linear_trend": 190267.4,
+        "seasonal_naive": 182964.4,
+        "chronos": 174486.9,
+        "claude-haiku-4-5": 175123.4
+      },
+      "diff_pct": {
+        "naive_last_value": -49.6,
+        "moving_avg": -20.7,
+        "linear_trend": 0.4,
+        "seasonal_naive": 4.2,
+        "chronos": 8.6,
+        "claude-haiku-4-5": 8.3
+      }
+    },
+    "Medical Product 0170": {
+      "champion": "linear_trend",
+      "actual": 187638.0,
+      "predicted": {
+        "naive_last_value": 154012.6,
+        "moving_avg": 169525.4,
+        "linear_trend": 191062.2,
+        "seasonal_naive": 171772.3,
+        "chronos": 164425.6,
+        "claude-haiku-4-5": 179200.0
+      },
+      "diff_pct": {
+        "naive_last_value": 17.9,
+        "moving_avg": 9.7,
+        "linear_trend": -1.8,
+        "seasonal_naive": 8.5,
+        "chronos": 12.4,
+        "claude-haiku-4-5": 4.5
+      }
+    },
+    "Medical Product 0171": {
+      "champion": "linear_trend",
+      "actual": 178528.7,
+      "predicted": {
+        "naive_last_value": 245151.1,
+        "moving_avg": 185032.7,
+        "linear_trend": 179770.0,
+        "seasonal_naive": 173515.0,
+        "chronos": 165920.0,
+        "claude-haiku-4-5": 174093.3
+      },
+      "diff_pct": {
+        "naive_last_value": -37.3,
+        "moving_avg": -3.6,
+        "linear_trend": -0.7,
+        "seasonal_naive": 2.8,
+        "chronos": 7.1,
+        "claude-haiku-4-5": 2.5
+      }
+    },
+    "Medical Product 0172": {
+      "champion": "linear_trend",
+      "actual": 170254.2,
+      "predicted": {
+        "naive_last_value": 290848.4,
+        "moving_avg": 205497.0,
+        "linear_trend": 184103.1,
+        "seasonal_naive": 194768.2,
+        "chronos": 188620.7,
+        "claude-haiku-4-5": 184448.4
+      },
+      "diff_pct": {
+        "naive_last_value": -70.8,
+        "moving_avg": -20.7,
+        "linear_trend": -8.1,
+        "seasonal_naive": -14.4,
+        "chronos": -10.8,
+        "claude-haiku-4-5": -8.3
+      }
+    },
+    "Medical Product 0173": {
+      "champion": "seasonal_naive",
+      "actual": 208902.9,
+      "predicted": {
+        "naive_last_value": 225862.6,
+        "moving_avg": 263408.7,
+        "linear_trend": 215601.0,
+        "seasonal_naive": 207355.2,
+        "chronos": 190185.6,
+        "claude-haiku-4-5": 204500.0
+      },
+      "diff_pct": {
+        "naive_last_value": -8.1,
+        "moving_avg": -26.1,
+        "linear_trend": -3.2,
+        "seasonal_naive": 0.7,
+        "chronos": 9.0,
+        "claude-haiku-4-5": 2.1
+      }
+    },
+    "Medical Product 0174": {
+      "champion": "moving_avg",
+      "actual": 196549.3,
+      "predicted": {
+        "naive_last_value": 100193.2,
+        "moving_avg": 186829.0,
+        "linear_trend": 170735.5,
+        "seasonal_naive": 166420.8,
+        "chronos": 158497.2,
+        "claude-haiku-4-5": 164200.0
+      },
+      "diff_pct": {
+        "naive_last_value": 49.0,
+        "moving_avg": 4.9,
+        "linear_trend": 13.1,
+        "seasonal_naive": 15.3,
+        "chronos": 19.4,
+        "claude-haiku-4-5": 16.5
+      }
+    },
+    "Medical Product 0175": {
+      "champion": "claude-haiku-4-5",
+      "actual": 185777.2,
+      "predicted": {
+        "naive_last_value": 278983.0,
+        "moving_avg": 164853.8,
+        "linear_trend": 195955.1,
+        "seasonal_naive": 166153.1,
+        "chronos": 159044.0,
+        "claude-haiku-4-5": 182000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -50.2,
+        "moving_avg": 11.3,
+        "linear_trend": -5.5,
+        "seasonal_naive": 10.6,
+        "chronos": 14.4,
+        "claude-haiku-4-5": 2.0
+      }
+    },
+    "Medical Product 0176": {
+      "champion": "chronos",
+      "actual": 173567.0,
+      "predicted": {
+        "naive_last_value": 118206.0,
+        "moving_avg": 137727.0,
+        "linear_trend": 200976.1,
+        "seasonal_naive": 197064.4,
+        "chronos": 172341.2,
+        "claude-haiku-4-5": 180390.7
+      },
+      "diff_pct": {
+        "naive_last_value": 31.9,
+        "moving_avg": 20.6,
+        "linear_trend": -15.8,
+        "seasonal_naive": -13.5,
+        "chronos": 0.7,
+        "claude-haiku-4-5": -3.9
+      }
+    },
+    "Medical Product 0177": {
+      "champion": "seasonal_naive",
+      "actual": 167498.9,
+      "predicted": {
+        "naive_last_value": 179175.6,
+        "moving_avg": 202393.3,
+        "linear_trend": 198606.4,
+        "seasonal_naive": 172260.9,
+        "chronos": 178591.2,
+        "claude-haiku-4-5": 191805.2
+      },
+      "diff_pct": {
+        "naive_last_value": -7.0,
+        "moving_avg": -20.8,
+        "linear_trend": -18.6,
+        "seasonal_naive": -2.8,
+        "chronos": -6.6,
+        "claude-haiku-4-5": -14.5
+      }
+    },
+    "Medical Product 0178": {
+      "champion": "claude-haiku-4-5",
+      "actual": 165754.4,
+      "predicted": {
+        "naive_last_value": 279185.2,
+        "moving_avg": 186579.5,
+        "linear_trend": 149433.1,
+        "seasonal_naive": 143215.8,
+        "chronos": 151419.1,
+        "claude-haiku-4-5": 157807.5
+      },
+      "diff_pct": {
+        "naive_last_value": -68.4,
+        "moving_avg": -12.6,
+        "linear_trend": 9.8,
+        "seasonal_naive": 13.6,
+        "chronos": 8.6,
+        "claude-haiku-4-5": 4.8
+      }
+    },
+    "Medical Product 0179": {
+      "champion": "moving_avg",
+      "actual": 212673.0,
+      "predicted": {
+        "naive_last_value": 308441.6,
+        "moving_avg": 213445.9,
+        "linear_trend": 220345.6,
+        "seasonal_naive": 177352.1,
+        "chronos": 202586.3,
+        "claude-haiku-4-5": 190768.6
+      },
+      "diff_pct": {
+        "naive_last_value": -45.0,
+        "moving_avg": -0.4,
+        "linear_trend": -3.6,
+        "seasonal_naive": 16.6,
+        "chronos": 4.7,
+        "claude-haiku-4-5": 10.3
+      }
+    },
+    "Medical Product 0180": {
+      "champion": "chronos",
+      "actual": 177977.9,
+      "predicted": {
+        "naive_last_value": 119482.4,
+        "moving_avg": 106680.1,
+        "linear_trend": 153523.9,
+        "seasonal_naive": 147147.1,
+        "chronos": 160603.4,
+        "claude-haiku-4-5": 145124.9
+      },
+      "diff_pct": {
+        "naive_last_value": 32.9,
+        "moving_avg": 40.1,
+        "linear_trend": 13.7,
+        "seasonal_naive": 17.3,
+        "chronos": 9.8,
+        "claude-haiku-4-5": 18.5
+      }
+    },
+    "Medical Product 0181": {
+      "champion": "seasonal_naive",
+      "actual": 183954.2,
+      "predicted": {
+        "naive_last_value": 321937.8,
+        "moving_avg": 243670.9,
+        "linear_trend": 210289.1,
+        "seasonal_naive": 191079.1,
+        "chronos": 205758.3,
+        "claude-haiku-4-5": 200000.0
+      },
+      "diff_pct": {
+        "naive_last_value": -75.0,
+        "moving_avg": -32.5,
+        "linear_trend": -14.3,
+        "seasonal_naive": -3.9,
+        "chronos": -11.9,
+        "claude-haiku-4-5": -8.7
+      }
+    },
+    "Medical Product 0182": {
+      "champion": "seasonal_naive",
+      "actual": 183023.8,
+      "predicted": {
+        "naive_last_value": 212768.4,
+        "moving_avg": 204221.7,
+        "linear_trend": 214657.7,
+        "seasonal_naive": 176789.8,
+        "chronos": 190330.4,
+        "claude-haiku-4-5": 192589.8
+      },
+      "diff_pct": {
+        "naive_last_value": -16.3,
+        "moving_avg": -11.6,
+        "linear_trend": -17.3,
+        "seasonal_naive": 3.4,
+        "chronos": -4.0,
+        "claude-haiku-4-5": -5.2
+      }
+    },
+    "Medical Product 0183": {
+      "champion": "claude-haiku-4-5",
+      "actual": 138001.0,
+      "predicted": {
+        "naive_last_value": 185035.4,
+        "moving_avg": 200604.7,
+        "linear_trend": 195448.9,
+        "seasonal_naive": 191262.4,
+        "chronos": 181777.0,
+        "claude-haiku-4-5": 178186.2
+      },
+      "diff_pct": {
+        "naive_last_value": -34.1,
+        "moving_avg": -45.4,
+        "linear_trend": -41.6,
+        "seasonal_naive": -38.6,
+        "chronos": -31.7,
+        "claude-haiku-4-5": -29.1
+      }
+    },
+    "Medical Product 0184": {
+      "champion": "seasonal_naive",
+      "actual": 171082.4,
+      "predicted": {
+        "naive_last_value": 156977.0,
+        "moving_avg": 120297.2,
+        "linear_trend": 160604.3,
+        "seasonal_naive": 163762.0,
+        "chronos": 154798.2,
+        "claude-haiku-4-5": 159100.0
+      },
+      "diff_pct": {
+        "naive_last_value": 8.2,
+        "moving_avg": 29.7,
+        "linear_trend": 6.1,
+        "seasonal_naive": 4.3,
+        "chronos": 9.5,
+        "claude-haiku-4-5": 7.0
+      }
+    },
+    "Medical Product 0185": {
+      "champion": "linear_trend",
+      "actual": 214452.6,
+      "predicted": {
+        "naive_last_value": 184182.1,
+        "moving_avg": 184534.7,
+        "linear_trend": 222315.4,
+        "seasonal_naive": 194576.8,
+        "chronos": 198386.6,
+        "claude-haiku-4-5": 186109.1
+      },
+      "diff_pct": {
+        "naive_last_value": 14.1,
+        "moving_avg": 14.0,
+        "linear_trend": -3.7,
+        "seasonal_naive": 9.3,
+        "chronos": 7.5,
+        "claude-haiku-4-5": 13.2
+      }
+    },
+    "Medical Product 0186": {
+      "champion": "seasonal_naive",
+      "actual": 201889.8,
+      "predicted": {
+        "naive_last_value": 289845.8,
+        "moving_avg": 208147.1,
+        "linear_trend": 212808.4,
+        "seasonal_naive": 200933.5,
+        "chronos": 180015.8,
+        "claude-haiku-4-5": 181296.8
+      },
+      "diff_pct": {
+        "naive_last_value": -43.6,
+        "moving_avg": -3.1,
+        "linear_trend": -5.4,
+        "seasonal_naive": 0.5,
+        "chronos": 10.8,
+        "claude-haiku-4-5": 10.2
+      }
+    },
+    "Medical Product 0187": {
+      "champion": "linear_trend",
+      "actual": 184552.3,
+      "predicted": {
+        "naive_last_value": 175872.1,
+        "moving_avg": 196969.1,
+        "linear_trend": 179417.7,
+        "seasonal_naive": 171471.6,
+        "chronos": 168818.0,
+        "claude-haiku-4-5": 167237.5
+      },
+      "diff_pct": {
+        "naive_last_value": 4.7,
+        "moving_avg": -6.7,
+        "linear_trend": 2.8,
+        "seasonal_naive": 7.1,
+        "chronos": 8.5,
+        "claude-haiku-4-5": 9.4
+      }
+    },
+    "Medical Product 0188": {
+      "champion": "linear_trend",
+      "actual": 175773.5,
+      "predicted": {
+        "naive_last_value": 218042.9,
+        "moving_avg": 233865.8,
+        "linear_trend": 175594.3,
+        "seasonal_naive": 167388.1,
+        "chronos": 164717.9,
+        "claude-haiku-4-5": 165045.4
+      },
+      "diff_pct": {
+        "naive_last_value": -24.0,
+        "moving_avg": -33.0,
+        "linear_trend": 0.1,
+        "seasonal_naive": 4.8,
+        "chronos": 6.3,
+        "claude-haiku-4-5": 6.1
+      }
+    },
+    "Medical Product 0189": {
+      "champion": "seasonal_naive",
+      "actual": 154670.7,
+      "predicted": {
+        "naive_last_value": 159349.1,
+        "moving_avg": 177344.7,
+        "linear_trend": 173625.8,
+        "seasonal_naive": 159075.1,
+        "chronos": 167654.9,
+        "claude-haiku-4-5": 164200.0
+      },
+      "diff_pct": {
+        "naive_last_value": -3.0,
+        "moving_avg": -14.7,
+        "linear_trend": -12.3,
+        "seasonal_naive": -2.8,
+        "chronos": -8.4,
+        "claude-haiku-4-5": -6.2
+      }
+    },
+    "Medical Product 0190": {
+      "champion": "moving_avg",
+      "actual": 185067.0,
+      "predicted": {
+        "naive_last_value": 209737.2,
+        "moving_avg": 166477.4,
+        "linear_trend": 131016.4,
+        "seasonal_naive": 152383.5,
+        "chronos": 154750.9,
+        "claude-haiku-4-5": 156001.7
+      },
+      "diff_pct": {
+        "naive_last_value": -13.3,
+        "moving_avg": 10.0,
+        "linear_trend": 29.2,
+        "seasonal_naive": 17.7,
+        "chronos": 16.4,
+        "claude-haiku-4-5": 15.7
+      }
+    },
+    "Medical Product 0191": {
+      "champion": "naive_last_value",
+      "actual": 175352.2,
+      "predicted": {
+        "naive_last_value": 178363.8,
+        "moving_avg": 150876.8,
+        "linear_trend": 151977.2,
+        "seasonal_naive": 161366.6,
+        "chronos": 160957.4,
+        "claude-haiku-4-5": 155464.2
+      },
+      "diff_pct": {
+        "naive_last_value": -1.7,
+        "moving_avg": 14.0,
+        "linear_trend": 13.3,
+        "seasonal_naive": 8.0,
+        "chronos": 8.2,
+        "claude-haiku-4-5": 11.3
+      }
+    },
+    "Medical Product 0192": {
+      "champion": "claude-haiku-4-5",
+      "actual": 184078.7,
+      "predicted": {
+        "naive_last_value": 169309.8,
+        "moving_avg": 120760.1,
+        "linear_trend": 172661.7,
+        "seasonal_naive": 136869.4,
+        "chronos": 144692.8,
+        "claude-haiku-4-5": 179721.2
+      },
+      "diff_pct": {
+        "naive_last_value": 8.0,
+        "moving_avg": 34.4,
+        "linear_trend": 6.2,
+        "seasonal_naive": 25.6,
+        "chronos": 21.4,
+        "claude-haiku-4-5": 2.4
+      }
+    },
+    "Medical Product 0193": {
+      "champion": "seasonal_naive",
+      "actual": 227837.3,
+      "predicted": {
+        "naive_last_value": 486578.8,
+        "moving_avg": 289769.5,
+        "linear_trend": 233300.2,
+        "seasonal_naive": 222595.1,
+        "chronos": 208109.2,
+        "claude-haiku-4-5": 181205.5
+      },
+      "diff_pct": {
+        "naive_last_value": -113.6,
+        "moving_avg": -27.2,
+        "linear_trend": -2.4,
+        "seasonal_naive": 2.3,
+        "chronos": 8.7,
+        "claude-haiku-4-5": 20.5
+      }
+    },
+    "Medical Product 0194": {
+      "champion": "chronos",
+      "actual": 173199.2,
+      "predicted": {
+        "naive_last_value": 250862.5,
+        "moving_avg": 189158.7,
+        "linear_trend": 180886.2,
+        "seasonal_naive": 193319.8,
+        "chronos": 170147.9,
+        "claude-haiku-4-5": 168051.7
+      },
+      "diff_pct": {
+        "naive_last_value": -44.8,
+        "moving_avg": -9.2,
+        "linear_trend": -4.4,
+        "seasonal_naive": -11.6,
+        "chronos": 1.8,
+        "claude-haiku-4-5": 3.0
+      }
+    },
+    "Medical Product 0195": {
+      "champion": "seasonal_naive",
+      "actual": 204826.7,
+      "predicted": {
+        "naive_last_value": 213897.2,
+        "moving_avg": 193960.5,
+        "linear_trend": 208015.6,
+        "seasonal_naive": 207877.0,
+        "chronos": 177460.3,
+        "claude-haiku-4-5": 180806.5
+      },
+      "diff_pct": {
+        "naive_last_value": -4.4,
+        "moving_avg": 5.3,
+        "linear_trend": -1.6,
+        "seasonal_naive": -1.5,
+        "chronos": 13.4,
+        "claude-haiku-4-5": 11.7
+      }
+    },
+    "Medical Product 0196": {
+      "champion": "linear_trend",
+      "actual": 206776.2,
+      "predicted": {
+        "naive_last_value": 119055.0,
+        "moving_avg": 182342.7,
+        "linear_trend": 186147.9,
+        "seasonal_naive": 185213.0,
+        "chronos": 179355.4,
+        "claude-haiku-4-5": 170848.4
+      },
+      "diff_pct": {
+        "naive_last_value": 42.4,
+        "moving_avg": 11.8,
+        "linear_trend": 10.0,
+        "seasonal_naive": 10.4,
+        "chronos": 13.3,
+        "claude-haiku-4-5": 17.4
+      }
+    },
+    "Medical Product 0197": {
+      "champion": "chronos",
+      "actual": 201554.1,
+      "predicted": {
+        "naive_last_value": 289040.3,
+        "moving_avg": 243198.4,
+        "linear_trend": 219912.9,
+        "seasonal_naive": 212970.4,
+        "chronos": 208889.2,
+        "claude-haiku-4-5": 190148.8
+      },
+      "diff_pct": {
+        "naive_last_value": -43.4,
+        "moving_avg": -20.7,
+        "linear_trend": -9.1,
+        "seasonal_naive": -5.7,
+        "chronos": -3.6,
+        "claude-haiku-4-5": 5.7
+      }
+    },
+    "Medical Product 0198": {
+      "champion": "seasonal_naive",
+      "actual": 199054.4,
+      "predicted": {
+        "naive_last_value": 330946.8,
+        "moving_avg": 228231.9,
+        "linear_trend": 170740.2,
+        "seasonal_naive": 182924.8,
+        "chronos": 169959.3,
+        "claude-haiku-4-5": 175362.4
+      },
+      "diff_pct": {
+        "naive_last_value": -66.3,
+        "moving_avg": -14.7,
+        "linear_trend": 14.2,
+        "seasonal_naive": 8.1,
+        "chronos": 14.6,
+        "claude-haiku-4-5": 11.9
+      }
+    },
+    "Medical Product 0199": {
+      "champion": "claude-haiku-4-5",
+      "actual": 186897.6,
+      "predicted": {
+        "naive_last_value": 305661.6,
+        "moving_avg": 251625.9,
+        "linear_trend": 199343.2,
+        "seasonal_naive": 183501.1,
+        "chronos": 194434.0,
+        "claude-haiku-4-5": 184167.0
+      },
+      "diff_pct": {
+        "naive_last_value": -63.5,
+        "moving_avg": -34.6,
+        "linear_trend": -6.7,
+        "seasonal_naive": 1.8,
+        "chronos": -4.0,
+        "claude-haiku-4-5": 1.5
+      }
+    },
+    "Medical Product 0200": {
+      "champion": "moving_avg",
+      "actual": 187845.8,
+      "predicted": {
+        "naive_last_value": 183664.3,
+        "moving_avg": 184151.1,
+        "linear_trend": 151195.2,
+        "seasonal_naive": 166219.9,
+        "chronos": 163623.6,
+        "claude-haiku-4-5": 169000.0
+      },
+      "diff_pct": {
+        "naive_last_value": 2.2,
+        "moving_avg": 2.0,
+        "linear_trend": 19.5,
+        "seasonal_naive": 11.5,
+        "chronos": 12.9,
+        "claude-haiku-4-5": 10.0
+      }
+    }
+  }
+}
