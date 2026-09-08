@@ -1,0 +1,9 @@
+.git/
+.venv-forecast/
+__pycache__/
+*.pyc
+frontend/
+.claude/
+.DS_Store
+*.md
+*.png
