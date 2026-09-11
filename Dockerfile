@@ -4,6 +4,17 @@ WORKDIR /app
 
 # Cached separately from the rest of the source so a code-only push doesn't reinstall torch.
 COPY backend/requirements.txt ./backend/requirements.txt
+
+# torch's default PyPI wheel for linux/aarch64 pulls the entire NVIDIA CUDA stack as hard
+# dependencies -- nvidia-cudnn-cu13 alone is 651MB, plus cuda-toolkit/cuBLAS/cuSPARSE/cuSOLVER
+# /NCCL, several GB in total. This image runs under Docker Desktop on Apple Silicon: there is
+# no NVIDIA GPU and no CUDA passthrough, so none of it can ever be loaded -- it is pure image
+# bloat, and this host runs close to full. Installing the CPU build of the SAME torch version
+# first (2.14.0, exactly what the default resolution selects) leaves torch already satisfied,
+# so the resolution below skips the CUDA variant entirely. Chronos-2 inference is CPU-only
+# here either way, so this changes image size, not behaviour.
+RUN pip install --no-cache-dir --index-url https://download.pytorch.org/whl/cpu torch==2.14.0
+
 RUN pip install --no-cache-dir -r backend/requirements.txt
 
 # pip install only gets the chronos-forecasting PACKAGE -- the actual Chronos-2 weights are

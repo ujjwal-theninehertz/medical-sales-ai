@@ -7,3 +7,12 @@ frontend/
 .DS_Store
 *.md
 *.png
+
+# Never let a local dev .env (with real secrets) get baked into the image by "COPY . ."
+# -- the API key is passed at runtime via --env-file instead. The **/ prefix matters:
+# dockerignore patterns match the full path from the context root, so a bare ".env" would
+# only catch a root-level one and miss backend/.env -- which is precisely the file
+# app/config.py loads via load_dotenv(BACKEND_DIR / ".env").
+**/.env
+**/.env.*
+!**/.env.example
