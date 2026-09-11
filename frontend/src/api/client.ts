@@ -11,13 +11,22 @@ import type {
   ScopeMatrix,
 } from '../types/api'
 
-const BASE_URL = import.meta.env.VITE_API_BASE_URL as string
+// An EMPTY VITE_API_BASE_URL is meaningful, not missing: it means "same origin". That is how
+// this is deployed -- one reverse proxy serves the built frontend and forwards /api/* to the
+// backend from the same host and port, so no CORS config is needed anywhere. Every path passed
+// to request() below already starts with /api, so '' yields a correct relative URL and the app
+// keeps working unchanged if the server's address ever changes. Only a genuinely undefined var
+// (never declared at build time) is an error, so the loud-failure behavior below is preserved
+// for the case it was actually written for.
+const RAW_BASE_URL = import.meta.env.VITE_API_BASE_URL as string | undefined
 
-if (!BASE_URL) {
+if (RAW_BASE_URL === undefined) {
   // Fails loudly at import time rather than producing confusing "Failed to fetch" errors
   // scattered across every call site -- one clear message, one place.
   throw new Error('VITE_API_BASE_URL is not set. Check frontend/.env.')
 }
+
+const BASE_URL = RAW_BASE_URL
 
 export class ApiError extends Error {
   status: number
