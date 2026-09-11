@@ -1,3 +1,4 @@
+import type { JSX } from 'react'
 import type { DeclineBreakdownRow, DeclineDriver, DeclineExplanation, DeclineTreeNode } from '../../types/api'
 import { displayName } from '../../utils/displayNames'
 

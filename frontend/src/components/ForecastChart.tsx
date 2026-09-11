@@ -115,7 +115,6 @@ export function ForecastChart({
                 fill={c.color}
                 stroke="white"
                 strokeWidth={c.isChampion ? 2.5 : 1.5}
-                isFront
               />
             ))}
         </LineChart>

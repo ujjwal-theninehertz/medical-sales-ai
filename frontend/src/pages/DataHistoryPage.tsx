@@ -329,7 +329,7 @@ export function DataHistoryPage() {
         <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Tap any tile to see the real values behind it.</p>
       </div>
       <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-        {(ov ? dimensionTiles : Array.from({ length: 9 })).map((d, i) => {
+        {(ov ? dimensionTiles : Array.from<undefined>({ length: 9 })).map((d, i) => {
           const theme = d?.theme ?? TILE_THEME[i % TILE_THEME.length]
           return (
             <motion.button
