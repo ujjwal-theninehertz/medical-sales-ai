@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { useAuth } from '../../context/AuthContext'
 import { useTheme } from '../../hooks/useTheme'
 import { GROUP_LABELS, PAGES, type PageDef } from '../../pages/registry'
 
@@ -39,6 +40,7 @@ function NavItem({
 
 export function Sidebar({ page, onNavigate }: { page: string; onNavigate: (id: string) => void }) {
   const { isDark, toggle } = useTheme()
+  const { session, logout } = useAuth()
 
   return (
     <aside className="flex h-full w-full flex-col border-r border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950">
@@ -78,6 +80,23 @@ export function Sidebar({ page, onNavigate }: { page: string; onNavigate: (id: s
       </nav>
 
       <div className="border-t border-slate-200 px-3 py-3 dark:border-slate-800">
+        {session && (
+          <div className="mb-1 flex items-center gap-2.5 rounded-lg px-2.5 py-2">
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary-100 text-[11px] font-bold text-primary-700 dark:bg-primary-950 dark:text-primary-300">
+              {session.username.slice(0, 2).toUpperCase()}
+            </span>
+            <p className="min-w-0 flex-1 truncate text-[12px] font-semibold text-slate-700 dark:text-slate-300">
+              {session.username}
+            </p>
+            <button
+              type="button"
+              onClick={logout}
+              className="shrink-0 rounded-md px-2 py-1 text-[11px] font-semibold text-slate-500 transition hover:bg-red-50 hover:text-red-600 dark:text-slate-400 dark:hover:bg-red-950/50 dark:hover:text-red-400"
+            >
+              Sign out
+            </button>
+          </div>
+        )}
         <button
           type="button"
           onClick={toggle}

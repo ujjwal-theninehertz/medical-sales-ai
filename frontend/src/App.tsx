@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useState, type ReactNode } from 'react'
 import { Sidebar } from './components/shell/Sidebar'
+import { AuthProvider, useAuth } from './context/AuthContext'
 import { MetadataProvider, useMetadata } from './context/MetadataContext'
 import { usePage } from './hooks/usePage'
 import { AccuracyPage } from './pages/AccuracyPage'
@@ -8,6 +9,7 @@ import { BriefPage } from './pages/BriefPage'
 import { DataHistoryPage } from './pages/DataHistoryPage'
 import { DeepDivePage } from './pages/DeepDivePage'
 import { FeaturesPage } from './pages/FeaturesPage'
+import { LoginPage } from './pages/LoginPage'
 import { ModelLabPage } from './pages/ModelLabPage'
 import { ModelsTestedPage } from './pages/ModelsTestedPage'
 import { OverviewPage } from './pages/OverviewPage'
@@ -137,10 +139,22 @@ function AppShell() {
   )
 }
 
-export default function App() {
+// Nothing past this point -- not even the metadata fetch -- runs until the user is signed in.
+// The page hash is left alone while signed out, so a deep link opens its page after login.
+function AuthGate() {
+  const { session } = useAuth()
+  if (!session) return <LoginPage />
   return (
-    <MetadataProvider>
+    <MetadataProvider key={session.token}>
       <AppShell />
     </MetadataProvider>
+  )
+}
+
+export default function App() {
+  return (
+    <AuthProvider>
+      <AuthGate />
+    </AuthProvider>
   )
 }

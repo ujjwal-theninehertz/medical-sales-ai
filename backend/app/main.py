@@ -11,17 +11,19 @@ caching layer.
 """
 import logging
 
-from fastapi import FastAPI, Request
+from fastapi import Depends, FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from app import config  # noqa: F401 -- import order matters, see module docstring
 from app.api import ask as ask_api
+from app.api import auth as auth_api
 from app.api import backtests as backtests_api
 from app.api import dashboard as dashboard_api
 from app.api import export as export_api
 from app.api import metadata as metadata_api
 from app.api import playground as playground_api
+from app.auth import require_auth
 
 logger = logging.getLogger("app.main")
 
@@ -34,12 +36,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(metadata_api.router)
-app.include_router(playground_api.router)
-app.include_router(ask_api.router)
-app.include_router(dashboard_api.router)
-app.include_router(backtests_api.router)
-app.include_router(export_api.router)
+app.include_router(auth_api.router)
+
+# Every data route requires a signed-in user; only /api/health and /api/auth/* are open.
+_protected = [Depends(require_auth)]
+app.include_router(metadata_api.router, dependencies=_protected)
+app.include_router(playground_api.router, dependencies=_protected)
+app.include_router(ask_api.router, dependencies=_protected)
+app.include_router(dashboard_api.router, dependencies=_protected)
+app.include_router(backtests_api.router, dependencies=_protected)
+app.include_router(export_api.router, dependencies=_protected)
 
 
 @app.exception_handler(Exception)
